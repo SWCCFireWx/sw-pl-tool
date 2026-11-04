@@ -1,0 +1,74 @@
+# Updates the PL data at 8:00 AM and 9:00 PM Mountain Time (New Mexico), all year.
+#
+# GitHub schedules run on UTC, and Mountain Time shifts between MDT (UTC-6, summer) and MST (UTC-7, winter).
+# So each time is scheduled at both UTC hours, and the "Check local time" step lets only the run that falls
+# in the 8 AM or 9 PM hour in America/Denver continue. GitHub can start scheduled runs several minutes late.
+#
+# Each run: pulls the NPSG 7-Day outlook and previous-day FEMS ERCy/BIy, writes data/current.json,
+# builds reports/SWA_PL_latest.pdf and .xlsx, and commits. GitHub Pages then republishes the site.
+name: Update PL data
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # 8:00 AM MDT
+    - cron: "0 15 * * *"   # 8:00 AM MST
+    - cron: "0 3 * * *"    # 9:00 PM MDT
+    - cron: "0 4 * * *"    # 9:00 PM MST
+  workflow_dispatch:        # "Run workflow" button on the Actions tab runs it immediately
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-pl-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check local time (America/Denver)
+        id: when
+        run: |
+          H=$(TZ=America/Denver date +%H)
+          echo "Local time: $(TZ=America/Denver date '+%Y-%m-%d %H:%M %Z')"
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "$H" = "08" ] || [ "$H" = "21" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Not the 8 AM or 9 PM run for the current UTC offset; skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.when.outputs.run == 'true'
+
+      - uses: actions/setup-node@v4
+        if: steps.when.outputs.run == 'true'
+        with:
+          node-version: "20"
+
+      - name: Check the calculations
+        if: steps.when.outputs.run == 'true'
+        run: node tests/calc.test.js && node tests/sources.test.js
+
+      - name: Pull NPSG 7-Day and FEMS ERCy/BIy
+        if: steps.when.outputs.run == 'true'
+        continue-on-error: true   # still build the briefing from the last good data if a source is down
+        run: node scripts/update-data.mjs
+
+      - name: Build PDF and Excel briefing
+        if: steps.when.outputs.run == 'true'
+        run: |
+          npm install --no-save --no-package-lock playwright@1.48.2
+          npx playwright install --with-deps chromium
+          node scripts/make-report.mjs
+
+      - name: Commit if changed
+        if: steps.when.outputs.run == 'true'
+        run: |
+          git add data/current.json data/fems-climatology.json reports/ 2>/dev/null || true
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git config user.name "pl-data-bot"
+          git config user.email "pl-data-bot@users.noreply.github.com"
+          git commit -m "Update PL data $(TZ=America/Denver date '+%Y-%m-%d %H:%M %Z')"
+          git push
