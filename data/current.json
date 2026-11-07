@@ -4,7 +4,7 @@
   "asOf": "2026-11-04T07:00",
   "preparedBy": "",
   "notes": "Seeded from 2026_SWA_PL_Dashboard_V3_SHOULDER_SEASON_MASTER.xlsx",
-  "source": "automated pull 2026-11-07T04:43Z"
+  "source": "automated pull 2026-11-07T15:32Z"
  },
  "preset": "shoulder",
  "weights": {
@@ -420,7 +420,7 @@
  "ooaCrews": [],
  "crewsUpdated": "2026-11-03T07:00",
  "outlook": {
-  "startDate": "2026-11-06",
+  "startDate": "2026-11-07",
   "values": {
    "SW01": [
     1,
@@ -558,9 +558,9 @@
     1
    ]
   },
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "source": "NPSG 7-Day (auto)",
-  "fetchedAt": "2026-11-06T04:43",
+  "fetchedAt": "2026-11-07T15:32",
   "missing": []
  },
  "danger": {
