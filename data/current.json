@@ -4,7 +4,7 @@
   "asOf": "2026-11-04T07:00",
   "preparedBy": "",
   "notes": "Seeded from 2026_SWA_PL_Dashboard_V3_SHOULDER_SEASON_MASTER.xlsx",
-  "source": "automated pull 2026-11-07T15:32Z"
+  "source": "automated pull 2026-11-08T04:45Z"
  },
  "preset": "shoulder",
  "weights": {
@@ -560,7 +560,7 @@
   },
   "updated": "2026-11-07",
   "source": "NPSG 7-Day (auto)",
-  "fetchedAt": "2026-11-07T15:32",
+  "fetchedAt": "2026-11-07T04:45",
   "missing": []
  },
  "danger": {
