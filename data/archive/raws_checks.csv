@@ -1,0 +1,28 @@
+date,psa,station_id,station,field,hour,value,reason,action
+2026-11-08,SW-05,20215,MORMON LAKE,RH,09:03,0,outside 1–100,dropped
+2026-11-08,SW-05,20215,MORMON LAKE,RH,11:03,0,outside 1–100,dropped
+2026-11-08,SW-05,20215,MORMON LAKE,RH,12:03,0,outside 1–100,dropped
+2026-11-08,SW-05,20215,MORMON LAKE,RH,14:03,0,outside 1–100,dropped
+2026-11-08,SW-05,20215,MORMON LAKE,RH,18:03,0,outside 1–100,dropped
+2026-11-08,SW-05,20215,MORMON LAKE,RH,20:03,0,outside 1–100,dropped
+2026-11-08,SW-05,20215,MORMON LAKE,RH,21:03,0,outside 1–100,dropped
+2026-11-08,SW-05,20215,MORMON LAKE,RH,22:03,0,outside 1–100,dropped
+2026-11-08,SW-05,20215,MORMON LAKE,RH,23:03,0,outside 1–100,dropped
+2026-11-08,SW-11,291408,SANDIA LAB,wind,09:53,108,outside 0–80,dropped
+2026-11-08,SW-11,291408,SANDIA LAB,hourly rain,09:53,14.34,outside 0–2,dropped
+2026-11-08,SW-11,291408,SANDIA LAB,temperature,09:53,0,"spike: 36 the hour before, 40 the hour after",dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,07:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,08:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,10:53,0,lower than the sustained wind (8 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,11:53,0,lower than the sustained wind (13 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,12:53,0,lower than the sustained wind (14 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,13:53,2,lower than the sustained wind (9 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,14:53,99,"over 90 mph, but backed up: 1 stations in the PSA gusted 40+ mph",kept – wind event
+2026-11-08,SW-11,291408,SANDIA LAB,gust,23:53,117,"over 90 mph, but backed up: RH jumped 17 points (outflow)",kept – wind event
+2026-11-08,SW-11,291408,SANDIA LAB,gust,00:53,1,lower than the sustained wind (4 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,01:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,02:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,03:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,04:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,05:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,291408,SANDIA LAB,gust,06:53,0,lower than the sustained wind (3 mph),dropped
