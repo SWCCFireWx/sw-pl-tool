@@ -5,7 +5,8 @@
 # in the 8 AM or 9 PM hour in America/Denver continue. GitHub can start scheduled runs several minutes late.
 #
 # Each run: pulls the NPSG 7-Day outlook and the SWA/OOA Type 1 IHC crews and IMTs from the SWCC
-# SharePoint workbooks, applies the newest ERC/BI file in uploads/, writes data/current.json,
+# SharePoint workbooks, applies the newest ERC/BI file in uploads/, counts new fire starts (WFIGS) and
+# summarizes RAWS (FEMS weather observations), writes data/current.json, archives the run in data/archive/,
 # builds reports/SWA_PL_latest.pdf and .xlsx, and commits. GitHub Pages then republishes the site.
 name: Update PL data
 
@@ -46,6 +47,7 @@ jobs:
       - uses: actions/checkout@v4
         if: steps.when.outputs.run == 'true'
         with:
+          ref: main        # the newest version, not the one that existed when the run was queued
           fetch-depth: 0   # full history, so the newest file in uploads/ can be found by commit time
 
       - uses: actions/setup-node@v4
@@ -55,9 +57,9 @@ jobs:
 
       - name: Check the calculations
         if: steps.when.outputs.run == 'true'
-        run: node tests/calc.test.js && node tests/sources.test.js
+        run: node tests/calc.test.js && node tests/sources.test.js && node tests/archive.test.js
 
-      - name: Pull 7-Day outlook, crews and IMTs; apply uploaded ERC/BI file
+      - name: Pull data, apply uploaded ERC/BI file, archive the run
         if: steps.when.outputs.run == 'true'
         continue-on-error: true   # still build the briefing from the last good data if a source is down
         run: node scripts/update-data.mjs
@@ -69,13 +71,22 @@ jobs:
           npx playwright install --with-deps chromium
           node scripts/make-report.mjs
 
-      - name: Commit if changed
+      # Saves only the generated files (data/ and reports/) on top of the NEWEST version of the repository,
+      # so uploads or edits made while the job was running are never undone and never cause a merge conflict.
+      - name: Save results to the repository
         if: steps.when.outputs.run == 'true'
         run: |
-          git add data/current.json reports/ 2>/dev/null || true
-          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git config user.name "pl-data-bot"
           git config user.email "pl-data-bot@users.noreply.github.com"
-          git commit -m "Update PL data $(TZ=America/Denver date '+%Y-%m-%d %H:%M %Z')"
-          git pull --rebase --autostash || true
-          git push
+          MSG="Update PL data $(TZ=America/Denver date '+%Y-%m-%d %H:%M %Z')"
+          for attempt in 1 2 3 4 5; do
+            git fetch --quiet origin main
+            git reset --quiet --mixed origin/main          # point at the newest main; our generated files stay on disk
+            git add --ignore-removal data reports           # stage only what this run wrote
+            if git diff --cached --quiet; then echo "No changes to save."; exit 0; fi
+            git commit --quiet -m "$MSG"
+            if git push --quiet origin HEAD:main; then echo "Saved: $MSG"; exit 0; fi
+            echo "The repository changed while saving; trying again ($attempt of 5)..."
+            sleep $((attempt * 5))
+          done
+          echo "Could not save after 5 tries."; exit 1
