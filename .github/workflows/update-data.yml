@@ -4,7 +4,8 @@
 # So each time is scheduled at both UTC hours, and the "Check local time" step lets only the run that falls
 # in the 8 AM or 9 PM hour in America/Denver continue. GitHub can start scheduled runs several minutes late.
 #
-# Each run: pulls the NPSG 7-Day outlook and previous-day FEMS ERCy/BIy, writes data/current.json,
+# Each run: pulls the NPSG 7-Day outlook and the SWA/OOA Type 1 IHC crews and IMTs from the SWCC
+# SharePoint workbooks, applies the newest ERC/BI file in uploads/, writes data/current.json,
 # builds reports/SWA_PL_latest.pdf and .xlsx, and commits. GitHub Pages then republishes the site.
 name: Update PL data
 
@@ -15,6 +16,9 @@ on:
     - cron: "0 3 * * *"    # 9:00 PM MDT
     - cron: "0 4 * * *"    # 9:00 PM MST
   workflow_dispatch:        # "Run workflow" button on the Actions tab runs it immediately
+  push:                     # uploading an ERC/BI file to the uploads/ folder updates the site right away
+    paths:
+      - "uploads/**"
 
 permissions:
   contents: write
@@ -41,6 +45,8 @@ jobs:
 
       - uses: actions/checkout@v4
         if: steps.when.outputs.run == 'true'
+        with:
+          fetch-depth: 0   # full history, so the newest file in uploads/ can be found by commit time
 
       - uses: actions/setup-node@v4
         if: steps.when.outputs.run == 'true'
@@ -51,7 +57,7 @@ jobs:
         if: steps.when.outputs.run == 'true'
         run: node tests/calc.test.js && node tests/sources.test.js
 
-      - name: Pull NPSG 7-Day and FEMS ERCy/BIy
+      - name: Pull 7-Day outlook, crews and IMTs; apply uploaded ERC/BI file
         if: steps.when.outputs.run == 'true'
         continue-on-error: true   # still build the briefing from the last good data if a source is down
         run: node scripts/update-data.mjs
@@ -66,9 +72,10 @@ jobs:
       - name: Commit if changed
         if: steps.when.outputs.run == 'true'
         run: |
-          git add data/current.json data/fems-climatology.json reports/ 2>/dev/null || true
+          git add data/current.json reports/ 2>/dev/null || true
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git config user.name "pl-data-bot"
           git config user.email "pl-data-bot@users.noreply.github.com"
           git commit -m "Update PL data $(TZ=America/Denver date '+%Y-%m-%d %H:%M %Z')"
+          git pull --rebase --autostash || true
           git push
