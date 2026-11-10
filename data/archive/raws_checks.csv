@@ -26,3 +26,6 @@ date,psa,station_id,station,field,hour,value,reason,action
 2026-11-08,SW-11,291408,SANDIA LAB,gust,04:53,0,lower than the sustained wind (3 mph),dropped
 2026-11-08,SW-11,291408,SANDIA LAB,gust,05:53,0,lower than the sustained wind (3 mph),dropped
 2026-11-08,SW-11,291408,SANDIA LAB,gust,06:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-09,SW-05,20215,MORMON LAKE,RH,13:03,0,outside 1–100,dropped
+2026-11-09,SW-05,20215,MORMON LAKE,RH,14:03,0,outside 1–100,dropped
+2026-11-09,SW-09,292702,HACHITA VALLEY,min RH,,66,34 away from the other stations' median (32),dropped
