@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "meta": {
-  "asOf": "2026-11-13T08:44",
+  "asOf": "2026-11-13T21:45",
   "preparedBy": "",
   "notes": "Seeded from 2026_SWA_PL_Dashboard_V3_SHOULDER_SEASON_MASTER.xlsx",
-  "source": "automated pull 2026-11-13T08:44"
+  "source": "automated pull 2026-11-13T21:45"
  },
  "preset": "shoulder",
  "weights": {
@@ -560,7 +560,7 @@
   },
   "updated": "2026-11-13",
   "source": "NPSG 7-Day (auto)",
-  "fetchedAt": "2026-11-13T08:44",
+  "fetchedAt": "2026-11-13T21:44",
   "missing": []
  },
  "danger": {
@@ -777,7 +777,7 @@
   ],
   "placedByPsa": true,
   "layer": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_YearToDate/FeatureServer/0",
-  "fetchedAt": "2026-11-13T08:44",
+  "fetchedAt": "2026-11-13T21:44",
   "source": "WFIGS incident locations (auto)"
  },
  "raws": {
@@ -2446,7 +2446,7 @@
    }
   ],
   "source": "FEMS RAWS observations (auto, quality-checked)",
-  "fetchedAt": "2026-11-13T08:44"
+  "fetchedAt": "2026-11-13T21:45"
  },
  "femsNfdr": {
   "date": "2026-11-12",
@@ -3026,6 +3026,6 @@
    }
   ],
   "source": "FEMS NFDRS observations (auto)",
-  "fetchedAt": "2026-11-13T08:44"
+  "fetchedAt": "2026-11-13T21:45"
  }
 }
