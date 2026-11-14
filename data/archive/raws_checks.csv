@@ -33,3 +33,4 @@ date,psa,station_id,station,field,hour,value,reason,action
 2026-11-11,SW-05,20215,MORMON LAKE,RH,14:03,0,outside 1–100,dropped
 2026-11-11,SW-11,291408,SANDIA LAB,hourly rain,10:53,4.34,outside 0–2,dropped
 2026-11-12,SW-05,20215,MORMON LAKE,RH,16:03,96,"spike: 39 the hour before, 55 the hour after",dropped
+2026-11-13,SW-05,20215,MORMON LAKE,RH,08:03,0,outside 1–100,dropped
