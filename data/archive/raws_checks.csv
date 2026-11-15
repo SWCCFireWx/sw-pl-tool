@@ -34,3 +34,24 @@ date,psa,station_id,station,field,hour,value,reason,action
 2026-11-11,SW-11,291408,SANDIA LAB,hourly rain,10:53,4.34,outside 0–2,dropped
 2026-11-12,SW-05,20215,MORMON LAKE,RH,16:03,96,"spike: 39 the hour before, 55 the hour after",dropped
 2026-11-13,SW-05,20215,MORMON LAKE,RH,08:03,0,outside 1–100,dropped
+2026-11-14,SW-02,20502,CROWN KING,min RH,,93,34 away from the other stations' median (60),dropped
+2026-11-14,SW-04,290101,WASHINGTON PASS,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-05,20309,LIMESTONE CANYON,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-05,20215,MORMON LAKE,RH,04:03,0,outside 1–100,dropped
+2026-11-14,SW-05,20215,MORMON LAKE,min RH,,28,53 away from the other stations' median (81),dropped
+2026-11-14,SW-05,20221,PROMONTORY,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-06S,21005,COLUMBINE,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-06S,21009,DRY LAKE,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-06S,21302,HOPKINS,min RH,,81,32 away from the other stations' median (50),dropped
+2026-11-14,SW-06S,21207,RINCON,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-06S,21208,SCOUT CAMP,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-07,293304,LAGUNA,min RH,,48,37 away from the other stations' median (85),dropped
+2026-11-14,SW-08,20310,MOUNTAIN LION,min RH,,97,32 away from the other stations' median (65),dropped
+2026-11-14,SW-08,292013,MOGOLLON,min RH,,95,31 away from the other stations' median (64),dropped
+2026-11-14,SW-12,293004,COSMIC,min RH,,99,47 away from the other stations' median (52),dropped
+2026-11-14,SW-12,417103,THE BOWL,gust,07:38,139,outside 0–130,dropped
+2026-11-14,SW-12,417103,THE BOWL,gust,18:38,162,outside 0–130,dropped
+2026-11-14,SW-12,417103,THE BOWL,gust,21:38,160,outside 0–130,dropped
+2026-11-14,SW-12,417103,THE BOWL,gust,09:38,54,"far above the sustained wind (1 mph), but backed up: 2 stations in the PSA gusted 40+ mph",kept – wind event
+2026-11-14,SW-12,417103,THE BOWL,gust,20:38,76,"far above the sustained wind (12 mph), but backed up: 50 mph gust the hour before",kept – wind event
+2026-11-14,SW-12,417103,THE BOWL,gust,06:38,100,"over 90 mph, but backed up: 2 stations in the PSA gusted 40+ mph",kept – wind event
