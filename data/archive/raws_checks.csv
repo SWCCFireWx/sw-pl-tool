@@ -1,0 +1,5 @@
+date,psa,station_id,station,field,hour,value,reason,action
+2026-11-15,SW-04,290101,WASHINGTON PASS,min RH,,83,37 away from the other stations' median (46),dropped
+2026-11-15,SW-05,20215,MORMON LAKE,RH,14:03,0,outside 1–100,dropped
+2026-11-15,SW-05,20215,MORMON LAKE,min RH,,1,39 away from the other stations' median (40),dropped
+2026-11-15,SW-12,417103,THE BOWL,gust,10:38,125,"over 90 mph, but backed up: RH jumped 17 points (outflow)",kept – wind event
