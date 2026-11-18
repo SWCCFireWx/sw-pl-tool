@@ -9,3 +9,19 @@ date,psa,station_id,station,field,hour,value,reason,action
 2026-11-16,SW-05,20215,MORMON LAKE,min RH,,3,52 away from the other stations' median (55),dropped
 2026-11-16,SW-08,292011,GILA CENTER RAWS,RH,11:13,12,"spike: 95 the hour before, 90 the hour after",dropped
 2026-11-16,SW-12,417101,PINERY,min RH,,93,33 away from the other stations' median (61),dropped
+2026-11-17,SW-02,20502,CROWN KING,min RH,,80,34 away from the other stations' median (47),dropped
+2026-11-17,SW-05,20215,MORMON LAKE,RH,12:03,0,outside 1–100,dropped
+2026-11-17,SW-05,20215,MORMON LAKE,RH,19:03,87,"spike: 40 the hour before, 27 the hour after",dropped
+2026-11-17,SW-05,20215,MORMON LAKE,RH,20:03,27,"spike: 87 the hour before, 74 the hour after",dropped
+2026-11-17,SW-05,20215,MORMON LAKE,RH,21:03,74,"spike: 27 the hour before, 33 the hour after",dropped
+2026-11-17,SW-05,20215,MORMON LAKE,RH,22:03,33,"spike: 74 the hour before, 86 the hour after",dropped
+2026-11-17,SW-05,20215,MORMON LAKE,min RH,,1,78 away from the other stations' median (79),dropped
+2026-11-17,SW-06S,21005,COLUMBINE,min RH,,94,46 away from the other stations' median (48),dropped
+2026-11-17,SW-06S,21207,RINCON,min RH,,86,39 away from the other stations' median (47),dropped
+2026-11-17,SW-06S,21208,SCOUT CAMP,min RH,,97,52 away from the other stations' median (46),dropped
+2026-11-17,SW-07,290702,JEMEZ,min RH,,97,37 away from the other stations' median (60),dropped
+2026-11-17,SW-09,292702,HACHITA VALLEY,min RH,,38,33 away from the other stations' median (71),dropped
+2026-11-17,SW-10,291002,BARTLEY,min RH,,32,33 away from the other stations' median (65),dropped
+2026-11-17,SW-12,293002,MAYHILL,min RH,,24,40 away from the other stations' median (64),dropped
+2026-11-17,SW-12,417101,PINERY,min RH,,91,32 away from the other stations' median (59),dropped
+2026-11-17,SW-12,417103,THE BOWL,gust,08:38,72,far above the sustained wind (0 mph); nothing else backs it up,dropped
