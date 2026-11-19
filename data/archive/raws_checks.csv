@@ -518,6 +518,202 @@ date,psa,network,station_id,station,field,hour,value,reason,action
 2026-02-27,SW-12,RAWS,417103,THE BOWL,gust,00:38,31,far above the sustained wind (0 mph); no station nearby gusted 40+ mph,dropped
 2026-02-28,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
 2026-03-01,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-02,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-02,SW-12,RAWS,417103,THE BOWL,gust,20:38,185,outside 0–130,dropped
+2026-03-02,SW-12,RAWS,417103,THE BOWL,gust,21:38,106,over 75 mph; no station nearby gusted 53+ mph,dropped
+2026-03-02,SW-12,RAWS,417103,THE BOWL,gust,22:38,85,"over 75 mph, but backed up: 106 mph gust the hour before",kept – wind event
+2026-03-02,SW-12,RAWS,417103,THE BOWL,gust,00:38,61,"far above the sustained wind (3 mph), but backed up: RH jumped 18 points (outflow)",kept – wind event
+2026-03-02,SW-12,RAWS,417103,THE BOWL,gust,06:38,38,far above the sustained wind (0 mph); no station nearby gusted 40+ mph,dropped
+2026-03-02,SW-12,RAWS,417103,THE BOWL,max gust,22:38,85,"57 mph above the other stations, but backed up: 106 mph gust the hour before",kept – wind event
+2026-03-03,SW-08,RAWS,21105,TRAIL CABIN,RH,21:35,57,"spike: 100 the hour before, 100 the hour after",dropped
+2026-03-03,SW-09,ASOS/AWOS,ASOS:LRU,LAS CRUCES INTL (LRU),gust,18:00,17,lower than the sustained wind (20 mph),dropped
+2026-03-03,SW-11,RAWS,291408,SANDIA LAB,gust,07:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-03,SW-12,RAWS,417103,THE BOWL,gust,23:38,88,over 75 mph; no station nearby gusted 53+ mph,dropped
+2026-03-03,SW-12,RAWS,417103,THE BOWL,gust,00:38,58,"far above the sustained wind (1 mph), but backed up: 88 mph gust the hour before",kept – wind event
+2026-03-04,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-04,SW-11,RAWS,291408,SANDIA LAB,gust,08:53,0,lower than the sustained wind (10 mph),dropped
+2026-03-04,SW-11,RAWS,291408,SANDIA LAB,gust,09:53,0,lower than the sustained wind (9 mph),dropped
+2026-03-04,SW-11,RAWS,291408,SANDIA LAB,gust,10:53,0,lower than the sustained wind (9 mph),dropped
+2026-03-04,SW-11,RAWS,291408,SANDIA LAB,gust,12:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-04,SW-11,RAWS,291408,SANDIA LAB,gust,14:53,113,over 75 mph; no station nearby gusted 57+ mph,dropped
+2026-03-04,SW-11,RAWS,291408,SANDIA LAB,gust,00:53,125,over 75 mph; no station nearby gusted 63+ mph,dropped
+2026-03-04,SW-11,RAWS,291408,SANDIA LAB,gust,02:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-04,SW-11,RAWS,291408,SANDIA LAB,gust,03:53,0,lower than the sustained wind (5 mph),dropped
+2026-03-04,SW-11,RAWS,291408,SANDIA LAB,gust,04:53,0,lower than the sustained wind (5 mph),dropped
+2026-03-04,SW-11,RAWS,291408,SANDIA LAB,gust,05:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-04,SW-11,RAWS,291408,SANDIA LAB,gust,06:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-05,SW-04,ASOS/AWOS,ASOS:INW,WINSLOW (AUT) (INW),gust,03:00,36,"far above the sustained wind (0 mph), but backed up: rain at the same time",kept – wind event
+2026-03-05,SW-12,RAWS,417103,THE BOWL,gust,22:38,70,"far above the sustained wind (2 mph), but backed up: 52 mph gust the hour before",kept – wind event
+2026-03-05,SW-12,RAWS,417103,THE BOWL,gust,00:38,32,far above the sustained wind (0 mph); no station nearby gusted 40+ mph,dropped
+2026-03-06,SW-09,ASOS/AWOS,ASOS:DNA,Santa Teresa (DNA),gust,23:00,13,lower than the sustained wind (16 mph),dropped
+2026-03-06,SW-10,ASOS/AWOS,ASOS:N24,Questa (N24),gust,12:00,37,"far above the sustained wind (0 mph), but backed up: RH jumped 28 points (outflow)",kept – wind event
+2026-03-06,SW-10,ASOS/AWOS,ASOS:N24,Questa (N24),gust,16:00,39,"far above the sustained wind (0 mph), but backed up: also gusty nearby: 47 mph at LAS VEGAS MUNICIPAL (LVS)",kept – wind event
+2026-03-06,SW-12,RAWS,417103,THE BOWL,gust,05:38,156,outside 0–130,dropped
+2026-03-06,SW-12,RAWS,417103,THE BOWL,gust,09:38,88,over 75 mph; no station nearby gusted 53+ mph,dropped
+2026-03-06,SW-12,RAWS,417103,THE BOWL,gust,12:38,60,"far above the sustained wind (0 mph), but backed up: 119 mph gust the hour after",kept – wind event
+2026-03-06,SW-12,RAWS,417103,THE BOWL,gust,13:38,119,over 75 mph; no station nearby gusted 60+ mph,dropped
+2026-03-06,SW-12,RAWS,417103,THE BOWL,gust,14:38,46,"far above the sustained wind (0 mph), but backed up: 119 mph gust the hour before",kept – wind event
+2026-03-06,SW-12,RAWS,417103,THE BOWL,gust,15:38,55,"far above the sustained wind (2 mph), but backed up: 46 mph gust the hour before",kept – wind event
+2026-03-06,SW-12,RAWS,417103,THE BOWL,gust,20:38,65,"far above the sustained wind (5 mph), but backed up: also gusty nearby: 51 mph at QUEEN",kept – wind event
+2026-03-08,SW-06N,ASOS/AWOS,ASOS:SDL,SCOTTSDALE MUNI (SDL),gust,09:00,31,far above the sustained wind (0 mph); no station nearby gusted 40+ mph,dropped
+2026-03-08,SW-11,RAWS,291408,SANDIA LAB,gust,07:53,0,lower than the sustained wind (5 mph),dropped
+2026-03-08,SW-11,RAWS,291408,SANDIA LAB,gust,08:53,0,lower than the sustained wind (5 mph),dropped
+2026-03-08,SW-11,RAWS,291408,SANDIA LAB,gust,09:53,0,lower than the sustained wind (5 mph),dropped
+2026-03-08,SW-11,RAWS,291408,SANDIA LAB,gust,10:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-08,SW-11,RAWS,291408,SANDIA LAB,gust,11:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-08,SW-11,RAWS,291408,SANDIA LAB,gust,12:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-09,SW-06N,ASOS/AWOS,ASOS:PAN,Payson (PAN),gust,03:00,43,"far above the sustained wind (0 mph), but backed up: 43 mph gust the hour before",kept – wind event
+2026-03-09,SW-06S,ASOS/AWOS,ASOS:DMA,DAVIS-MONTHAN AFB (DMA),gust,22:00,32,"far above the sustained wind (0 mph), but backed up: RH jumped 22 points (outflow)",kept – wind event
+2026-03-09,SW-06S,ASOS/AWOS,ASOS:DUG,DOUGLAS BISBEE INTL (DUG),gust,04:00,55,"far above the sustained wind (5 mph), but backed up: temperature fell 10 °F (outflow)",kept – wind event
+2026-03-09,SW-06S,ASOS/AWOS,ASOS:ALK,Pioneer Airfield (ALK),gust,01:00,32,"far above the sustained wind (0 mph), but backed up: 43 mph gust the hour before",kept – wind event
+2026-03-09,SW-06S,ASOS/AWOS,ASOS:SAD,SAFFORD MUNICIPAL (SAD),gust,05:00,49,"far above the sustained wind (5 mph), but backed up: 51 mph gust the hour before",kept – wind event
+2026-03-09,SW-08,RAWS,21105,TRAIL CABIN,min RH,,79,62 away from the other stations' median (17),dropped
+2026-03-09,SW-11,RAWS,291408,SANDIA LAB,gust,00:53,114,over 75 mph; no station nearby gusted 57+ mph,dropped
+2026-03-09,SW-11,RAWS,291408,SANDIA LAB,gust,01:53,2,lower than the sustained wind (7 mph),dropped
+2026-03-09,SW-11,RAWS,291408,SANDIA LAB,gust,02:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-09,SW-11,RAWS,291408,SANDIA LAB,gust,03:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-09,SW-11,RAWS,291408,SANDIA LAB,gust,04:53,0,lower than the sustained wind (6 mph),dropped
+2026-03-09,SW-11,RAWS,291408,SANDIA LAB,gust,05:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-09,SW-12,RAWS,417103,THE BOWL,gust,23:38,149,outside 0–130,dropped
+2026-03-10,SW-06N,RAWS,20609,HILLTOP,min RH,,70,31 away from the other stations' median (39),dropped
+2026-03-10,SW-06S,RAWS,21005,COLUMBINE,min RH,,89,34 away from the other stations' median (55),dropped
+2026-03-10,SW-06S,RAWS,21207,RINCON,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-10,SW-06S,RAWS,21208,SCOUT CAMP,min RH,,87,32 away from the other stations' median (55),dropped
+2026-03-10,SW-08,RAWS,292504,BURRO MOUNTAIN,min RH,,88,35 away from the other stations' median (53),dropped
+2026-03-10,SW-09,RAWS,292702,HACHITA VALLEY,min RH,,55,31 away from the other stations' median (25),dropped
+2026-03-10,SW-10,ASOS/AWOS,ASOS:LVS,LAS VEGAS MUNICIPAL (LVS),gust,05:00,55,far above the sustained wind (7 mph); no station nearby gusted 40+ mph,dropped
+2026-03-10,SW-11,RAWS,291408,SANDIA LAB,gust,06:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-10,SW-12,RAWS,417103,THE BOWL,gust,00:38,34,"far above the sustained wind (0 mph), but backed up: also gusty nearby: 57 mph at PINERY",kept – wind event
+2026-03-13,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-13,SW-11,RAWS,291408,SANDIA LAB,gust,14:53,162,outside 0–130,dropped
+2026-03-13,SW-11,RAWS,291408,SANDIA LAB,gust,00:53,149,outside 0–130,dropped
+2026-03-13,SW-11,RAWS,291408,SANDIA LAB,gust,07:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-13,SW-11,RAWS,291408,SANDIA LAB,gust,08:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-13,SW-11,RAWS,291408,SANDIA LAB,gust,09:53,0,lower than the sustained wind (5 mph),dropped
+2026-03-13,SW-11,RAWS,291408,SANDIA LAB,gust,10:53,0,lower than the sustained wind (6 mph),dropped
+2026-03-13,SW-11,RAWS,291408,SANDIA LAB,gust,11:53,0,lower than the sustained wind (7 mph),dropped
+2026-03-13,SW-11,RAWS,291408,SANDIA LAB,gust,12:53,0,lower than the sustained wind (6 mph),dropped
+2026-03-13,SW-11,RAWS,291408,SANDIA LAB,gust,02:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-13,SW-11,RAWS,291408,SANDIA LAB,gust,03:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-13,SW-12,RAWS,417103,THE BOWL,gust,18:38,200,outside 0–130,dropped
+2026-03-13,SW-12,RAWS,417103,THE BOWL,gust,23:38,140,outside 0–130,dropped
+2026-03-13,SW-12,RAWS,417103,THE BOWL,gust,22:38,120,over 75 mph; no station nearby gusted 60+ mph,dropped
+2026-03-14,SW-12,RAWS,417103,THE BOWL,gust,03:38,159,outside 0–130,dropped
+2026-03-14,SW-12,RAWS,417103,THE BOWL,wind,00:38,43,"spike: 5 the hour before, 2 the hour after",dropped
+2026-03-14,SW-12,RAWS,417103,THE BOWL,gust,19:38,83,"over 75 mph, but backed up: 83 mph gust the hour after",kept – wind event
+2026-03-14,SW-12,RAWS,417103,THE BOWL,gust,20:38,83,"over 75 mph, but backed up: 83 mph gust the hour before",kept – wind event
+2026-03-14,SW-12,RAWS,417103,THE BOWL,gust,21:38,46,"far above the sustained wind (3 mph), but backed up: 83 mph gust the hour before",kept – wind event
+2026-03-14,SW-12,RAWS,417103,THE BOWL,gust,02:38,97,over 75 mph; no station nearby gusted 49+ mph,dropped
+2026-03-14,SW-12,RAWS,417103,THE BOWL,gust,05:38,53,far above the sustained wind (1 mph); no station nearby gusted 40+ mph,dropped
+2026-03-14,SW-12,RAWS,417103,THE BOWL,max gust,19:38,83,"51 mph above the other stations, but backed up: 83 mph gust the hour after",kept – wind event
+2026-03-15,SW-08,RAWS,21105,TRAIL CABIN,min RH,,99,88 away from the other stations' median (11),dropped
+2026-03-15,SW-10,ASOS/AWOS,ASOS:RTN,RATON/CREWS FLD (RTN),gust,08:00,81,"over 75 mph, but backed up: 68 mph gust the hour before",kept – wind event
+2026-03-15,SW-10,ASOS/AWOS,ASOS:SAF,SANTA FE CO. MUNI (SAF),gust,13:00,33,"far above the sustained wind (0 mph), but backed up: also gusty nearby: 59 mph at LAS VEGAS MUNICIPAL (LVS)",kept – wind event
+2026-03-15,SW-12,RAWS,417103,THE BOWL,gust,08:38,194,outside 0–130,dropped
+2026-03-15,SW-12,RAWS,417103,THE BOWL,gust,10:38,149,outside 0–130,dropped
+2026-03-15,SW-12,RAWS,417103,THE BOWL,gust,09:38,84,"over 75 mph, but backed up: also gusty nearby: 64 mph at RUIDOSO REGIONAL (SRR)",kept – wind event
+2026-03-15,SW-12,RAWS,417103,THE BOWL,gust,11:38,59,"far above the sustained wind (9 mph), but backed up: 55 mph gust the hour after",kept – wind event
+2026-03-15,SW-12,RAWS,417103,THE BOWL,gust,14:38,111,"over 75 mph, but backed up: also gusty nearby: 63 mph at RUIDOSO REGIONAL (SRR)",kept – wind event
+2026-03-15,SW-12,RAWS,417103,THE BOWL,gust,16:38,40,"far above the sustained wind (2 mph), but backed up: also gusty nearby: 59 mph at RUIDOSO REGIONAL (SRR)",kept – wind event
+2026-03-15,SW-12,RAWS,417103,THE BOWL,gust,18:38,45,"far above the sustained wind (1 mph), but backed up: also gusty nearby: 59 mph at RUIDOSO REGIONAL (SRR)",kept – wind event
+2026-03-16,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-17,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-17,SW-11,RAWS,291408,SANDIA LAB,hourly rain,03:53,27.13,outside 0–2,dropped
+2026-03-17,SW-11,RAWS,291408,SANDIA LAB,rain,,1.87,heavy rain here while the other stations in the PSA were dry,"kept, check"
+2026-03-17,SW-12,RAWS,417103,THE BOWL,gust,21:38,147,outside 0–130,dropped
+2026-03-17,SW-12,RAWS,417103,THE BOWL,gust,02:38,38,"far above the sustained wind (0 mph), but backed up: also gusty nearby: 41 mph at PINERY",kept – wind event
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,gust,14:53,154,outside 0–130,dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,gust,00:53,158,outside 0–130,dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,hourly rain,13:53,4.13,outside 0–2,dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,temperature,13:53,12,"spike: 55 the hour before, 61 the hour after",dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,wind,13:53,71,"spike: 5 the hour before, 6 the hour after",dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,gust,07:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,gust,08:53,0,lower than the sustained wind (5 mph),dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,gust,09:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,gust,10:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,gust,11:53,0,lower than the sustained wind (6 mph),dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,gust,12:53,0,lower than the sustained wind (5 mph),dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,gust,02:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,gust,04:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,gust,05:53,0,lower than the sustained wind (5 mph),dropped
+2026-03-18,SW-11,RAWS,291408,SANDIA LAB,rain,,1.87,heavy rain here while the other stations in the PSA were dry,"kept, check"
+2026-03-19,SW-05,RAWS,20284,GREENBASE,gust,21:16,4,lower than the sustained wind (10 mph),dropped
+2026-03-19,SW-05,RAWS,20284,GREENBASE,gust,22:16,4,lower than the sustained wind (9 mph),dropped
+2026-03-19,SW-05,RAWS,20284,GREENBASE,gust,23:16,4,lower than the sustained wind (8 mph),dropped
+2026-03-19,SW-05,RAWS,20284,GREENBASE,gust,00:16,4,lower than the sustained wind (8 mph),dropped
+2026-03-19,SW-11,RAWS,291408,SANDIA LAB,gust,06:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-20,SW-05,RAWS,20284,GREENBASE,gust,21:16,4,lower than the sustained wind (7 mph),dropped
+2026-03-20,SW-05,RAWS,20284,GREENBASE,gust,22:16,4,lower than the sustained wind (8 mph),dropped
+2026-03-20,SW-05,RAWS,20284,GREENBASE,gust,23:16,4,lower than the sustained wind (8 mph),dropped
+2026-03-20,SW-05,RAWS,20284,GREENBASE,gust,00:16,4,lower than the sustained wind (8 mph),dropped
+2026-03-20,SW-11,RAWS,291408,SANDIA LAB,hourly rain,15:53,4.13,outside 0–2,dropped
+2026-03-20,SW-11,RAWS,291408,SANDIA LAB,wind,15:53,43,"spike: 4 the hour before, 7 the hour after",dropped
+2026-03-20,SW-11,RAWS,291408,SANDIA LAB,rain,,1.87,heavy rain here while the other stations in the PSA were dry,"kept, check"
+2026-03-20,SW-12,RAWS,417103,THE BOWL,RH,16:38,68,"spike: 9 the hour before, 7 the hour after",dropped
+2026-03-21,SW-05,RAWS,20284,GREENBASE,gust,17:16,4,lower than the sustained wind (8 mph),dropped
+2026-03-21,SW-05,RAWS,20284,GREENBASE,gust,18:16,4,lower than the sustained wind (9 mph),dropped
+2026-03-21,SW-05,RAWS,20284,GREENBASE,gust,19:16,4,lower than the sustained wind (9 mph),dropped
+2026-03-21,SW-05,RAWS,20284,GREENBASE,gust,20:16,4,lower than the sustained wind (15 mph),dropped
+2026-03-21,SW-05,RAWS,20284,GREENBASE,gust,21:16,4,lower than the sustained wind (12 mph),dropped
+2026-03-21,SW-05,RAWS,20284,GREENBASE,gust,22:16,4,lower than the sustained wind (13 mph),dropped
+2026-03-21,SW-05,RAWS,20284,GREENBASE,gust,23:16,4,lower than the sustained wind (13 mph),dropped
+2026-03-21,SW-05,RAWS,20284,GREENBASE,gust,00:16,4,lower than the sustained wind (14 mph),dropped
+2026-03-21,SW-05,RAWS,20284,GREENBASE,gust,01:16,4,lower than the sustained wind (11 mph),dropped
+2026-03-21,SW-12,RAWS,417103,THE BOWL,gust,05:38,109,over 75 mph; no station nearby gusted 55+ mph,dropped
+2026-03-22,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-22,SW-12,RAWS,417103,THE BOWL,gust,06:38,184,outside 0–130,dropped
+2026-03-22,SW-12,RAWS,417103,THE BOWL,RH,21:38,64,"spike: 7 the hour before, 6 the hour after",dropped
+2026-03-22,SW-12,RAWS,417103,THE BOWL,gust,08:38,85,over 75 mph; no station nearby gusted 51+ mph,dropped
+2026-03-22,SW-12,RAWS,417103,THE BOWL,gust,09:38,42,"far above the sustained wind (3 mph), but backed up: 85 mph gust the hour before",kept – wind event
+2026-03-23,SW-05,RAWS,20284,GREENBASE,gust,17:16,186,outside 0–130,dropped
+2026-03-23,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-23,SW-11,RAWS,291408,SANDIA LAB,gust,07:53,0,lower than the sustained wind (17 mph),dropped
+2026-03-23,SW-11,RAWS,291408,SANDIA LAB,gust,08:53,0,lower than the sustained wind (18 mph),dropped
+2026-03-23,SW-11,RAWS,291408,SANDIA LAB,gust,09:53,0,lower than the sustained wind (16 mph),dropped
+2026-03-23,SW-11,RAWS,291408,SANDIA LAB,gust,10:53,0,lower than the sustained wind (15 mph),dropped
+2026-03-23,SW-11,RAWS,291408,SANDIA LAB,gust,11:53,0,lower than the sustained wind (15 mph),dropped
+2026-03-23,SW-11,RAWS,291408,SANDIA LAB,gust,12:53,0,lower than the sustained wind (13 mph),dropped
+2026-03-23,SW-11,RAWS,291408,SANDIA LAB,gust,00:53,104,over 75 mph; no station nearby gusted 52+ mph,dropped
+2026-03-23,SW-11,RAWS,291408,SANDIA LAB,gust,02:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-23,SW-11,RAWS,291408,SANDIA LAB,gust,03:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-23,SW-11,RAWS,291408,SANDIA LAB,gust,05:53,0,lower than the sustained wind (8 mph),dropped
+2026-03-24,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-24,SW-11,RAWS,291408,SANDIA LAB,gust,06:53,0,lower than the sustained wind (9 mph),dropped
+2026-03-25,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-26,SW-02,ASOS/AWOS,ASOS:IFP,BULL HEAD CITY (IFP),wind,02:00,69,"spike: 0 the hour before, 3 the hour after",dropped
+2026-03-26,SW-08,RAWS,21105,TRAIL CABIN,min RH,,99,94 away from the other stations' median (6),dropped
+2026-03-26,SW-12,RAWS,417103,THE BOWL,gust,03:38,163,outside 0–130,dropped
+2026-03-26,SW-12,RAWS,417103,THE BOWL,gust,17:38,97,over 75 mph; no station nearby gusted 49+ mph,dropped
+2026-03-26,SW-12,RAWS,417103,THE BOWL,gust,20:38,79,"over 75 mph, but backed up: 76 mph gust the hour after",kept – wind event
+2026-03-26,SW-12,RAWS,417103,THE BOWL,gust,21:38,76,"over 75 mph, but backed up: 79 mph gust the hour before",kept – wind event
+2026-03-26,SW-12,RAWS,417103,THE BOWL,gust,23:38,72,"far above the sustained wind (3 mph), but backed up: RH jumped 15 points (outflow)",kept – wind event
+2026-03-26,SW-12,RAWS,417103,THE BOWL,max gust,20:38,79,"52 mph above the other stations, but backed up: 76 mph gust the hour after",kept – wind event
+2026-03-27,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-27,SW-11,RAWS,291408,SANDIA LAB,gust,07:53,0,lower than the sustained wind (12 mph),dropped
+2026-03-27,SW-11,RAWS,291408,SANDIA LAB,gust,10:53,0,lower than the sustained wind (15 mph),dropped
+2026-03-27,SW-11,RAWS,291408,SANDIA LAB,gust,11:53,0,lower than the sustained wind (17 mph),dropped
+2026-03-27,SW-11,RAWS,291408,SANDIA LAB,gust,12:53,0,lower than the sustained wind (18 mph),dropped
+2026-03-28,SW-11,RAWS,291408,SANDIA LAB,gust,00:53,168,outside 0–130,dropped
+2026-03-28,SW-11,RAWS,291408,SANDIA LAB,gust,02:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-28,SW-11,RAWS,291408,SANDIA LAB,gust,03:53,0,lower than the sustained wind (5 mph),dropped
+2026-03-28,SW-11,RAWS,291408,SANDIA LAB,gust,04:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-28,SW-11,RAWS,291408,SANDIA LAB,gust,05:53,0,lower than the sustained wind (4 mph),dropped
+2026-03-28,SW-12,RAWS,417103,THE BOWL,gust,05:38,92,over 75 mph; no station nearby gusted 46+ mph,dropped
+2026-03-29,SW-06N,ASOS/AWOS,ASOS:SDL,SCOTTSDALE MUNI (SDL),gust,05:00,33,"far above the sustained wind (0 mph), but backed up: also gusty nearby: 46 mph at CASA GRANDA (AWOS) (CGZ)",kept – wind event
+2026-03-29,SW-11,RAWS,291408,SANDIA LAB,gust,06:53,0,lower than the sustained wind (3 mph),dropped
+2026-03-30,SW-02,ASOS/AWOS,ASOS:LUF,LUKE AFB/PHOENIX (LUF),temperature,04:00,49,"spike: 90 the hour before, 84.4 the hour after",dropped
+2026-03-30,SW-06N,ASOS/AWOS,ASOS:A39,Maricopa - Ak-chin (A39),gust,00:00,39,"far above the sustained wind (0 mph), but backed up: rain at the same time",kept – wind event
+2026-03-30,SW-08,RAWS,21105,TRAIL CABIN,RH,,100,stuck at the same value for 24 hours,dropped
+2026-03-30,SW-09,ASOS/AWOS,ASOS:HMN,HOLLOMAN AFB (HMN),RH,10:00,85,"spike: 25 the hour before, 25 the hour after",dropped
+2026-03-30,SW-09,ASOS/AWOS,ASOS:HMN,HOLLOMAN AFB (HMN),RH,11:00,25,"spike: 85 the hour before, 72 the hour after",dropped
+2026-03-30,SW-09,ASOS/AWOS,ASOS:HMN,HOLLOMAN AFB (HMN),RH,12:00,72,"spike: 25 the hour before, 26 the hour after",dropped
+2026-03-30,SW-12,RAWS,417103,THE BOWL,gust,10:38,183,outside 0–130,dropped
+2026-03-31,SW-02,ASOS/AWOS,ASOS:IGM,Kingman (IGM),gust,17:00,52,far above the sustained wind (5 mph); no station nearby gusted 40+ mph,dropped
+2026-03-31,SW-02,ASOS/AWOS,ASOS:IGM,Kingman (IGM),gust,23:00,49,"far above the sustained wind (6 mph), but backed up: 40 mph gust the hour after",kept – wind event
+2026-03-31,SW-05,ASOS/AWOS,ASOS:SOW,SHOW LOW MUNICIPAL (SOW),gust,01:00,37,"far above the sustained wind (0 mph), but backed up: RH jumped 24 points (outflow)",kept – wind event
+2026-03-31,SW-10,RAWS,291202,PECOS,RH,20:14,82,"spike: 24 the hour before, 41 the hour after",dropped
+2026-03-31,SW-10,ASOS/AWOS,ASOS:AXX,Angel Fire (AXX),gust,22:00,32,"far above the sustained wind (0 mph), but backed up: RH jumped 33 points (outflow)",kept – wind event
+2026-03-31,SW-10,ASOS/AWOS,ASOS:SAF,SANTA FE CO. MUNI (SAF),gust,19:00,49,"far above the sustained wind (6 mph), but backed up: rain at the same time",kept – wind event
 2026-11-15,SW-04,,290101,WASHINGTON PASS,min RH,,83,37 away from the other stations' median (46),dropped
 2026-11-15,SW-05,,20215,MORMON LAKE,RH,14:03,0,outside 1–100,dropped
 2026-11-15,SW-05,,20215,MORMON LAKE,min RH,,1,39 away from the other stations' median (40),dropped
