@@ -6,7 +6,7 @@
   "notes": "Seeded from 2026_SWA_PL_Dashboard_V3_SHOULDER_SEASON_MASTER.xlsx",
   "source": "spreadsheet import"
  },
- "preset": "standard",
+ "preset": "shoulder",
  "weights": {
   "fire": 0.3,
   "imt": 0,
@@ -666,6 +666,5 @@
   "source": "Seeded from spreadsheet",
   "fetchedAt": "",
   "lastUpdate": ""
- },
- "modelVersion": 2
+ }
 }
