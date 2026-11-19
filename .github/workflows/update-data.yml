@@ -1,25 +1,47 @@
 # Updates the PL data at 8:00 AM and 9:00 PM Mountain Time (New Mexico), all year.
 #
-# GitHub schedules run on UTC, and Mountain Time shifts between MDT (UTC-6, summer) and MST (UTC-7, winter).
-# So each time is scheduled at both UTC hours, and the "Check local time" step lets only the run that falls
-# in the 8 AM or 9 PM hour in America/Denver continue. GitHub can start scheduled runs several minutes late.
+# GitHub schedules run on UTC and can start them late (sometimes over an hour at busy times), and Mountain
+# Time shifts between MDT (UTC-6) and MST (UTC-7). So each slot is scheduled three times, an hour apart,
+# and the "Check the time" step lets a run through only when:
+#   • it is 8–10 AM or 9–11 PM in America/Denver, and
+#   • that slot hasn't already run today (looked up in data/archive/history.csv).
+# The first of the three that lands in the window does the work; the others stop after a few seconds.
 #
 # Each run: pulls the NPSG 7-Day outlook and the SWA/OOA Type 1 IHC crews and IMTs from the SWCC
 # SharePoint workbooks, applies the newest ERC/BI file in uploads/, counts new fire starts (WFIGS) and
-# summarizes RAWS (FEMS weather observations), writes data/current.json, archives the run in data/archive/,
+# summarizes RAWS (FEMS weather observations) and ASOS/AWOS (Iowa Environmental Mesonet), writes data/current.json, archives the run in data/archive/,
 # builds reports/SWA_PL_latest.pdf and .xlsx, and commits. GitHub Pages then republishes the site.
 name: Update PL data
 
 on:
   schedule:
-    - cron: "0 14 * * *"   # 8:00 AM MDT
-    - cron: "0 15 * * *"   # 8:00 AM MST
-    - cron: "0 3 * * *"    # 9:00 PM MDT
-    - cron: "0 4 * * *"    # 9:00 PM MST
+    - cron: "7 14 * * *"   # 8 AM MDT  / 7 AM MST (skipped)
+    - cron: "7 15 * * *"   # 9 AM MDT (backup) / 8 AM MST
+    - cron: "7 16 * * *"   # 10 AM MDT / 9 AM MST (backups)
+    - cron: "7 3 * * *"    # 9 PM MDT  / 8 PM MST (skipped)
+    - cron: "7 4 * * *"    # 10 PM MDT (backup) / 9 PM MST
+    - cron: "7 5 * * *"    # 11 PM MDT / 10 PM MST (backups)
   workflow_dispatch:        # "Run workflow" button on the Actions tab runs it immediately
+    inputs:
+      season:
+        description: "PL season for everyone (shoulder or fire season). Leave as is to keep the current one."
+        type: choice
+        options: ["Keep the current season", "Shoulder season", "Fire season"]
+        default: "Keep the current season"
+      backfill_from:
+        description: "Optional: re-pull past days from this date (YYYY-MM-DD) to yesterday, e.g. 2026-01-01"
+        required: false
+        default: ""
+      backfill_what:
+        description: "What to re-pull for those days"
+        type: choice
+        options: ["ERC/BI and weather", "ERC/BI only", "weather only"]
+        default: "ERC/BI and weather"
   push:                     # uploading an ERC/BI file to the uploads/ folder updates the site right away
     paths:
       - "uploads/**"
+      - "data/erc_bi_breakpoints.csv"   # editing the breakpoints recalculates the PSA percentiles right away
+      - "data/season.txt"               # switching the season by editing this file republishes the PL right away
 
 permissions:
   contents: write
@@ -31,24 +53,25 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 350   # a backfill from Jan 1 re-pulls a year of weather and can take a few hours
     steps:
-      - name: Check local time (America/Denver)
-        id: when
-        run: |
-          H=$(TZ=America/Denver date +%H)
-          echo "Local time: $(TZ=America/Denver date '+%Y-%m-%d %H:%M %Z')"
-          if [ "${{ github.event_name }}" != "schedule" ] || [ "$H" = "08" ] || [ "$H" = "21" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "Not the 8 AM or 9 PM run for the current UTC offset; skipping."
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - uses: actions/checkout@v4
-        if: steps.when.outputs.run == 'true'
         with:
           ref: main        # the newest version, not the one that existed when the run was queued
           fetch-depth: 0   # full history, so the newest file in uploads/ can be found by commit time
+
+      - name: Check the time (America/Denver)
+        id: when
+        run: |
+          NOW=$(TZ=America/Denver date '+%Y-%m-%d %H:%M %Z'); H=$(TZ=America/Denver date +%-H); TODAY=$(TZ=America/Denver date +%F)
+          echo "Local time: $NOW"
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if   [ "$H" -ge 8 ]  && [ "$H" -le 10 ]; then SLOT="morning"; LO=8;  HI=10
+          elif [ "$H" -ge 21 ] && [ "$H" -le 23 ]; then SLOT="evening"; LO=21; HI=23
+          else echo "Outside the 8–10 AM and 9–11 PM windows; nothing to do."; echo "run=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          DONE=$(awk -F, -v d="$TODAY" -v lo="$LO" -v hi="$HI" 'NR>1 && substr($1,1,10)==d { h=substr($1,12,2)+0; if (h>=lo && h<=hi) n++ } END { print n+0 }' data/archive/history.csv 2>/dev/null || echo 0)
+          if [ "$DONE" -gt 0 ]; then echo "The $SLOT run already happened today; skipping."; echo "run=false" >> "$GITHUB_OUTPUT"
+          else echo "Running the $SLOT update."; echo "run=true" >> "$GITHUB_OUTPUT"; fi
 
       - uses: actions/setup-node@v4
         if: steps.when.outputs.run == 'true'
@@ -57,12 +80,45 @@ jobs:
 
       - name: Check the calculations
         if: steps.when.outputs.run == 'true'
-        run: node tests/calc.test.js && node tests/sources.test.js && node tests/archive.test.js
+        run: node tests/calc.test.js && node tests/sources.test.js && node tests/archive.test.js && node tests/review.test.js && node tests/nfdrs.test.js
+
+      # Only this GitHub account can switch the PL season (shoulder / fire season). Anyone else's choice on the
+      # Run workflow form is ignored, and an edit of data/season.txt pushed by anyone else is put back.
+      - name: Set the PL season (SWCCFireWx account only)
+        if: steps.when.outputs.run == 'true'
+        env:
+          SEASON_OWNER: SWCCFireWx
+          ACTOR: ${{ github.actor }}
+          EVENT: ${{ github.event_name }}
+          SEASON: ${{ github.event.inputs.season }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          OWNER_LC=$(echo "$SEASON_OWNER" | tr '[:upper:]' '[:lower:]'); ACTOR_LC=$(echo "$ACTOR" | tr '[:upper:]' '[:lower:]')
+          if [ "$EVENT" = "workflow_dispatch" ] && [ -n "$SEASON" ] && [ "$SEASON" != "Keep the current season" ]; then
+            if [ "$ACTOR_LC" = "$OWNER_LC" ]; then
+              case "$SEASON" in "Fire season") echo "fire season" > data/season.txt ;; *) echo "shoulder" > data/season.txt ;; esac
+              echo "Season set to: $(cat data/season.txt) by $ACTOR (saved with the results, so every later run uses it)"
+            else
+              echo "::warning::Season NOT changed: only the $SEASON_OWNER account can switch the PL season ($ACTOR picked \"$SEASON\"). The rest of the run goes ahead."
+            fi
+          fi
+          if [ "$EVENT" = "push" ] && [ "$ACTOR_LC" != "$OWNER_LC" ] && [ -n "$BEFORE" ] && ! echo "$BEFORE" | grep -q '^0*$' \
+             && git diff --name-only "$BEFORE" "$AFTER" -- data/season.txt | grep -q season.txt; then
+            if git cat-file -e "$BEFORE:data/season.txt" 2>/dev/null; then git show "$BEFORE:data/season.txt" > data/season.txt; else rm -f data/season.txt; fi
+            echo "::warning::data/season.txt was changed by $ACTOR; only the $SEASON_OWNER account can switch the PL season, so it was put back to: $(cat data/season.txt 2>/dev/null || echo 'the starting season')."
+          fi
 
       - name: Pull data, apply uploaded ERC/BI file, archive the run
         if: steps.when.outputs.run == 'true'
         continue-on-error: true   # still build the briefing from the last good data if a source is down
-        run: node scripts/update-data.mjs
+        env:
+          FROM: ${{ github.event.inputs.backfill_from }}
+          WHAT: ${{ github.event.inputs.backfill_what }}
+        run: |
+          case "$WHAT" in "ERC/BI only") W=ercy ;; "weather only") W=weather ;; *) W=all ;; esac
+          if [[ "$FROM" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then node scripts/update-data.mjs "--backfill-from=$FROM" "--backfill-what=$W"
+          else node scripts/update-data.mjs; fi
 
       - name: Build PDF and Excel briefing
         if: steps.when.outputs.run == 'true'
