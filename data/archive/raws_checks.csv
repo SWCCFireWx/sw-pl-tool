@@ -25,3 +25,5 @@ date,psa,station_id,station,field,hour,value,reason,action
 2026-11-17,SW-12,293002,MAYHILL,min RH,,24,40 away from the other stations' median (64),dropped
 2026-11-17,SW-12,417101,PINERY,min RH,,91,32 away from the other stations' median (59),dropped
 2026-11-17,SW-12,417103,THE BOWL,gust,08:38,72,far above the sustained wind (0 mph); nothing else backs it up,dropped
+2026-11-18,SW-05,20215,MORMON LAKE,RH,05:03,0,outside 1–100,dropped
+2026-11-18,SW-12,417103,THE BOWL,gust,15:38,122,"over 90 mph, but backed up: 2 stations in the PSA gusted 40+ mph",kept – wind event
