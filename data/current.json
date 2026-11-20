@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "meta": {
-  "asOf": "2026-11-19T22:02",
+  "asOf": "2026-11-20T09:02",
   "preparedBy": "",
   "notes": "Seeded from 2026_SWA_PL_Dashboard_V3_SHOULDER_SEASON_MASTER.xlsx",
-  "source": "automated pull 2026-11-19T22:02"
+  "source": "automated pull 2026-11-20T09:02"
  },
  "preset": "shoulder",
  "weights": {
@@ -18,10 +18,10 @@
   "rating": "Minimum",
   "complex": 0,
   "t3": 0,
-  "updated": "2026-11-19T21:56",
+  "updated": "2026-11-20T08:56",
   "escapes": 0,
   "escapeList": [],
-  "fetchedAt": "2026-11-19T21:56",
+  "fetchedAt": "2026-11-20T08:56",
   "source": "WFIGS active incidents (auto)",
   "incidents": [],
   "activeTotal": 1,
@@ -188,7 +188,7 @@
    "remarks": ""
   }
  ],
- "imtsUpdated": "2026-11-19T21:56",
+ "imtsUpdated": "2026-11-20T08:56",
  "crews": [
   {
    "name": "Aravaipa",
@@ -452,9 +452,9 @@
   }
  ],
  "ooaCrews": [],
- "crewsUpdated": "2026-11-19T21:56",
+ "crewsUpdated": "2026-11-20T08:56",
  "outlook": {
-  "startDate": "2026-11-19",
+  "startDate": "2026-11-20",
   "values": {
    "SW01": [
     1,
@@ -592,17 +592,17 @@
     1
    ]
   },
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "source": "NPSG 7-Day (auto)",
-  "fetchedAt": "2026-11-19T21:56",
+  "fetchedAt": "2026-11-20T08:56",
   "missing": []
  },
  "danger": {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "rows": {
    "SW-01": {
-    "ercVal": 18,
-    "biVal": 13.6,
+    "ercVal": 16.3,
+    "biVal": 12.8,
     "ercPct": 45,
     "biPct": 45,
     "stations": 3,
@@ -610,8 +610,8 @@
     "missing": []
    },
    "SW-02": {
-    "ercVal": 23.7,
-    "biVal": 19.1,
+    "ercVal": 25.3,
+    "biVal": 23.6,
     "ercPct": 45,
     "biPct": 45,
     "stations": 3,
@@ -620,7 +620,7 @@
    },
    "SW-03": {
     "ercVal": 36,
-    "biVal": 22.2,
+    "biVal": 27.7,
     "ercPct": 45,
     "biPct": 45,
     "stations": 1,
@@ -628,8 +628,8 @@
     "missing": []
    },
    "SW-04": {
-    "ercVal": 17,
-    "biVal": 9.8,
+    "ercVal": 17.3,
+    "biVal": 10.8,
     "ercPct": 45,
     "biPct": 45,
     "stations": 3,
@@ -637,8 +637,8 @@
     "missing": []
    },
    "SW-05": {
-    "ercVal": 17.3,
-    "biVal": 14.1,
+    "ercVal": 18.3,
+    "biVal": 17.4,
     "ercPct": 45,
     "biPct": 45,
     "stations": 3,
@@ -646,8 +646,8 @@
     "missing": []
    },
    "SW-06N": {
-    "ercVal": 19,
-    "biVal": 15.7,
+    "ercVal": 20.5,
+    "biVal": 17.2,
     "ercPct": 45,
     "biPct": 45,
     "stations": 2,
@@ -655,8 +655,8 @@
     "missing": []
    },
    "SW-06S": {
-    "ercVal": 21.5,
-    "biVal": 16.5,
+    "ercVal": 22.8,
+    "biVal": 18.5,
     "ercPct": 45,
     "biPct": 45,
     "stations": 4,
@@ -664,8 +664,8 @@
     "missing": []
    },
    "SW-07": {
-    "ercVal": 19.3,
-    "biVal": 13.4,
+    "ercVal": 20.7,
+    "biVal": 14.8,
     "ercPct": 45,
     "biPct": 45,
     "stations": 3,
@@ -673,8 +673,8 @@
     "missing": []
    },
    "SW-08": {
-    "ercVal": 20.8,
-    "biVal": 16.2,
+    "ercVal": 21.8,
+    "biVal": 19,
     "ercPct": 45,
     "biPct": 45,
     "stations": 4,
@@ -682,8 +682,8 @@
     "missing": []
    },
    "SW-09": {
-    "ercVal": 22,
-    "biVal": 17,
+    "ercVal": 23.3,
+    "biVal": 19.3,
     "ercPct": 45,
     "biPct": 45,
     "stations": 3,
@@ -691,8 +691,8 @@
     "missing": []
    },
    "SW-10": {
-    "ercVal": 20.5,
-    "biVal": 15.8,
+    "ercVal": 22.5,
+    "biVal": 18.1,
     "ercPct": 45,
     "biPct": 45,
     "stations": 2,
@@ -700,8 +700,8 @@
     "missing": []
    },
    "SW-11": {
-    "ercVal": 19,
-    "biVal": 17.8,
+    "ercVal": 20,
+    "biVal": 20.5,
     "ercPct": 45,
     "biPct": 45,
     "stations": 2,
@@ -709,8 +709,8 @@
     "missing": []
    },
    "SW-12": {
-    "ercVal": 21.3,
-    "biVal": 17.7,
+    "ercVal": 23,
+    "biVal": 20.5,
     "ercPct": 45,
     "biPct": 45,
     "stations": 3,
@@ -718,8 +718,8 @@
     "missing": []
    },
    "SW-13": {
-    "ercVal": 13.5,
-    "biVal": 14.1,
+    "ercVal": 12.5,
+    "biVal": 13.6,
     "ercPct": 45,
     "biPct": 45,
     "stations": 2,
@@ -727,8 +727,8 @@
     "missing": []
    },
    "SW-14N": {
-    "ercVal": 11.7,
-    "biVal": 10.5,
+    "ercVal": 11.3,
+    "biVal": 12.1,
     "ercPct": 45,
     "biPct": 45,
     "stations": 3,
@@ -741,16 +741,16 @@
     "psa": "SW-01",
     "id": 20207,
     "name": "Tusayan",
-    "erc": 18.4,
-    "bi": 13.3,
+    "erc": 19.2,
+    "bi": 13.6,
     "reported": true
    },
    {
     "psa": "SW-01",
     "id": 20212,
     "name": "Dry Park",
-    "erc": 12.4,
-    "bi": 8.4,
+    "erc": 6.9,
+    "bi": 0,
     "reported": true
    },
    {
@@ -758,54 +758,54 @@
     "id": 20213,
     "name": "Frazier Wells",
     "erc": 22.9,
-    "bi": 19.1,
+    "bi": 24.9,
     "reported": true
    },
    {
     "psa": "SW-02",
     "id": 20115,
     "name": "Moss Basin",
-    "erc": 24.2,
-    "bi": 18.5,
+    "erc": 26.3,
+    "bi": 22.1,
     "reported": true
    },
    {
     "psa": "SW-02",
     "id": 20501,
     "name": "Iron Springs",
-    "erc": 20,
-    "bi": 16,
+    "erc": 22.2,
+    "bi": 24.7,
     "reported": true
    },
    {
     "psa": "SW-02",
     "id": 20509,
     "name": "Stanton",
-    "erc": 26.1,
-    "bi": 22.7,
+    "erc": 26.7,
+    "bi": 24.1,
     "reported": true
    },
    {
     "psa": "SW-03",
     "id": 45801,
     "name": "Senator Wash",
-    "erc": 35.6,
-    "bi": 22.2,
+    "erc": 35.4,
+    "bi": 27.7,
     "reported": true
    },
    {
     "psa": "SW-04",
     "id": 20402,
     "name": "Piney Hill",
-    "erc": 20.4,
-    "bi": 14.2,
+    "erc": 22.4,
+    "bi": 17,
     "reported": true
    },
    {
     "psa": "SW-04",
     "id": 290101,
     "name": "Washington Pass",
-    "erc": 11.3,
+    "erc": 7.7,
     "bi": 0,
     "reported": true
    },
@@ -813,295 +813,280 @@
     "psa": "SW-04",
     "id": 290102,
     "name": "Albino",
-    "erc": 18.6,
-    "bi": 15.2,
+    "erc": 21.1,
+    "bi": 15.5,
     "reported": true
    },
    {
     "psa": "SW-05",
     "id": 20209,
     "name": "Flagstaff",
-    "erc": 14.3,
-    "bi": 13.5,
+    "erc": 15.4,
+    "bi": 17.5,
     "reported": true
    },
    {
     "psa": "SW-05",
     "id": 20301,
     "name": "Heber",
-    "erc": 18.2,
-    "bi": 14.9,
+    "erc": 19.5,
+    "bi": 19.2,
     "reported": true
    },
    {
     "psa": "SW-05",
     "id": 20303,
     "name": "Lakeside",
-    "erc": 19,
-    "bi": 14,
+    "erc": 20.1,
+    "bi": 15.5,
     "reported": true
    },
    {
     "psa": "SW-06N",
     "id": 20601,
     "name": "Globe",
-    "erc": 20.3,
-    "bi": 16.7,
+    "erc": 22.2,
+    "bi": 18.8,
     "reported": true
    },
    {
     "psa": "SW-06N",
     "id": 20606,
     "name": "Tonto Basin",
-    "erc": 17.5,
-    "bi": 14.6,
+    "erc": 18.2,
+    "bi": 15.6,
     "reported": true
    },
    {
     "psa": "SW-06S",
     "id": 21005,
     "name": "Columbine",
-    "erc": 14.2,
-    "bi": 13.5,
+    "erc": 15.4,
+    "bi": 14.7,
     "reported": true
    },
    {
     "psa": "SW-06S",
     "id": 21007,
     "name": "Muleshoe",
-    "erc": 23.6,
-    "bi": 17.5,
+    "erc": 26.4,
+    "bi": 19.7,
     "reported": true
    },
    {
     "psa": "SW-06S",
     "id": 21202,
     "name": "Saguaro",
-    "erc": 25.5,
-    "bi": 17.4,
+    "erc": 25.9,
+    "bi": 18,
     "reported": true
    },
    {
     "psa": "SW-06S",
     "id": 21206,
     "name": "Sasabe",
-    "erc": 22,
-    "bi": 17.4,
+    "erc": 22.9,
+    "bi": 21.4,
     "reported": true
    },
    {
     "psa": "SW-07",
     "id": 290702,
     "name": "Jemez",
-    "erc": 16.4,
-    "bi": 11.3,
+    "erc": 17.2,
+    "bi": 11.6,
     "reported": true
    },
    {
     "psa": "SW-07",
     "id": 290801,
     "name": "Tower",
-    "erc": 21.8,
-    "bi": 16.7,
+    "erc": 22.4,
+    "bi": 17.9,
     "reported": true
    },
    {
     "psa": "SW-07",
     "id": 291302,
     "name": "Grants",
-    "erc": 19,
-    "bi": 12.3,
+    "erc": 21.9,
+    "bi": 14.8,
     "reported": true
    },
    {
     "psa": "SW-08",
     "id": 20401,
     "name": "Alpine",
-    "erc": 22.2,
-    "bi": 16.4,
+    "erc": 22.1,
+    "bi": 17,
     "reported": true
    },
    {
     "psa": "SW-08",
     "id": 292001,
     "name": "Beaverhead",
-    "erc": 20.9,
-    "bi": 15.5,
+    "erc": 22.3,
+    "bi": 19.3,
     "reported": true
    },
    {
     "psa": "SW-08",
     "id": 292008,
     "name": "Slaughter",
-    "erc": 19.7,
-    "bi": 16.2,
+    "erc": 20.5,
+    "bi": 18.7,
     "reported": true
    },
    {
     "psa": "SW-08",
     "id": 292009,
     "name": "Pelona",
-    "erc": 20,
-    "bi": 16.6,
+    "erc": 22.1,
+    "bi": 20.9,
     "reported": true
    },
    {
     "psa": "SW-09",
     "id": 292103,
     "name": "Bosque",
-    "erc": 19.5,
-    "bi": 13.6,
+    "erc": 19.7,
+    "bi": 18.1,
     "reported": true
    },
    {
     "psa": "SW-09",
     "id": 292702,
     "name": "Hachita Valley/Hatchett",
-    "erc": 20.5,
-    "bi": 16.7,
+    "erc": 21.3,
+    "bi": 18.7,
     "reported": true
    },
    {
     "psa": "SW-09",
     "id": 292903,
     "name": "Dripping Springs",
-    "erc": 26,
-    "bi": 20.8,
+    "erc": 28.2,
+    "bi": 21,
     "reported": true
    },
    {
     "psa": "SW-10",
     "id": 290210,
     "name": "Truchas",
-    "erc": 18.4,
-    "bi": 13.1,
+    "erc": 20.1,
+    "bi": 15,
     "reported": true
    },
    {
     "psa": "SW-10",
     "id": 291202,
     "name": "Pecos",
-    "erc": 22.4,
-    "bi": 18.4,
+    "erc": 24.1,
+    "bi": 21.1,
     "reported": true
    },
    {
     "psa": "SW-11",
     "id": 291501,
     "name": "Mountainair",
-    "erc": 20.6,
-    "bi": 17.8,
+    "erc": 21.3,
+    "bi": 20.1,
     "reported": true
    },
    {
     "psa": "SW-11",
     "id": 292102,
     "name": "Chupadera",
-    "erc": 17.3,
-    "bi": 17.8,
+    "erc": 18.6,
+    "bi": 20.8,
     "reported": true
    },
    {
     "psa": "SW-12",
     "id": 292203,
     "name": "Smokey Bear",
-    "erc": 20,
-    "bi": 19.1,
+    "erc": 21.3,
+    "bi": 21.1,
     "reported": true
    },
    {
     "psa": "SW-12",
     "id": 293002,
     "name": "Mayhill",
-    "erc": 22.8,
-    "bi": 17,
+    "erc": 24.9,
+    "bi": 20.2,
     "reported": true
    },
    {
     "psa": "SW-12",
     "id": 293003,
     "name": "Mescal",
-    "erc": 21.1,
-    "bi": 16.9,
+    "erc": 22.7,
+    "bi": 20.3,
     "reported": true
    },
    {
     "psa": "SW-13",
     "id": 418701,
     "name": "Cedar",
-    "erc": 15.7,
-    "bi": 16.6,
+    "erc": 13.6,
+    "bi": 16.7,
     "reported": true
    },
    {
     "psa": "SW-13",
     "id": 292301,
     "name": "Eight Mile",
-    "erc": 10.9,
-    "bi": 11.5,
+    "erc": 11.1,
+    "bi": 10.4,
     "reported": true
    },
    {
     "psa": "SW-14N",
     "id": 292301,
     "name": "Eight Mile",
-    "erc": 10.9,
-    "bi": 11.5,
+    "erc": 11.1,
+    "bi": 10.4,
     "reported": true
    },
    {
     "psa": "SW-14N",
     "id": 293101,
     "name": "Batdraw",
-    "erc": 12.2,
-    "bi": 9.5,
+    "erc": 9.2,
+    "bi": 9.9,
     "reported": true
    },
    {
     "psa": "SW-14N",
     "id": 293104,
     "name": "Caprock",
-    "erc": 11.1,
-    "bi": 10.4,
+    "erc": 12.9,
+    "bi": 16.1,
     "reported": true
    }
   ],
   "source": "FEMS NFDR daily summary (auto)",
-  "fetchedAt": "2026-11-19T21:57",
+  "fetchedAt": "2026-11-20T08:57",
   "breakpoints": "data/erc_bi_breakpoints.csv"
  },
  "imtsSource": {
   "source": "SWCC SharePoint (auto)",
-  "fetchedAt": "2026-11-19T21:56",
+  "fetchedAt": "2026-11-20T08:56",
   "lastUpdate": "0700 11/19/2026 DH"
  },
  "crewsSource": {
   "source": "SWCC SharePoint (auto)",
-  "fetchedAt": "2026-11-19T21:56",
+  "fetchedAt": "2026-11-20T08:56",
   "lastUpdate": "11/12/2026 07:00",
   "ooaLastUpdate": "11/12/2026 07:00",
   "t2iaLastUpdate": "11/12/2026 07:00",
   "t2iaSheet": "SWA Type 2IA "
  },
  "fireStarts": {
-  "from": "2026-11-12",
-  "to": "2026-11-18",
+  "from": "2026-11-13",
+  "to": "2026-11-19",
   "daily": {
-   "2026-11-12": {
-    "total": 1,
-    "lightning": 0,
-    "human": 1,
-    "unknown": 0,
-    "acres": 0.3,
-    "byPsa": {
-     "SW-05": {
-      "total": 1,
-      "lightning": 0,
-      "human": 1,
-      "unknown": 0
-     }
-    }
-   },
    "2026-11-13": {
     "total": 2,
     "lightning": 0,
@@ -1182,23 +1167,24 @@
       "unknown": 0
      }
     }
+   },
+   "2026-11-19": {
+    "total": 1,
+    "lightning": 0,
+    "human": 1,
+    "unknown": 0,
+    "acres": 0.1,
+    "byPsa": {
+     "SW-12": {
+      "total": 1,
+      "lightning": 0,
+      "human": 1,
+      "unknown": 0
+     }
+    }
    }
   },
   "fires": [
-   {
-    "id": "2026-AZFTA-001009",
-    "date": "2026-11-12",
-    "time": "14:06",
-    "name": "MP-2",
-    "cause": "human",
-    "causeRaw": "Human",
-    "acres": 0.25,
-    "state": "AZ",
-    "dispatch": "AZSDC",
-    "psa": "SW-05",
-    "lat": 33.9778,
-    "lon": -110.3487
-   },
    {
     "id": "2026-AZA3S-261532",
     "date": "2026-11-13",
@@ -1268,27 +1254,41 @@
     "psa": "SW-14N",
     "lat": 32.4747,
     "lon": -104.2606
+   },
+   {
+    "id": "2026-NMMEA-000796",
+    "date": "2026-11-19",
+    "time": "13:15",
+    "name": "PALMER LOOP",
+    "cause": "human",
+    "causeRaw": "Human",
+    "acres": 0.1,
+    "state": "NM",
+    "dispatch": "NMADC",
+    "psa": "SW-12",
+    "lat": 33.2711,
+    "lon": -105.7184
    }
   ],
   "placedByPsa": true,
   "layer": "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Incident_Locations_YearToDate/FeatureServer/0",
-  "fetchedAt": "2026-11-19T21:56",
+  "fetchedAt": "2026-11-20T08:56",
   "source": "WFIGS incident locations (auto)"
  },
  "raws": {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "byPsa": {
    "SW-01": {
     "stations": 7,
     "stationsListed": 7,
     "rawsStations": 6,
     "asosStations": 1,
-    "avgMaxTemp": 46.3,
-    "avgMinRh": 21.6,
-    "lowestRh": 14,
-    "maxGust": 15,
-    "avgPrecip": 0.13,
-    "wettingRain": 2,
+    "avgMaxTemp": 44.1,
+    "avgMinRh": 27.9,
+    "lowestRh": 18,
+    "maxGust": 33,
+    "avgPrecip": 0.01,
+    "wettingRain": 0,
     "readingsDropped": 0,
     "windEvent": false,
     "windyStations": 0
@@ -1298,25 +1298,25 @@
     "stationsListed": 19,
     "rawsStations": 13,
     "asosStations": 6,
-    "avgMaxTemp": 59.5,
-    "avgMinRh": 29.6,
-    "lowestRh": 24,
-    "maxGust": 22,
+    "avgMaxTemp": 62.3,
+    "avgMinRh": 30.7,
+    "lowestRh": 13,
+    "maxGust": 45,
     "avgPrecip": 0.01,
     "wettingRain": 1,
     "readingsDropped": 0,
-    "windEvent": false,
-    "windyStations": 0
+    "windEvent": true,
+    "windyStations": 3
    },
    "SW-03": {
     "stations": 11,
     "stationsListed": 11,
     "rawsStations": 6,
     "asosStations": 5,
-    "avgMaxTemp": 71.8,
-    "avgMinRh": 26.1,
-    "lowestRh": 18,
-    "maxGust": 15,
+    "avgMaxTemp": 74,
+    "avgMinRh": 28.2,
+    "lowestRh": 19,
+    "maxGust": 22,
     "avgPrecip": 0,
     "wettingRain": 0,
     "readingsDropped": 0,
@@ -1328,11 +1328,11 @@
     "stationsListed": 10,
     "rawsStations": 6,
     "asosStations": 4,
-    "avgMaxTemp": 49.5,
-    "avgMinRh": 36.7,
-    "lowestRh": 26,
-    "maxGust": 22,
-    "avgPrecip": 0.01,
+    "avgMaxTemp": 55.8,
+    "avgMinRh": 35.7,
+    "lowestRh": 21,
+    "maxGust": 36,
+    "avgPrecip": 0,
     "wettingRain": 0,
     "readingsDropped": 0,
     "windEvent": false,
@@ -1343,13 +1343,13 @@
     "stationsListed": 15,
     "rawsStations": 10,
     "asosStations": 5,
-    "avgMaxTemp": 53.1,
-    "avgMinRh": 34.3,
-    "lowestRh": 22,
-    "maxGust": 26,
+    "avgMaxTemp": 54.7,
+    "avgMinRh": 39.6,
+    "lowestRh": 24,
+    "maxGust": 36,
     "avgPrecip": 0,
     "wettingRain": 0,
-    "readingsDropped": 1,
+    "readingsDropped": 0,
     "windEvent": false,
     "windyStations": 0
    },
@@ -1358,10 +1358,10 @@
     "stationsListed": 22,
     "rawsStations": 10,
     "asosStations": 12,
-    "avgMaxTemp": 66.9,
-    "avgMinRh": 38.1,
-    "lowestRh": 31,
-    "maxGust": 18,
+    "avgMaxTemp": 69.9,
+    "avgMinRh": 35.6,
+    "lowestRh": 30,
+    "maxGust": 23,
     "avgPrecip": 0,
     "wettingRain": 0,
     "readingsDropped": 0,
@@ -1373,12 +1373,12 @@
     "stationsListed": 29,
     "rawsStations": 17,
     "asosStations": 11,
-    "avgMaxTemp": 65.8,
-    "avgMinRh": 32.9,
+    "avgMaxTemp": 70.1,
+    "avgMinRh": 22,
     "lowestRh": 12,
-    "maxGust": 23,
-    "avgPrecip": 0.01,
-    "wettingRain": 1,
+    "maxGust": 25,
+    "avgPrecip": 0,
+    "wettingRain": 0,
     "readingsDropped": 0,
     "windEvent": false,
     "windyStations": 0
@@ -1388,12 +1388,12 @@
     "stationsListed": 19,
     "rawsStations": 16,
     "asosStations": 3,
-    "avgMaxTemp": 50.7,
-    "avgMinRh": 36.1,
-    "lowestRh": 20,
-    "maxGust": 34,
-    "avgPrecip": 0.03,
-    "wettingRain": 2,
+    "avgMaxTemp": 53.9,
+    "avgMinRh": 42.5,
+    "lowestRh": 29,
+    "maxGust": 27,
+    "avgPrecip": 0,
+    "wettingRain": 0,
     "readingsDropped": 0,
     "windEvent": false,
     "windyStations": 0
@@ -1403,12 +1403,12 @@
     "stationsListed": 19,
     "rawsStations": 16,
     "asosStations": 3,
-    "avgMaxTemp": 55.4,
-    "avgMinRh": 32.3,
-    "lowestRh": 23,
-    "maxGust": 29,
-    "avgPrecip": 0.01,
-    "wettingRain": 1,
+    "avgMaxTemp": 58.4,
+    "avgMinRh": 33.1,
+    "lowestRh": 21,
+    "maxGust": 36,
+    "avgPrecip": 0,
+    "wettingRain": 0,
     "readingsDropped": 0,
     "windEvent": false,
     "windyStations": 0
@@ -1418,12 +1418,12 @@
     "stationsListed": 17,
     "rawsStations": 6,
     "asosStations": 11,
-    "avgMaxTemp": 62.3,
-    "avgMinRh": 38.4,
-    "lowestRh": 33,
-    "maxGust": 26,
-    "avgPrecip": 0.01,
-    "wettingRain": 1,
+    "avgMaxTemp": 65.9,
+    "avgMinRh": 38.2,
+    "lowestRh": 19,
+    "maxGust": 25,
+    "avgPrecip": 0,
+    "wettingRain": 0,
     "readingsDropped": 0,
     "windEvent": false,
     "windyStations": 0
@@ -1433,28 +1433,28 @@
     "stationsListed": 10,
     "rawsStations": 5,
     "asosStations": 5,
-    "avgMaxTemp": 49,
-    "avgMinRh": 27.5,
+    "avgMaxTemp": 52.7,
+    "avgMinRh": 33.4,
     "lowestRh": 8,
-    "maxGust": 39,
-    "avgPrecip": 0.1,
-    "wettingRain": 4,
+    "maxGust": 44,
+    "avgPrecip": 0,
+    "wettingRain": 0,
     "readingsDropped": 0,
     "windEvent": false,
-    "windyStations": 0
+    "windyStations": 1
    },
    "SW-11": {
     "stations": 6,
     "stationsListed": 6,
     "rawsStations": 4,
     "asosStations": 2,
-    "avgMaxTemp": 53.2,
-    "avgMinRh": 42.7,
-    "lowestRh": 34,
-    "maxGust": 37,
-    "avgPrecip": 0.07,
-    "wettingRain": 1,
-    "readingsDropped": 0,
+    "avgMaxTemp": 58.3,
+    "avgMinRh": 46.8,
+    "lowestRh": 36,
+    "maxGust": 30,
+    "avgPrecip": 0,
+    "wettingRain": 0,
+    "readingsDropped": 8,
     "windEvent": false,
     "windyStations": 0
    },
@@ -1463,28 +1463,28 @@
     "stationsListed": 12,
     "rawsStations": 11,
     "asosStations": 1,
-    "avgMaxTemp": 60.4,
-    "avgMinRh": 43.2,
-    "lowestRh": 30,
-    "maxGust": 50,
-    "avgPrecip": 0.01,
+    "avgMaxTemp": 63.8,
+    "avgMinRh": 41.8,
+    "lowestRh": 25,
+    "maxGust": 28,
+    "avgPrecip": 0,
     "wettingRain": 0,
-    "readingsDropped": 1,
-    "windEvent": true,
-    "windyStations": 2
+    "readingsDropped": 0,
+    "windEvent": false,
+    "windyStations": 0
    },
    "SW-13": {
     "stations": 7,
     "stationsListed": 8,
     "rawsStations": 2,
     "asosStations": 5,
-    "avgMaxTemp": 61.9,
-    "avgMinRh": 54.5,
-    "lowestRh": 31,
+    "avgMaxTemp": 63.8,
+    "avgMinRh": 49.4,
+    "lowestRh": 29,
     "maxGust": 41,
-    "avgPrecip": 0.02,
-    "wettingRain": 1,
-    "readingsDropped": 3,
+    "avgPrecip": 0,
+    "wettingRain": 0,
+    "readingsDropped": 0,
     "windEvent": false,
     "windyStations": 1
    },
@@ -1493,10 +1493,10 @@
     "stationsListed": 8,
     "rawsStations": 4,
     "asosStations": 4,
-    "avgMaxTemp": 58.8,
-    "avgMinRh": 72.6,
-    "lowestRh": 56,
-    "maxGust": 19,
+    "avgMaxTemp": 60.4,
+    "avgMinRh": 69.5,
+    "lowestRh": 57,
+    "maxGust": 26,
     "avgPrecip": 0.01,
     "wettingRain": 0,
     "readingsDropped": 0,
@@ -1511,9 +1511,9 @@
     "name": "BRIGHT ANGEL",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 42,
-    "minRh": 22,
-    "maxGust": 13,
+    "maxTemp": 40,
+    "minRh": 31,
+    "maxGust": 29,
     "precip": 0,
     "issues": 0
    },
@@ -1523,10 +1523,10 @@
     "name": "DRY PARK",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 45,
-    "minRh": 19,
-    "maxGust": 13,
-    "precip": 0.28,
+    "maxTemp": 37,
+    "minRh": 26,
+    "maxGust": 25,
+    "precip": 0.03,
     "issues": 0
    },
    {
@@ -1535,9 +1535,9 @@
     "name": "FRAZIER WELLS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 49,
+    "maxTemp": 47,
     "minRh": 26,
-    "maxGust": 15,
+    "maxGust": 31,
     "precip": 0,
     "issues": 0
    },
@@ -1547,10 +1547,10 @@
     "name": "LINDBERGH HILL",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 46,
-    "minRh": 14,
-    "maxGust": 10,
-    "precip": 0.61,
+    "maxTemp": 39,
+    "minRh": 33,
+    "maxGust": 24,
+    "precip": 0.03,
     "issues": 0
    },
    {
@@ -1559,10 +1559,10 @@
     "name": "TUSAYAN",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 49,
-    "minRh": 23,
-    "maxGust": 10,
-    "precip": 0,
+    "maxTemp": 52,
+    "minRh": 30,
+    "maxGust": 15,
+    "precip": 0.01,
     "issues": 0
    },
    {
@@ -1572,8 +1572,8 @@
     "network": "RAWS",
     "hours": 24,
     "maxTemp": 45,
-    "minRh": 21,
-    "maxGust": 11,
+    "minRh": 18,
+    "maxGust": 27,
     "precip": 0,
     "issues": 0
    },
@@ -1583,9 +1583,9 @@
     "name": "GRAND CANYON PARK (GCN)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 48,
-    "minRh": 26,
-    "maxGust": 8,
+    "maxTemp": 49,
+    "minRh": 31,
+    "maxGust": 33,
     "precip": 0,
     "issues": 0
    },
@@ -1595,10 +1595,10 @@
     "name": "CHERRY",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 56,
-    "minRh": 43,
-    "maxGust": 11,
-    "precip": 0.04,
+    "maxTemp": 60,
+    "minRh": 41,
+    "maxGust": 26,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -1608,8 +1608,8 @@
     "network": "RAWS",
     "hours": 24,
     "maxTemp": 55,
-    "minRh": 30,
-    "maxGust": 9,
+    "minRh": 13,
+    "maxGust": 18,
     "precip": 0,
     "issues": 0
    },
@@ -1619,9 +1619,9 @@
     "name": "GOODWIN MESA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 56,
-    "minRh": 24,
-    "maxGust": 16,
+    "maxTemp": 57,
+    "minRh": 43,
+    "maxGust": 26,
     "precip": 0,
     "issues": 0
    },
@@ -1631,9 +1631,9 @@
     "name": "HAVASU",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 70,
-    "minRh": 27,
-    "maxGust": 8,
+    "maxTemp": 74,
+    "minRh": 23,
+    "maxGust": 24,
     "precip": 0,
     "issues": 0
    },
@@ -1643,9 +1643,9 @@
     "name": "HUMBUG CREEK",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 57,
-    "minRh": 24,
-    "maxGust": 22,
+    "maxTemp": 58,
+    "minRh": 50,
+    "maxGust": 19,
     "precip": 0,
     "issues": 0
    },
@@ -1655,9 +1655,9 @@
     "name": "IRON SPRINGS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 58,
-    "minRh": 24,
-    "maxGust": 11,
+    "maxTemp": 59,
+    "minRh": 19,
+    "maxGust": 26,
     "precip": 0,
     "issues": 0
    },
@@ -1667,9 +1667,9 @@
     "name": "MOSS BASIN",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 51,
-    "minRh": 32,
-    "maxGust": 16,
+    "maxTemp": 56,
+    "minRh": 15,
+    "maxGust": 27,
     "precip": 0,
     "issues": 0
    },
@@ -1678,11 +1678,11 @@
     "id": 20119,
     "name": "MUSIC MOUNTAIN",
     "network": "RAWS",
-    "hours": 23,
-    "maxTemp": 53,
-    "minRh": 27,
-    "maxGust": 16,
-    "precip": 0,
+    "hours": 24,
+    "maxTemp": 54,
+    "minRh": 43,
+    "maxGust": 45,
+    "precip": 0.16,
     "issues": 0
    },
    {
@@ -1691,9 +1691,9 @@
     "name": "SMITH PEAK",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 66,
-    "minRh": 25,
-    "maxGust": 12,
+    "maxTemp": 67,
+    "minRh": 34,
+    "maxGust": 21,
     "precip": 0,
     "issues": 0
    },
@@ -1703,8 +1703,8 @@
     "name": "STANTON",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 62,
-    "minRh": 25,
+    "maxTemp": 63,
+    "minRh": 43,
     "maxGust": 22,
     "precip": 0,
     "issues": 0
@@ -1715,10 +1715,10 @@
     "name": "SUNSET POINT",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 63,
-    "minRh": 40,
-    "maxGust": 14,
-    "precip": 0.11,
+    "maxTemp": 64,
+    "minRh": 42,
+    "maxGust": 22,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -1727,10 +1727,10 @@
     "name": "TRUXTON CANYON",
     "network": "RAWS",
     "hours": 23,
-    "maxTemp": 50,
-    "minRh": 33,
-    "maxGust": 21,
-    "precip": 0,
+    "maxTemp": 52,
+    "minRh": 39,
+    "maxGust": 40,
+    "precip": 0.01,
     "issues": 0
    },
    {
@@ -1739,9 +1739,9 @@
     "name": "UNION PASS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 58,
-    "minRh": 34,
-    "maxGust": 12,
+    "maxTemp": 59,
+    "minRh": 31,
+    "maxGust": 34,
     "precip": 0,
     "issues": 0
    },
@@ -1751,9 +1751,9 @@
     "name": "BULL HEAD CITY (IFP)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 66.2,
-    "minRh": 32,
-    "maxGust": 6,
+    "maxTemp": 71.6,
+    "minRh": 23,
+    "maxGust": 30,
     "precip": 0,
     "issues": 0
    },
@@ -1763,9 +1763,9 @@
     "name": "Cottonwood (P52)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 59,
-    "minRh": 27,
-    "maxGust": 8,
+    "maxTemp": 66.2,
+    "minRh": 22,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -1775,9 +1775,9 @@
     "name": "Kingman (IGM)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 56,
-    "minRh": 33,
-    "maxGust": 14,
+    "maxTemp": 62,
+    "minRh": 25,
+    "maxGust": 41,
     "precip": 0,
     "issues": 0
    },
@@ -1787,9 +1787,9 @@
     "name": "Lake Havasu City (HII)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 68,
-    "minRh": 26,
-    "maxGust": 6,
+    "maxTemp": 73.4,
+    "minRh": 23,
+    "maxGust": 26,
     "precip": 0,
     "issues": 0
    },
@@ -1798,10 +1798,10 @@
     "id": "ASOS:LUF",
     "name": "LUKE AFB/PHOENIX (LUF)",
     "network": "ASOS/AWOS",
-    "hours": 22,
-    "maxTemp": 70.3,
-    "minRh": 29,
-    "maxGust": 8,
+    "hours": 24,
+    "maxTemp": 72,
+    "minRh": 35,
+    "maxGust": 7,
     "precip": 0,
     "issues": 0
    },
@@ -1811,9 +1811,9 @@
     "name": "PRESCOTT/LOVE FLD (PRC)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 56,
-    "minRh": 28,
-    "maxGust": 10,
+    "maxTemp": 60,
+    "minRh": 19,
+    "maxGust": 28,
     "precip": 0,
     "issues": 0
    },
@@ -1823,9 +1823,9 @@
     "name": "AHAKHAV PRESERVE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 73,
-    "minRh": 21,
-    "maxGust": 7,
+    "maxTemp": 75,
+    "minRh": 24,
+    "maxGust": 16,
     "precip": 0,
     "issues": 0
    },
@@ -1835,9 +1835,9 @@
     "name": "BELMONT",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 67,
-    "minRh": 29,
-    "maxGust": 10,
+    "maxTemp": 69,
+    "minRh": 42,
+    "maxGust": 12,
     "precip": 0,
     "issues": 0
    },
@@ -1847,9 +1847,9 @@
     "name": "CIBOLA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 75,
-    "minRh": 25,
-    "maxGust": 11,
+    "maxTemp": 76,
+    "minRh": 24,
+    "maxGust": 18,
     "precip": 0,
     "issues": 0
    },
@@ -1859,9 +1859,9 @@
     "name": "FORT YUMA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 77,
-    "minRh": 23,
-    "maxGust": 10,
+    "maxTemp": 76,
+    "minRh": 25,
+    "maxGust": 16,
     "precip": 0,
     "issues": 0
    },
@@ -1871,9 +1871,9 @@
     "name": "OATMAN",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 68,
-    "minRh": 30,
-    "maxGust": 15,
+    "maxTemp": 72,
+    "minRh": 28,
+    "maxGust": 22,
     "precip": 0,
     "issues": 0
    },
@@ -1883,9 +1883,9 @@
     "name": "SELLS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 71,
-    "minRh": 36,
-    "maxGust": 10,
+    "maxTemp": 77,
+    "minRh": 19,
+    "maxGust": 17,
     "precip": 0,
     "issues": 0
    },
@@ -1896,8 +1896,8 @@
     "network": "ASOS/AWOS",
     "hours": 24,
     "maxTemp": 69.8,
-    "minRh": 33,
-    "maxGust": 9,
+    "minRh": 40,
+    "maxGust": 14,
     "precip": 0,
     "issues": 0
    },
@@ -1907,9 +1907,9 @@
     "name": "Gila Bend Af Aux (GXF)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 71,
-    "minRh": 34,
-    "maxGust": 8,
+    "maxTemp": 73.8,
+    "minRh": 37,
+    "maxGust": 10,
     "precip": 0,
     "issues": 0
    },
@@ -1918,10 +1918,10 @@
     "id": "ASOS:LGF",
     "name": "Laguna AAF (LGF)",
     "network": "ASOS/AWOS",
-    "hours": 23,
-    "maxTemp": 73.2,
-    "minRh": 18,
-    "maxGust": 7,
+    "hours": 24,
+    "maxTemp": 75.7,
+    "minRh": 23,
+    "maxGust": 12,
     "precip": 0,
     "issues": 0
    },
@@ -1930,10 +1930,10 @@
     "id": "ASOS:NOZ",
     "name": "Wellton (NOZ)",
     "network": "ASOS/AWOS",
-    "hours": 19,
-    "maxTemp": 72,
-    "minRh": 20,
-    "maxGust": 8,
+    "hours": 20,
+    "maxTemp": 75,
+    "minRh": 25,
+    "maxGust": 10,
     "precip": 0,
     "issues": 0
    },
@@ -1942,10 +1942,10 @@
     "id": "ASOS:NYL",
     "name": "YUMA MCAS (NYL)",
     "network": "ASOS/AWOS",
-    "hours": 17,
-    "maxTemp": 73,
-    "minRh": 18,
-    "maxGust": 9,
+    "hours": 20,
+    "maxTemp": 75,
+    "minRh": 23,
+    "maxGust": 21,
     "precip": 0,
     "issues": 0
    },
@@ -1955,9 +1955,9 @@
     "name": "HOPI",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 53,
-    "minRh": 38,
-    "maxGust": 16,
+    "maxTemp": 61,
+    "minRh": 28,
+    "maxGust": 29,
     "precip": 0,
     "issues": 0
    },
@@ -1967,9 +1967,9 @@
     "name": "NAVAJO MONUMENT",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 46,
-    "minRh": 26,
-    "maxGust": 11,
+    "maxTemp": 51,
+    "minRh": 43,
+    "maxGust": 26,
     "precip": 0,
     "issues": 0
    },
@@ -1979,9 +1979,9 @@
     "name": "PINEY HILL",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 46,
-    "minRh": 48,
-    "maxGust": 20,
+    "maxTemp": 51,
+    "minRh": 43,
+    "maxGust": 31,
     "precip": 0,
     "issues": 0
    },
@@ -1991,10 +1991,10 @@
     "name": "ALBINO CANYON",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 48,
-    "minRh": 34,
-    "maxGust": 18,
-    "precip": 0.05,
+    "maxTemp": 53,
+    "minRh": 41,
+    "maxGust": 14,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2003,10 +2003,10 @@
     "name": "WASHINGTON PASS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 41,
-    "minRh": 47,
-    "maxGust": 22,
-    "precip": 0.09,
+    "maxTemp": 43,
+    "minRh": 53,
+    "maxGust": 23,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2015,9 +2015,9 @@
     "name": "ZUNI BUTTES",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 56,
-    "minRh": 27,
-    "maxGust": 13,
+    "maxTemp": 60,
+    "minRh": 31,
+    "maxGust": 20,
     "precip": 0,
     "issues": 0
    },
@@ -2027,9 +2027,9 @@
     "name": "WINDOW ROCK (WAS P34) (RQE)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 49,
-    "minRh": 42,
-    "maxGust": 9,
+    "maxTemp": 56,
+    "minRh": 33,
+    "maxGust": 36,
     "precip": 0,
     "issues": 0
    },
@@ -2039,9 +2039,9 @@
     "name": "WINSLOW (AUT) (INW)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 55,
-    "minRh": 38,
-    "maxGust": 8,
+    "maxTemp": 65,
+    "minRh": 21,
+    "maxGust": 31,
     "precip": 0,
     "issues": 0
    },
@@ -2051,9 +2051,9 @@
     "name": "FARMINGTON REGIONAL (FMN)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 51,
-    "minRh": 30,
-    "maxGust": 10,
+    "maxTemp": 59,
+    "minRh": 32,
+    "maxGust": 20,
     "precip": 0,
     "issues": 0
    },
@@ -2063,9 +2063,9 @@
     "name": "GALLUP MUNI/CLARKE (GUP)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 50,
-    "minRh": 37,
-    "maxGust": 8,
+    "maxTemp": 59,
+    "minRh": 32,
+    "maxGust": 26,
     "precip": 0,
     "issues": 0
    },
@@ -2076,9 +2076,9 @@
     "network": "RAWS",
     "hours": 24,
     "maxTemp": 50,
-    "minRh": 26,
-    "maxGust": 11,
-    "precip": 0.03,
+    "minRh": 48,
+    "maxGust": 26,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2088,8 +2088,8 @@
     "network": "RAWS",
     "hours": 24,
     "maxTemp": 50,
-    "minRh": 22,
-    "maxGust": 14,
+    "minRh": 39,
+    "maxGust": 27,
     "precip": 0,
     "issues": 0
    },
@@ -2099,10 +2099,10 @@
     "name": "HAPPY JACK",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 54,
-    "minRh": 26,
-    "maxGust": 13,
-    "precip": 0,
+    "maxTemp": 53,
+    "minRh": 42,
+    "maxGust": 30,
+    "precip": 0.01,
     "issues": 0
    },
    {
@@ -2111,9 +2111,9 @@
     "name": "HEBER",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 54,
-    "minRh": 42,
-    "maxGust": 17,
+    "maxTemp": 57,
+    "minRh": 38,
+    "maxGust": 25,
     "precip": 0,
     "issues": 0
    },
@@ -2123,9 +2123,9 @@
     "name": "LIMESTONE CANYON",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 53,
-    "minRh": 44,
-    "maxGust": 26,
+    "maxTemp": 56,
+    "minRh": 32,
+    "maxGust": 36,
     "precip": 0,
     "issues": 0
    },
@@ -2135,11 +2135,11 @@
     "name": "MORMON LAKE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 52,
-    "minRh": 36,
-    "maxGust": 16,
-    "precip": 0.03,
-    "issues": 1
+    "maxTemp": 51,
+    "minRh": 53,
+    "maxGust": 29,
+    "precip": 0,
+    "issues": 0
    },
    {
     "psa": "SW-05",
@@ -2147,9 +2147,9 @@
     "name": "OAK CREEK",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 56,
-    "minRh": 29,
-    "maxGust": 13,
+    "maxTemp": 59,
+    "minRh": 40,
+    "maxGust": 20,
     "precip": 0,
     "issues": 0
    },
@@ -2159,10 +2159,10 @@
     "name": "PROMONTORY",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 48,
-    "minRh": 51,
-    "maxGust": 15,
-    "precip": 0,
+    "maxTemp": 50,
+    "minRh": 50,
+    "maxGust": 23,
+    "precip": 0.01,
     "issues": 0
    },
    {
@@ -2171,9 +2171,9 @@
     "name": "RED LAKE",
     "network": "RAWS",
     "hours": 23,
-    "maxTemp": 53,
-    "minRh": 44,
-    "maxGust": 12,
+    "maxTemp": 56,
+    "minRh": 42,
+    "maxGust": 17,
     "precip": 0,
     "issues": 0
    },
@@ -2183,10 +2183,10 @@
     "name": "SHADOW RIM",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 57,
+    "maxTemp": 59,
     "minRh": 46,
-    "maxGust": 7,
-    "precip": 0.01,
+    "maxGust": 12,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2196,8 +2196,8 @@
     "network": "ASOS/AWOS",
     "hours": 24,
     "maxTemp": 49,
-    "minRh": 28,
-    "maxGust": 9,
+    "minRh": 50,
+    "maxGust": 33,
     "precip": 0,
     "issues": 0
    },
@@ -2207,9 +2207,9 @@
     "name": "Sedona (SEZ)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 55.4,
-    "minRh": 30,
-    "maxGust": 16,
+    "maxTemp": 60.8,
+    "minRh": 33,
+    "maxGust": 30,
     "precip": 0,
     "issues": 0
    },
@@ -2219,9 +2219,9 @@
     "name": "SHOW LOW MUNICIPAL (SOW)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 55.4,
-    "minRh": 38,
-    "maxGust": 20,
+    "maxTemp": 57.2,
+    "minRh": 28,
+    "maxGust": 32,
     "precip": 0,
     "issues": 0
    },
@@ -2231,9 +2231,9 @@
     "name": "Taylor (TYL)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 57.2,
-    "minRh": 31,
-    "maxGust": 20,
+    "maxTemp": 60.8,
+    "minRh": 29,
+    "maxGust": 35,
     "precip": 0,
     "issues": 0
    },
@@ -2244,8 +2244,8 @@
     "network": "ASOS/AWOS",
     "hours": 24,
     "maxTemp": 51.8,
-    "minRh": 22,
-    "maxGust": 21,
+    "minRh": 24,
+    "maxGust": 36,
     "precip": 0,
     "issues": 0
    },
@@ -2255,8 +2255,8 @@
     "name": "CASA GRANDE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 73,
-    "minRh": 38,
+    "maxTemp": 77,
+    "minRh": 33,
     "maxGust": 10,
     "precip": 0,
     "issues": 0
@@ -2267,8 +2267,8 @@
     "name": "GLOBE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 63,
-    "minRh": 41,
+    "maxTemp": 66,
+    "minRh": 37,
     "maxGust": 18,
     "precip": 0,
     "issues": 0
@@ -2279,10 +2279,10 @@
     "name": "GOLDFIELD",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 73,
+    "maxTemp": 76,
     "minRh": 38,
     "maxGust": 10,
-    "precip": 0.05,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2291,10 +2291,10 @@
     "name": "HILLTOP",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 57,
-    "minRh": 48,
-    "maxGust": 11,
-    "precip": 0.04,
+    "maxTemp": 61,
+    "minRh": 38,
+    "maxGust": 16,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2303,10 +2303,10 @@
     "name": "PAYSON",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 59,
-    "minRh": 45,
-    "maxGust": 10,
-    "precip": 0.01,
+    "maxTemp": 61,
+    "minRh": 44,
+    "maxGust": 17,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2315,10 +2315,10 @@
     "name": "PINE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 57,
+    "maxTemp": 59,
     "minRh": 44,
-    "maxGust": 14,
-    "precip": 0,
+    "maxGust": 17,
+    "precip": 0.01,
     "issues": 0
    },
    {
@@ -2327,9 +2327,9 @@
     "name": "PLEASANT VALLEY",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 60,
-    "minRh": 39,
-    "maxGust": 13,
+    "maxTemp": 63,
+    "minRh": 32,
+    "maxGust": 16,
     "precip": 0,
     "issues": 0
    },
@@ -2339,9 +2339,9 @@
     "name": "SAN CARLOS #1",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 71,
-    "minRh": 32,
-    "maxGust": 15,
+    "maxTemp": 72,
+    "minRh": 39,
+    "maxGust": 13,
     "precip": 0,
     "issues": 0
    },
@@ -2351,9 +2351,9 @@
     "name": "TONTO BASIN",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 68,
-    "minRh": 42,
-    "maxGust": 11,
+    "maxTemp": 72,
+    "minRh": 39,
+    "maxGust": 12,
     "precip": 0,
     "issues": 0
    },
@@ -2363,9 +2363,9 @@
     "name": "VERDE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 66,
-    "minRh": 35,
-    "maxGust": 7,
+    "maxTemp": 69,
+    "minRh": 31,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -2375,9 +2375,9 @@
     "name": "CASA GRANDA (AWOS) (CGZ)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 68,
-    "minRh": 40,
-    "maxGust": 8,
+    "maxTemp": 74,
+    "minRh": 30,
+    "maxGust": 7,
     "precip": 0,
     "issues": 0
    },
@@ -2387,7 +2387,7 @@
     "name": "CHANDLER MUNICIPAL AIRPORT (CHD)",
     "network": "ASOS/AWOS",
     "hours": 16,
-    "maxTemp": 71.6,
+    "maxTemp": 73.4,
     "minRh": 33,
     "maxGust": 7,
     "precip": 0,
@@ -2399,9 +2399,9 @@
     "name": "Coolidge (P08)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 69.8,
-    "minRh": 40,
-    "maxGust": 8,
+    "maxTemp": 73.4,
+    "minRh": 36,
+    "maxGust": 10,
     "precip": 0,
     "issues": 0
    },
@@ -2411,9 +2411,9 @@
     "name": "DEER VALLEY/PHOENIX (DVT)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 68,
-    "minRh": 32,
-    "maxGust": 10,
+    "maxTemp": 71,
+    "minRh": 31,
+    "maxGust": 8,
     "precip": 0,
     "issues": 0
    },
@@ -2423,9 +2423,9 @@
     "name": "GLENDALE (GEU)",
     "network": "ASOS/AWOS",
     "hours": 15,
-    "maxTemp": 69.8,
-    "minRh": 31,
-    "maxGust": 7,
+    "maxTemp": 71.6,
+    "minRh": 35,
+    "maxGust": 6,
     "precip": 0,
     "issues": 0
    },
@@ -2434,10 +2434,10 @@
     "id": "ASOS:GYR",
     "name": "GOODYEAR MUNICIPAL (GYR)",
     "network": "ASOS/AWOS",
-    "hours": 14,
+    "hours": 16,
     "maxTemp": 71.6,
-    "minRh": 33,
-    "maxGust": 6,
+    "minRh": 38,
+    "maxGust": 9,
     "precip": 0,
     "issues": 0
    },
@@ -2447,9 +2447,9 @@
     "name": "Maricopa - Ak-chin (A39)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 69.8,
-    "minRh": 38,
-    "maxGust": 7,
+    "maxTemp": 75.2,
+    "minRh": 31,
+    "maxGust": 13,
     "precip": 0,
     "issues": 0
    },
@@ -2459,9 +2459,9 @@
     "name": "MESA/FALCON FIELD (FFZ)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 69,
-    "minRh": 38,
-    "maxGust": 10,
+    "maxTemp": 72,
+    "minRh": 34,
+    "maxGust": 8,
     "precip": 0,
     "issues": 0
    },
@@ -2471,9 +2471,9 @@
     "name": "Payson (PAN)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 55.4,
-    "minRh": 50,
-    "maxGust": 8,
+    "maxTemp": 59,
+    "minRh": 41,
+    "maxGust": 21,
     "precip": 0,
     "issues": 0
    },
@@ -2483,9 +2483,9 @@
     "name": "PHOENIX/SKY HARBOR (PHX)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 71,
+    "maxTemp": 75,
     "minRh": 32,
-    "maxGust": 6,
+    "maxGust": 9,
     "precip": 0,
     "issues": 0
    },
@@ -2495,9 +2495,9 @@
     "name": "SCOTTSDALE MUNI (SDL)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 70,
-    "minRh": 31,
-    "maxGust": 6,
+    "maxTemp": 72,
+    "minRh": 34,
+    "maxGust": 9,
     "precip": 0,
     "issues": 0
    },
@@ -2506,10 +2506,10 @@
     "id": "ASOS:IWA",
     "name": "WILLIAMS AFB/CHANDL (IWA)",
     "network": "ASOS/AWOS",
-    "hours": 23,
-    "maxTemp": 69.8,
-    "minRh": 38,
-    "maxGust": 7,
+    "hours": 24,
+    "maxTemp": 73.4,
+    "minRh": 33,
+    "maxGust": 9,
     "precip": 0,
     "issues": 0
    },
@@ -2519,9 +2519,9 @@
     "name": "BLACK HILLS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 68,
-    "minRh": 43,
-    "maxGust": 14,
+    "maxTemp": 74,
+    "minRh": 29,
+    "maxGust": 13,
     "precip": 0,
     "issues": 0
    },
@@ -2531,9 +2531,9 @@
     "name": "CANELO",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 68,
-    "minRh": 20,
-    "maxGust": 16,
+    "maxTemp": 71,
+    "minRh": 13,
+    "maxGust": 22,
     "precip": 0,
     "issues": 0
    },
@@ -2543,9 +2543,9 @@
     "name": "CARR",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 65,
-    "minRh": 36,
-    "maxGust": 9,
+    "maxTemp": 69,
+    "minRh": 22,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -2555,9 +2555,9 @@
     "name": "COLUMBINE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 44,
-    "minRh": 28,
-    "maxGust": 23,
+    "maxTemp": 46,
+    "minRh": 45,
+    "maxGust": 21,
     "precip": 0,
     "issues": 0
    },
@@ -2567,9 +2567,9 @@
     "name": "DRY LAKE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 52,
-    "minRh": 46,
-    "maxGust": 14,
+    "maxTemp": 55,
+    "minRh": 43,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -2579,9 +2579,9 @@
     "name": "EMPIRE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 70,
-    "minRh": 22,
-    "maxGust": 17,
+    "maxTemp": 71,
+    "minRh": 17,
+    "maxGust": 25,
     "precip": 0,
     "issues": 0
    },
@@ -2591,9 +2591,9 @@
     "name": "GUTHRIE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 57,
-    "minRh": 50,
-    "maxGust": 17,
+    "maxTemp": 61,
+    "minRh": 33,
+    "maxGust": 25,
     "precip": 0,
     "issues": 0
    },
@@ -2603,9 +2603,9 @@
     "name": "HEADQUARTERS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 66,
-    "minRh": 36,
-    "maxGust": 14,
+    "maxTemp": 69,
+    "minRh": 21,
+    "maxGust": 18,
     "precip": 0,
     "issues": 0
    },
@@ -2615,9 +2615,9 @@
     "name": "HOPKINS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 60,
+    "maxTemp": 64,
     "minRh": 22,
-    "maxGust": 18,
+    "maxGust": 16,
     "precip": 0,
     "issues": 0
    },
@@ -2627,8 +2627,8 @@
     "name": "HORSE CAMP CANYON",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 67,
-    "minRh": 41,
+    "maxTemp": 69,
+    "minRh": 25,
     "maxGust": 18,
     "precip": 0,
     "issues": 0
@@ -2639,9 +2639,9 @@
     "name": "MULESHOE RANCH",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 69,
-    "minRh": 35,
-    "maxGust": 19,
+    "maxTemp": 72,
+    "minRh": 22,
+    "maxGust": 15,
     "precip": 0,
     "issues": 0
    },
@@ -2651,9 +2651,9 @@
     "name": "NOON CREEK",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 63,
-    "minRh": 53,
-    "maxGust": 13,
+    "maxTemp": 69,
+    "minRh": 26,
+    "maxGust": 15,
     "precip": 0,
     "issues": 0
    },
@@ -2663,10 +2663,10 @@
     "name": "RINCON",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 56,
-    "minRh": 34,
-    "maxGust": 13,
-    "precip": 0.04,
+    "maxTemp": 61,
+    "minRh": 21,
+    "maxGust": 12,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2675,9 +2675,9 @@
     "name": "RUCKER",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 63,
-    "minRh": 41,
-    "maxGust": 14,
+    "maxTemp": 68,
+    "minRh": 27,
+    "maxGust": 19,
     "precip": 0,
     "issues": 0
    },
@@ -2687,9 +2687,9 @@
     "name": "SAGUARO",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 77,
-    "minRh": 12,
-    "maxGust": 9,
+    "maxTemp": 80,
+    "minRh": 15,
+    "maxGust": 10,
     "precip": 0,
     "issues": 0
    },
@@ -2699,9 +2699,9 @@
     "name": "SASABE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 73,
-    "minRh": 20,
-    "maxGust": 15,
+    "maxTemp": 75,
+    "minRh": 12,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -2711,9 +2711,9 @@
     "name": "SCOUT CAMP",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 54,
-    "minRh": 24,
-    "maxGust": 14,
+    "maxTemp": 58,
+    "minRh": 19,
+    "maxGust": 16,
     "precip": 0,
     "issues": 0
    },
@@ -2723,8 +2723,8 @@
     "name": "DAVIS-MONTHAN AFB (DMA)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 72,
-    "minRh": 33,
+    "maxTemp": 77.4,
+    "minRh": 16,
     "maxGust": 10,
     "precip": 0,
     "issues": 0
@@ -2734,10 +2734,10 @@
     "id": "ASOS:DUG",
     "name": "DOUGLAS BISBEE INTL (DUG)",
     "network": "ASOS/AWOS",
-    "hours": 21,
-    "maxTemp": 69,
-    "minRh": 37,
-    "maxGust": 16,
+    "hours": 17,
+    "maxTemp": 75,
+    "minRh": 20,
+    "maxGust": 22,
     "precip": 0,
     "issues": 0
    },
@@ -2746,11 +2746,11 @@
     "id": "ASOS:FHU",
     "name": "FORT HUACHUCA/LIBBY (FHU)",
     "network": "ASOS/AWOS",
-    "hours": 23,
-    "maxTemp": 71.4,
-    "minRh": 21,
-    "maxGust": 8,
-    "precip": 0.12,
+    "hours": 24,
+    "maxTemp": 74.3,
+    "minRh": 13,
+    "maxGust": 12,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2759,9 +2759,9 @@
     "name": "NOGALES INTL AIRPORT (OLS)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 70,
-    "minRh": 21,
-    "maxGust": 9,
+    "maxTemp": 74,
+    "minRh": 14,
+    "maxGust": 22,
     "precip": 0,
     "issues": 0
    },
@@ -2771,9 +2771,9 @@
     "name": "Pinal Airpark (MZJ)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 69.8,
-    "minRh": 40,
-    "maxGust": 8,
+    "maxTemp": 77,
+    "minRh": 26,
+    "maxGust": 13,
     "precip": 0,
     "issues": 0
    },
@@ -2783,9 +2783,9 @@
     "name": "Pioneer Airfield (ALK)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 67,
-    "minRh": 26,
-    "maxGust": 10,
+    "maxTemp": 72,
+    "minRh": 15,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -2795,9 +2795,9 @@
     "name": "SAFFORD MUNICIPAL (SAD)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 68,
-    "minRh": 37,
-    "maxGust": 12,
+    "maxTemp": 74,
+    "minRh": 28,
+    "maxGust": 14,
     "precip": 0,
     "issues": 0
    },
@@ -2807,9 +2807,9 @@
     "name": "TUCSON INTL AIRPORT (TUS)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 71,
-    "minRh": 32,
-    "maxGust": 7,
+    "maxTemp": 77,
+    "minRh": 15,
+    "maxGust": 9,
     "precip": 0,
     "issues": 0
    },
@@ -2819,9 +2819,9 @@
     "name": "Tucson - Marana (AVQ)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 71.6,
-    "minRh": 38,
-    "maxGust": 14,
+    "maxTemp": 77,
+    "minRh": 22,
+    "maxGust": 17,
     "precip": 0,
     "issues": 0
    },
@@ -2831,9 +2831,9 @@
     "name": "TUCSON/RYAN FLD (RYN)",
     "network": "ASOS/AWOS",
     "hours": 15,
-    "maxTemp": 73.4,
-    "minRh": 33,
-    "maxGust": 12,
+    "maxTemp": 80.6,
+    "minRh": 12,
+    "maxGust": 15,
     "precip": 0,
     "issues": 0
    },
@@ -2843,9 +2843,9 @@
     "name": "Wilcox (P33)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 66.2,
-    "minRh": 40,
-    "maxGust": 15,
+    "maxTemp": 71.6,
+    "minRh": 23,
+    "maxGust": 17,
     "precip": 0,
     "issues": 0
    },
@@ -2855,9 +2855,9 @@
     "name": "BLACK MESA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 56,
-    "minRh": 34,
-    "maxGust": 16,
+    "maxTemp": 59,
+    "minRh": 44,
+    "maxGust": 20,
     "precip": 0,
     "issues": 0
    },
@@ -2867,9 +2867,9 @@
     "name": "BLUEWATER RIDGE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 51,
-    "minRh": 20,
-    "maxGust": 24,
+    "maxTemp": 53,
+    "minRh": 35,
+    "maxGust": 27,
     "precip": 0,
     "issues": 0
    },
@@ -2879,10 +2879,10 @@
     "name": "BRUSHY MOUNTAIN",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 49,
+    "maxTemp": 53,
     "minRh": 30,
-    "maxGust": 25,
-    "precip": 0,
+    "maxGust": 19,
+    "precip": 0.01,
     "issues": 0
    },
    {
@@ -2891,10 +2891,10 @@
     "name": "COYOTE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 45,
-    "minRh": 50,
-    "maxGust": 34,
-    "precip": 0.33,
+    "maxTemp": 48,
+    "minRh": 51,
+    "maxGust": 24,
+    "precip": 0.01,
     "issues": 0
    },
    {
@@ -2903,9 +2903,9 @@
     "name": "CUBA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 52,
-    "minRh": 39,
-    "maxGust": 13,
+    "maxTemp": 54,
+    "minRh": 54,
+    "maxGust": 21,
     "precip": 0,
     "issues": 0
    },
@@ -2915,9 +2915,9 @@
     "name": "DEADMAN PEAK",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 48,
-    "minRh": 44,
-    "maxGust": 27,
+    "maxTemp": 51,
+    "minRh": 45,
+    "maxGust": 16,
     "precip": 0,
     "issues": 0
    },
@@ -2927,10 +2927,10 @@
     "name": "DULCE #2",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 51,
-    "minRh": 32,
-    "maxGust": 19,
-    "precip": 0.06,
+    "maxTemp": 57,
+    "minRh": 33,
+    "maxGust": 8,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2939,9 +2939,9 @@
     "name": "GRANTS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 48,
-    "minRh": 38,
-    "maxGust": 13,
+    "maxTemp": 50,
+    "minRh": 52,
+    "maxGust": 16,
     "precip": 0,
     "issues": 0
    },
@@ -2951,10 +2951,10 @@
     "name": "JARITA MESA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 45,
-    "minRh": 30,
-    "maxGust": 20,
-    "precip": 0.01,
+    "maxTemp": 47,
+    "minRh": 44,
+    "maxGust": 8,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2963,10 +2963,10 @@
     "name": "JEMEZ",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 50,
-    "minRh": 33,
-    "maxGust": 14,
-    "precip": 0.14,
+    "maxTemp": 47,
+    "minRh": 62,
+    "maxGust": 11,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -2975,9 +2975,9 @@
     "name": "LAGUNA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 55,
-    "minRh": 41,
-    "maxGust": 20,
+    "maxTemp": 59,
+    "minRh": 45,
+    "maxGust": 12,
     "precip": 0,
     "issues": 0
    },
@@ -2987,9 +2987,9 @@
     "name": "MALPAIS LAVA FLOW",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 53,
-    "minRh": 38,
-    "maxGust": 20,
+    "maxTemp": 58,
+    "minRh": 31,
+    "maxGust": 24,
     "precip": 0,
     "issues": 0
    },
@@ -2999,9 +2999,9 @@
     "name": "RAMAH",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 54,
-    "minRh": 30,
-    "maxGust": 16,
+    "maxTemp": 57,
+    "minRh": 31,
+    "maxGust": 20,
     "precip": 0,
     "issues": 0
    },
@@ -3011,9 +3011,9 @@
     "name": "STONE LAKE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 48,
-    "minRh": 37,
-    "maxGust": 20,
+    "maxTemp": 53,
+    "minRh": 38,
+    "maxGust": 14,
     "precip": 0.01,
     "issues": 0
    },
@@ -3023,10 +3023,10 @@
     "name": "TOWER",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 53,
-    "minRh": 41,
+    "maxTemp": 57,
+    "minRh": 47,
     "maxGust": 19,
-    "precip": 0.01,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3035,10 +3035,10 @@
     "name": "WILD RIVERS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 51,
-    "minRh": 33,
-    "maxGust": 26,
-    "precip": 0.05,
+    "maxTemp": 52,
+    "minRh": 38,
+    "maxGust": 27,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3047,9 +3047,9 @@
     "name": "GRANTS-MILAN MUNI (GNT)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 52,
-    "minRh": 37,
-    "maxGust": 10,
+    "maxTemp": 56.5,
+    "minRh": 46,
+    "maxGust": 22,
     "precip": 0,
     "issues": 0
    },
@@ -3058,10 +3058,10 @@
     "id": "ASOS:LAM",
     "name": "LOS ALAMOS (LAM)",
     "network": "ASOS/AWOS",
-    "hours": 16,
-    "maxTemp": 46.2,
-    "minRh": 48,
-    "maxGust": 13,
+    "hours": 24,
+    "maxTemp": 51.3,
+    "minRh": 53,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -3071,9 +3071,9 @@
     "name": "Zuni (XNI)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 55.4,
-    "minRh": 30,
-    "maxGust": 8,
+    "maxTemp": 60.8,
+    "minRh": 29,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -3083,9 +3083,9 @@
     "name": "ALPINE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 51,
-    "minRh": 34,
-    "maxGust": 26,
+    "maxTemp": 52,
+    "minRh": 51,
+    "maxGust": 21,
     "precip": 0,
     "issues": 0
    },
@@ -3095,9 +3095,9 @@
     "name": "GREER",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 52,
-    "minRh": 28,
-    "maxGust": 24,
+    "maxTemp": 53,
+    "minRh": 32,
+    "maxGust": 36,
     "precip": 0,
     "issues": 0
    },
@@ -3107,9 +3107,9 @@
     "name": "LAKESIDE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 54,
-    "minRh": 28,
-    "maxGust": 14,
+    "maxTemp": 55,
+    "minRh": 32,
+    "maxGust": 22,
     "precip": 0,
     "issues": 0
    },
@@ -3119,10 +3119,10 @@
     "name": "MOUNTAIN LION",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 55,
+    "maxTemp": 58,
     "minRh": 32,
-    "maxGust": 10,
-    "precip": 0.03,
+    "maxGust": 14,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3131,9 +3131,9 @@
     "name": "STRAY HORSE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 51,
-    "minRh": 46,
-    "maxGust": 29,
+    "maxTemp": 54,
+    "minRh": 38,
+    "maxGust": 17,
     "precip": 0,
     "issues": 0
    },
@@ -3143,9 +3143,9 @@
     "name": "TRAIL CABIN",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 56,
-    "minRh": 43,
-    "maxGust": 14,
+    "maxTemp": 61,
+    "minRh": 33,
+    "maxGust": 15,
     "precip": 0,
     "issues": 0
    },
@@ -3155,9 +3155,9 @@
     "name": "BEAVERHEAD",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 60,
-    "minRh": 23,
-    "maxGust": 13,
+    "maxTemp": 62,
+    "minRh": 24,
+    "maxGust": 20,
     "precip": 0,
     "issues": 0
    },
@@ -3167,9 +3167,9 @@
     "name": "BURRO MOUNTAIN",
     "network": "RAWS",
     "hours": 23,
-    "maxTemp": 59,
-    "minRh": 37,
-    "maxGust": 18,
+    "maxTemp": 63,
+    "minRh": 34,
+    "maxGust": 25,
     "precip": 0,
     "issues": 0
    },
@@ -3179,9 +3179,9 @@
     "name": "DATIL",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 50,
-    "minRh": 27,
-    "maxGust": 24,
+    "maxTemp": 55,
+    "minRh": 30,
+    "maxGust": 20,
     "precip": 0.01,
     "issues": 0
    },
@@ -3191,10 +3191,10 @@
     "name": "GILA CENTER RAWS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 64,
-    "minRh": 25,
-    "maxGust": 14,
-    "precip": 0.01,
+    "maxTemp": 67,
+    "minRh": 26,
+    "maxGust": 18,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3203,9 +3203,9 @@
     "name": "LUNA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 58,
+    "maxTemp": 59,
     "minRh": 34,
-    "maxGust": 18,
+    "maxGust": 20,
     "precip": 0,
     "issues": 0
    },
@@ -3215,10 +3215,10 @@
     "name": "MAGDALENA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 53,
-    "minRh": 27,
-    "maxGust": 20,
-    "precip": 0.11,
+    "maxTemp": 55,
+    "minRh": 44,
+    "maxGust": 21,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3227,9 +3227,9 @@
     "name": "MOGOLLON",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 53,
-    "minRh": 44,
-    "maxGust": 15,
+    "maxTemp": 57,
+    "minRh": 35,
+    "maxGust": 26,
     "precip": 0,
     "issues": 0
    },
@@ -3239,10 +3239,10 @@
     "name": "PELONA MOUNTAIN",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 54,
-    "minRh": 29,
-    "maxGust": 18,
-    "precip": 0.04,
+    "maxTemp": 56,
+    "minRh": 33,
+    "maxGust": 28,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3251,9 +3251,9 @@
     "name": "RESERVE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 59,
-    "minRh": 36,
-    "maxGust": 18,
+    "maxTemp": 63,
+    "minRh": 28,
+    "maxGust": 21,
     "precip": 0,
     "issues": 0
    },
@@ -3263,9 +3263,9 @@
     "name": "SLAUGHTER",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 49,
-    "minRh": 28,
-    "maxGust": 13,
+    "maxTemp": 50,
+    "minRh": 42,
+    "maxGust": 22,
     "precip": 0,
     "issues": 0
    },
@@ -3275,9 +3275,9 @@
     "name": "Springerville (JTC)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 55.4,
-    "minRh": 28,
-    "maxGust": 21,
+    "maxTemp": 59,
+    "minRh": 27,
+    "maxGust": 33,
     "precip": 0,
     "issues": 0
    },
@@ -3287,9 +3287,9 @@
     "name": "ST. JOHNS AIR PARK (SJN)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 57,
-    "minRh": 29,
-    "maxGust": 12,
+    "maxTemp": 65,
+    "minRh": 21,
+    "maxGust": 30,
     "precip": 0,
     "issues": 0
    },
@@ -3299,9 +3299,9 @@
     "name": "SILVER CITY/GRANT (SVC)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 62,
-    "minRh": 35,
-    "maxGust": 12,
+    "maxTemp": 65.5,
+    "minRh": 33,
+    "maxGust": 10,
     "precip": 0,
     "issues": 0
    },
@@ -3311,10 +3311,10 @@
     "name": "BOSQUE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 65,
-    "minRh": 38,
-    "maxGust": 14,
-    "precip": 0.11,
+    "maxTemp": 68,
+    "minRh": 41,
+    "maxGust": 19,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3323,9 +3323,9 @@
     "name": "DRIPPING SPRINGS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 62,
-    "minRh": 43,
-    "maxGust": 19,
+    "maxTemp": 64,
+    "minRh": 38,
+    "maxGust": 21,
     "precip": 0,
     "issues": 0
    },
@@ -3335,9 +3335,9 @@
     "name": "HACHITA VALLEY",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 72,
-    "minRh": 33,
-    "maxGust": 20,
+    "maxTemp": 75,
+    "minRh": 19,
+    "maxGust": 14,
     "precip": 0,
     "issues": 0
    },
@@ -3347,9 +3347,9 @@
     "name": "SAN ANDRES",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 60,
-    "minRh": 46,
-    "maxGust": 24,
+    "maxTemp": 63,
+    "minRh": 39,
+    "maxGust": 15,
     "precip": 0,
     "issues": 0
    },
@@ -3359,8 +3359,8 @@
     "name": "SANDIA LAKES",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 60,
-    "minRh": 35,
+    "maxTemp": 63,
+    "minRh": 42,
     "maxGust": 8,
     "precip": 0,
     "issues": 0
@@ -3371,10 +3371,10 @@
     "name": "SEVILLETA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 60,
-    "minRh": 36,
-    "maxGust": 13,
-    "precip": 0.01,
+    "maxTemp": 65,
+    "minRh": 39,
+    "maxGust": 23,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3383,9 +3383,9 @@
     "name": "ALAMOGORDO-WHITE (ALM)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 66.2,
-    "minRh": 35,
-    "maxGust": 13,
+    "maxTemp": 69.8,
+    "minRh": 40,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -3395,9 +3395,9 @@
     "name": "ALBUQUERQUE/DOUBLE EAGLE II APT (AEG)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 51.8,
-    "minRh": 43,
-    "maxGust": 8,
+    "maxTemp": 57.2,
+    "minRh": 47,
+    "maxGust": 14,
     "precip": 0,
     "issues": 0
    },
@@ -3407,9 +3407,9 @@
     "name": "ALBUQUERQUE INTL (ABQ)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 55,
-    "minRh": 40,
-    "maxGust": 8,
+    "maxTemp": 60,
+    "minRh": 48,
+    "maxGust": 14,
     "precip": 0,
     "issues": 0
    },
@@ -3418,10 +3418,10 @@
     "id": "ASOS:BRG",
     "name": "Belen (BRG)",
     "network": "ASOS/AWOS",
-    "hours": 24,
-    "maxTemp": 56.3,
-    "minRh": 38,
-    "maxGust": 8,
+    "hours": 12,
+    "maxTemp": 54.5,
+    "minRh": 63,
+    "maxGust": 14,
     "precip": 0,
     "issues": 0
    },
@@ -3431,9 +3431,9 @@
     "name": "DEMING MUNICIPAL (DMN)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 66,
-    "minRh": 38,
-    "maxGust": 10,
+    "maxTemp": 69,
+    "minRh": 35,
+    "maxGust": 8,
     "precip": 0,
     "issues": 0
    },
@@ -3442,10 +3442,10 @@
     "id": "ASOS:HMN",
     "name": "HOLLOMAN AFB (HMN)",
     "network": "ASOS/AWOS",
-    "hours": 22,
-    "maxTemp": 66.2,
+    "hours": 24,
+    "maxTemp": 70,
     "minRh": 35,
-    "maxGust": 10,
+    "maxGust": 13,
     "precip": 0,
     "issues": 0
    },
@@ -3455,9 +3455,9 @@
     "name": "LAS CRUCES INTL (LRU)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 64.6,
-    "minRh": 37,
-    "maxGust": 26,
+    "maxTemp": 69,
+    "minRh": 26,
+    "maxGust": 9,
     "precip": 0,
     "issues": 0
    },
@@ -3467,9 +3467,9 @@
     "name": "Lordsburg (LSB)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 64.4,
-    "minRh": 42,
-    "maxGust": 10,
+    "maxTemp": 69.8,
+    "minRh": 28,
+    "maxGust": 21,
     "precip": 0,
     "issues": 0
    },
@@ -3479,9 +3479,9 @@
     "name": "Santa Teresa (DNA)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 68,
-    "minRh": 35,
-    "maxGust": 12,
+    "maxTemp": 71.6,
+    "minRh": 27,
+    "maxGust": 7,
     "precip": 0,
     "issues": 0
    },
@@ -3491,9 +3491,9 @@
     "name": "Socorro (ONM)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 60.3,
-    "minRh": 40,
-    "maxGust": 9,
+    "maxTemp": 65.3,
+    "minRh": 42,
+    "maxGust": 22,
     "precip": 0,
     "issues": 0
    },
@@ -3503,9 +3503,9 @@
     "name": "TRUTH OR CONSEQUENC (TCS)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 61,
-    "minRh": 39,
-    "maxGust": 9,
+    "maxTemp": 66,
+    "minRh": 40,
+    "maxGust": 25,
     "precip": 0,
     "issues": 0
    },
@@ -3515,10 +3515,10 @@
     "name": "BARTLEY",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 49,
+    "maxTemp": 52,
     "minRh": 8,
-    "maxGust": 39,
-    "precip": 0.12,
+    "maxGust": 26,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3526,11 +3526,11 @@
     "id": 290401,
     "name": "CIMARRON",
     "network": "RAWS",
-    "hours": 23,
-    "maxTemp": 45,
-    "minRh": 23,
-    "maxGust": 28,
-    "precip": 0.2,
+    "hours": 24,
+    "maxTemp": 53,
+    "minRh": 22,
+    "maxGust": 16,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3539,10 +3539,10 @@
     "name": "PECOS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 50,
-    "minRh": 19,
-    "maxGust": 27,
-    "precip": 0.24,
+    "maxTemp": 51,
+    "minRh": 22,
+    "maxGust": 28,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3551,10 +3551,10 @@
     "name": "SANTA FE WATERSHED",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 47,
-    "minRh": 40,
-    "maxGust": 17,
-    "precip": 0.01,
+    "maxTemp": 53,
+    "minRh": 46,
+    "maxGust": 12,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3563,10 +3563,10 @@
     "name": "TRUCHAS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 43,
-    "minRh": 26,
-    "maxGust": 18,
-    "precip": 0.12,
+    "maxTemp": 47,
+    "minRh": 52,
+    "maxGust": 20,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3575,10 +3575,10 @@
     "name": "Angel Fire (AXX)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 40.6,
-    "minRh": 51,
-    "maxGust": 37,
-    "precip": 0.09,
+    "maxTemp": 48,
+    "minRh": 50,
+    "maxGust": 24,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3588,9 +3588,9 @@
     "network": "ASOS/AWOS",
     "hours": 24,
     "maxTemp": 57,
-    "minRh": 18,
-    "maxGust": 33,
-    "precip": 0.08,
+    "minRh": 29,
+    "maxGust": 44,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3599,10 +3599,10 @@
     "name": "Questa (N24)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 46.4,
-    "minRh": 35,
-    "maxGust": 22,
-    "precip": 0.07,
+    "maxTemp": 50,
+    "minRh": 37,
+    "maxGust": 26,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3610,11 +3610,11 @@
     "id": "ASOS:RTN",
     "name": "RATON/CREWS FLD (RTN)",
     "network": "ASOS/AWOS",
-    "hours": 24,
-    "maxTemp": 61,
-    "minRh": 14,
-    "maxGust": 30,
-    "precip": 0.06,
+    "hours": 23,
+    "maxTemp": 60,
+    "minRh": 19,
+    "maxGust": 16,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3623,9 +3623,9 @@
     "name": "SANTA FE CO. MUNI (SAF)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 51,
-    "minRh": 41,
-    "maxGust": 17,
+    "maxTemp": 56,
+    "minRh": 49,
+    "maxGust": 15,
     "precip": 0,
     "issues": 0
    },
@@ -3635,9 +3635,9 @@
     "name": "CHUPADERA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 59,
-    "minRh": 47,
-    "maxGust": 18,
+    "maxTemp": 61,
+    "minRh": 52,
+    "maxGust": 22,
     "precip": 0,
     "issues": 0
    },
@@ -3647,10 +3647,10 @@
     "name": "MOUNTAINAIR",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 54,
-    "minRh": 38,
-    "maxGust": 22,
-    "precip": 0.22,
+    "maxTemp": 59,
+    "minRh": 47,
+    "maxGust": 23,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3659,10 +3659,10 @@
     "name": "OAK FLATS",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 49,
-    "minRh": 50,
-    "maxGust": 18,
-    "precip": 0.08,
+    "maxTemp": 55,
+    "minRh": 52,
+    "maxGust": 21,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3670,12 +3670,12 @@
     "id": 291408,
     "name": "SANDIA LAB",
     "network": "RAWS",
-    "hours": 24,
-    "maxTemp": 51,
-    "minRh": 46,
+    "hours": 23,
+    "maxTemp": 57,
+    "minRh": 49,
     "maxGust": 30,
-    "precip": 0.04,
-    "issues": 0
+    "precip": 0,
+    "issues": 8
    },
    {
     "psa": "SW-11",
@@ -3683,10 +3683,10 @@
     "name": "CLINES CORNERS (CQC)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 50,
-    "minRh": 41,
-    "maxGust": 37,
-    "precip": 0.08,
+    "maxTemp": 56,
+    "minRh": 45,
+    "maxGust": 30,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3695,9 +3695,9 @@
     "name": "Moriarty (0E0)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 56,
-    "minRh": 34,
-    "maxGust": 16,
+    "maxTemp": 61.7,
+    "minRh": 36,
+    "maxGust": 25,
     "precip": 0,
     "issues": 0
    },
@@ -3707,9 +3707,9 @@
     "name": "COSMIC",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 50,
-    "minRh": 57,
-    "maxGust": 30,
+    "maxTemp": 54,
+    "minRh": 42,
+    "maxGust": 24,
     "precip": 0,
     "issues": 0
    },
@@ -3719,9 +3719,9 @@
     "name": "DUNKEN",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 65,
-    "minRh": 45,
-    "maxGust": 24,
+    "maxTemp": 68,
+    "minRh": 36,
+    "maxGust": 25,
     "precip": 0,
     "issues": 0
    },
@@ -3731,9 +3731,9 @@
     "name": "MAYHILL",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 64,
-    "minRh": 30,
-    "maxGust": 15,
+    "maxTemp": 65,
+    "minRh": 25,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -3743,10 +3743,10 @@
     "name": "MCGREGGOR RANGE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 65,
-    "minRh": 44,
-    "maxGust": 18,
-    "precip": 0.03,
+    "maxTemp": 70,
+    "minRh": 50,
+    "maxGust": 13,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3755,9 +3755,9 @@
     "name": "MESCAL",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 57,
-    "minRh": 44,
-    "maxGust": 24,
+    "maxTemp": 61,
+    "minRh": 41,
+    "maxGust": 26,
     "precip": 0,
     "issues": 0
    },
@@ -3767,10 +3767,10 @@
     "name": "QUEEN",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 62,
-    "minRh": 45,
-    "maxGust": 29,
-    "precip": 0.04,
+    "maxTemp": 66,
+    "minRh": 47,
+    "maxGust": 14,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3779,9 +3779,9 @@
     "name": "SMOKEY BEAR",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 57,
-    "minRh": 40,
-    "maxGust": 40,
+    "maxTemp": 60,
+    "minRh": 41,
+    "maxGust": 28,
     "precip": 0,
     "issues": 0
    },
@@ -3791,8 +3791,8 @@
     "name": "DOG CANYON",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 60,
-    "minRh": 45,
+    "maxTemp": 67,
+    "minRh": 47,
     "maxGust": "",
     "precip": 0,
     "issues": 0
@@ -3803,9 +3803,9 @@
     "name": "PINERY",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 64,
-    "minRh": 41,
-    "maxGust": 27,
+    "maxTemp": 63,
+    "minRh": 54,
+    "maxGust": 12,
     "precip": 0,
     "issues": 0
    },
@@ -3815,9 +3815,9 @@
     "name": "PX WELL",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 71,
-    "minRh": 38,
-    "maxGust": 8,
+    "maxTemp": 73,
+    "minRh": 48,
+    "maxGust": 6,
     "precip": 0,
     "issues": 0
    },
@@ -3827,21 +3827,21 @@
     "name": "THE BOWL",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 54,
-    "minRh": 42,
-    "maxGust": 50,
+    "maxTemp": 57,
+    "minRh": 40,
+    "maxGust": 17,
     "precip": 0,
-    "issues": 1
+    "issues": 0
    },
    {
     "psa": "SW-12",
     "id": "ASOS:SRR",
     "name": "RUIDOSO REGIONAL (SRR)",
     "network": "ASOS/AWOS",
-    "hours": 24,
-    "maxTemp": 56.3,
-    "minRh": 47,
-    "maxGust": 24,
+    "hours": 23,
+    "maxTemp": 62,
+    "minRh": 31,
+    "maxGust": 26,
     "precip": 0,
     "issues": 0
    },
@@ -3851,9 +3851,9 @@
     "name": "MELROSE RANGE",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 61,
-    "minRh": 59,
-    "maxGust": 18,
+    "maxTemp": 67,
+    "minRh": 52,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -3864,20 +3864,20 @@
     "network": "RAWS",
     "hours": 24,
     "maxTemp": 63,
-    "minRh": "",
-    "maxGust": 25,
+    "minRh": 29,
+    "maxGust": 34,
     "precip": 0,
-    "issues": 1
+    "issues": 0
    },
    {
     "psa": "SW-13",
     "id": "ASOS:CVS",
     "name": "CANNON AFB/CLOVIS (CVS)",
     "network": "ASOS/AWOS",
-    "hours": 23,
-    "maxTemp": 59.5,
-    "minRh": 61,
-    "maxGust": 14,
+    "hours": 24,
+    "maxTemp": 66,
+    "minRh": 58,
+    "maxGust": 16,
     "precip": 0,
     "issues": 0
    },
@@ -3887,11 +3887,11 @@
     "name": "Clayton (CAO)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 63,
-    "minRh": "",
+    "maxTemp": 62,
+    "minRh": 35,
     "maxGust": 41,
     "precip": 0,
-    "issues": 1
+    "issues": 0
    },
    {
     "psa": "SW-13",
@@ -3899,9 +3899,9 @@
     "name": "Clovis Muni (CVN)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 58,
-    "minRh": 67,
-    "maxGust": 15,
+    "maxTemp": 62,
+    "minRh": 70,
+    "maxGust": 22,
     "precip": 0,
     "issues": 0
    },
@@ -3911,10 +3911,10 @@
     "name": "Santa Rosa (SXU)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 62.6,
-    "minRh": 31,
+    "maxTemp": 60.8,
+    "minRh": 55,
     "maxGust": 26,
-    "precip": 0.11,
+    "precip": 0,
     "issues": 0
    },
    {
@@ -3924,10 +3924,10 @@
     "network": "ASOS/AWOS",
     "hours": 24,
     "maxTemp": 66,
-    "minRh": "",
-    "maxGust": 38,
+    "minRh": 47,
+    "maxGust": 30,
     "precip": 0,
-    "issues": 1
+    "issues": 0
    },
    {
     "psa": "SW-14N",
@@ -3936,9 +3936,9 @@
     "network": "RAWS",
     "hours": 24,
     "maxTemp": 56,
-    "minRh": 82,
-    "maxGust": 17,
-    "precip": 0.02,
+    "minRh": 85,
+    "maxGust": 19,
+    "precip": 0.01,
     "issues": 0
    },
    {
@@ -3947,10 +3947,10 @@
     "name": "CAPROCK",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 61,
-    "minRh": 66,
-    "maxGust": 19,
-    "precip": 0.05,
+    "maxTemp": 66,
+    "minRh": 57,
+    "maxGust": 26,
+    "precip": 0.01,
     "issues": 0
    },
    {
@@ -3959,10 +3959,10 @@
     "name": "EIGHT MILE DRAW",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 61,
-    "minRh": 66,
-    "maxGust": 18,
-    "precip": 0.02,
+    "maxTemp": 55,
+    "minRh": 60,
+    "maxGust": 14,
+    "precip": 0.01,
     "issues": 0
    },
    {
@@ -3971,10 +3971,10 @@
     "name": "PADUCA",
     "network": "RAWS",
     "hours": 24,
-    "maxTemp": 66,
-    "minRh": 56,
-    "maxGust": 15,
-    "precip": 0,
+    "maxTemp": 65,
+    "minRh": 60,
+    "maxGust": 19,
+    "precip": 0.01,
     "issues": 0
    },
    {
@@ -3983,9 +3983,9 @@
     "name": "ARTESIA (ATS)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 55.4,
-    "minRh": 82,
-    "maxGust": 14,
+    "maxTemp": 60.8,
+    "minRh": 77,
+    "maxGust": 24,
     "precip": 0,
     "issues": 0
    },
@@ -3995,9 +3995,9 @@
     "name": "CARLSBAD/CAVERN CTY (CNM)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 59,
-    "minRh": 72,
-    "maxGust": 8,
+    "maxTemp": 62,
+    "minRh": 67,
+    "maxGust": 12,
     "precip": 0,
     "issues": 0
    },
@@ -4007,9 +4007,9 @@
     "name": "HOBBS/LEA CO. (HOB)",
     "network": "ASOS/AWOS",
     "hours": 24,
-    "maxTemp": 57.2,
-    "minRh": 77,
-    "maxGust": 18,
+    "maxTemp": 64.4,
+    "minRh": 60,
+    "maxGust": 23,
     "precip": 0,
     "issues": 0
    },
@@ -4018,198 +4018,231 @@
     "id": "ASOS:ROW",
     "name": "ROSWELL/INDUSTRIAL (ROW)",
     "network": "ASOS/AWOS",
-    "hours": 23,
-    "maxTemp": 55,
-    "minRh": 80,
-    "maxGust": 14,
-    "precip": 0.01,
+    "hours": 24,
+    "maxTemp": 54,
+    "minRh": 90,
+    "maxGust": 10,
+    "precip": 0,
     "issues": 0
    }
   ],
   "checks": [
    {
-    "psa": "SW-05",
-    "id": 20215,
-    "name": "MORMON LAKE",
-    "network": "RAWS",
-    "field": "RH",
-    "value": 0,
-    "reason": "outside 1–100",
-    "hour": "05:03",
-    "action": "dropped"
-   },
-   {
-    "psa": "SW-12",
-    "id": 417103,
-    "name": "THE BOWL",
+    "psa": "SW-11",
+    "id": 291408,
+    "name": "SANDIA LAB",
     "network": "RAWS",
     "field": "gust",
-    "value": 122,
-    "reason": "over 75 mph; no station nearby gusted 61+ mph",
-    "hour": "15:38",
+    "value": 78,
+    "reason": "over 75 mph; no station nearby gusted 47+ mph",
+    "hour": "23:53",
     "action": "dropped"
    },
    {
-    "psa": "SW-13",
-    "id": 291101,
-    "name": "MILLS CANYON",
+    "psa": "SW-11",
+    "id": 291408,
+    "name": "SANDIA LAB",
     "network": "RAWS",
-    "field": "min RH",
-    "value": 14,
-    "reason": "31 away from the other stations' median (45)",
-    "hour": "",
+    "field": "gust",
+    "value": 0,
+    "reason": "lower than the sustained wind (5 mph)",
+    "hour": "00:53",
     "action": "dropped"
    },
    {
-    "psa": "SW-13",
-    "id": "ASOS:CAO",
-    "name": "Clayton (CAO)",
-    "network": "ASOS/AWOS",
-    "field": "min RH",
-    "value": 18,
-    "reason": "41 away from the other stations' median (59)",
-    "hour": "",
+    "psa": "SW-11",
+    "id": 291408,
+    "name": "SANDIA LAB",
+    "network": "RAWS",
+    "field": "gust",
+    "value": 0,
+    "reason": "lower than the sustained wind (4 mph)",
+    "hour": "01:53",
     "action": "dropped"
    },
    {
-    "psa": "SW-13",
-    "id": "ASOS:TCC",
-    "name": "TUCUMCARI MUNICIPAL (TCC)",
-    "network": "ASOS/AWOS",
-    "field": "min RH",
-    "value": 27,
-    "reason": "33 away from the other stations' median (60)",
-    "hour": "",
+    "psa": "SW-11",
+    "id": 291408,
+    "name": "SANDIA LAB",
+    "network": "RAWS",
+    "field": "gust",
+    "value": 0,
+    "reason": "lower than the sustained wind (3 mph)",
+    "hour": "02:53",
+    "action": "dropped"
+   },
+   {
+    "psa": "SW-11",
+    "id": 291408,
+    "name": "SANDIA LAB",
+    "network": "RAWS",
+    "field": "gust",
+    "value": 0,
+    "reason": "lower than the sustained wind (6 mph)",
+    "hour": "03:53",
+    "action": "dropped"
+   },
+   {
+    "psa": "SW-11",
+    "id": 291408,
+    "name": "SANDIA LAB",
+    "network": "RAWS",
+    "field": "gust",
+    "value": 0,
+    "reason": "lower than the sustained wind (11 mph)",
+    "hour": "04:53",
+    "action": "dropped"
+   },
+   {
+    "psa": "SW-11",
+    "id": 291408,
+    "name": "SANDIA LAB",
+    "network": "RAWS",
+    "field": "gust",
+    "value": 0,
+    "reason": "lower than the sustained wind (11 mph)",
+    "hour": "05:53",
+    "action": "dropped"
+   },
+   {
+    "psa": "SW-11",
+    "id": 291408,
+    "name": "SANDIA LAB",
+    "network": "RAWS",
+    "field": "gust",
+    "value": 0,
+    "reason": "lower than the sustained wind (7 mph)",
+    "hour": "06:53",
     "action": "dropped"
    }
   ],
   "asosError": "",
   "source": "FEMS RAWS + IEM ASOS/AWOS observations (auto, quality-checked)",
-  "fetchedAt": "2026-11-19T21:57"
+  "fetchedAt": "2026-11-20T08:57"
  },
  "femsNfdr": {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "fuelModel": "Y",
   "byPsa": {
    "SW-01": {
     "stations": 3,
     "stationsListed": 3,
-    "erc": 15.4,
-    "bi": 10,
-    "ercMax": 17.9,
-    "biMax": 13.6
+    "erc": 14.8,
+    "bi": 11.3,
+    "ercMax": 16.3,
+    "biMax": 12.8
    },
    "SW-02": {
     "stations": 3,
     "stationsListed": 3,
-    "erc": 22.5,
-    "bi": 17.7,
-    "ercMax": 23.4,
-    "biMax": 19.1
+    "erc": 23.9,
+    "bi": 20.7,
+    "ercMax": 25.1,
+    "biMax": 23.6
    },
    "SW-03": {
     "stations": 1,
     "stationsListed": 1,
-    "erc": 32.3,
-    "bi": 18.1,
-    "ercMax": 35.6,
-    "biMax": 22.2
+    "erc": 33.4,
+    "bi": 19.5,
+    "ercMax": 35.4,
+    "biMax": 27.7
    },
    "SW-04": {
     "stations": 3,
     "stationsListed": 3,
-    "erc": 15.1,
-    "bi": 9.3,
-    "ercMax": 16.8,
-    "biMax": 9.8
+    "erc": 16.2,
+    "bi": 10.1,
+    "ercMax": 17.1,
+    "biMax": 10.8
    },
    "SW-05": {
     "stations": 3,
     "stationsListed": 3,
-    "erc": 14.6,
-    "bi": 11.6,
-    "ercMax": 17.2,
-    "biMax": 14.1
+    "erc": 16.6,
+    "bi": 15.8,
+    "ercMax": 18.3,
+    "biMax": 17.4
    },
    "SW-06N": {
     "stations": 2,
     "stationsListed": 2,
-    "erc": 16.4,
-    "bi": 13.6,
-    "ercMax": 18.9,
-    "biMax": 15.7
+    "erc": 17,
+    "bi": 15.2,
+    "ercMax": 20.2,
+    "biMax": 17.2
    },
    "SW-06S": {
     "stations": 4,
     "stationsListed": 4,
-    "erc": 18.7,
-    "bi": 14.2,
-    "ercMax": 21.3,
-    "biMax": 16.4
+    "erc": 19.9,
+    "bi": 16,
+    "ercMax": 22.6,
+    "biMax": 18.5
    },
    "SW-07": {
     "stations": 3,
     "stationsListed": 3,
-    "erc": 14.6,
-    "bi": 5.8,
-    "ercMax": 19.1,
-    "biMax": 13.4
+    "erc": 19.3,
+    "bi": 13.6,
+    "ercMax": 20.5,
+    "biMax": 14.8
    },
    "SW-08": {
     "stations": 4,
     "stationsListed": 4,
-    "erc": 18.1,
-    "bi": 14.4,
-    "ercMax": 20.7,
-    "biMax": 16.2
+    "erc": 20.1,
+    "bi": 17.9,
+    "ercMax": 21.7,
+    "biMax": 19
    },
    "SW-09": {
     "stations": 3,
     "stationsListed": 3,
-    "erc": 20.1,
-    "bi": 14.2,
-    "ercMax": 22,
-    "biMax": 17
+    "erc": 21.2,
+    "bi": 17.9,
+    "ercMax": 23.1,
+    "biMax": 19.3
    },
    "SW-10": {
     "stations": 2,
     "stationsListed": 2,
-    "erc": 17.7,
-    "bi": 12.6,
-    "ercMax": 20.4,
-    "biMax": 15.8
+    "erc": 21.4,
+    "bi": 16.7,
+    "ercMax": 22.1,
+    "biMax": 18
    },
    "SW-11": {
     "stations": 2,
     "stationsListed": 2,
-    "erc": 17.1,
-    "bi": 16.4,
-    "ercMax": 18.9,
-    "biMax": 17.8
+    "erc": 18.7,
+    "bi": 19.3,
+    "ercMax": 19.9,
+    "biMax": 20.5
    },
    "SW-12": {
     "stations": 3,
     "stationsListed": 3,
-    "erc": 20.3,
-    "bi": 17.2,
-    "ercMax": 21.3,
-    "biMax": 17.7
+    "erc": 21.3,
+    "bi": 19.9,
+    "ercMax": 22.9,
+    "biMax": 20.5
    },
    "SW-13": {
     "stations": 2,
     "stationsListed": 2,
-    "erc": 10.6,
-    "bi": 11,
-    "ercMax": 13.3,
-    "biMax": 14
+    "erc": 9.7,
+    "bi": 9.4,
+    "ercMax": 12.3,
+    "biMax": 13.5
    },
    "SW-14N": {
     "stations": 3,
     "stationsListed": 3,
-    "erc": 9,
-    "bi": 6.4,
-    "ercMax": 11.4,
-    "biMax": 10.5
+    "erc": 8.8,
+    "bi": 6.6,
+    "ercMax": 11.1,
+    "biMax": 12.1
    }
   },
   "stations": [
@@ -4218,89 +4251,89 @@
     "id": 20207,
     "name": "Tusayan",
     "hour": "13:00",
-    "erc": 17,
-    "bi": 12.8,
-    "ercMax": 18.4,
-    "biMax": 13.3
+    "erc": 15.9,
+    "bi": 10.7,
+    "ercMax": 19.2,
+    "biMax": 13.6
    },
    {
     "psa": "SW-01",
     "id": 20212,
     "name": "Drypark",
     "hour": "13:00",
-    "erc": 7.5,
+    "erc": 6.6,
     "bi": 0,
-    "ercMax": 12.4,
-    "biMax": 8.4
+    "ercMax": 6.9,
+    "biMax": 0
    },
    {
     "psa": "SW-01",
     "id": 20213,
     "name": "Frazier Well",
     "hour": "13:00",
-    "erc": 21.8,
-    "bi": 17.1,
+    "erc": 22,
+    "bi": 23.2,
     "ercMax": 22.9,
-    "biMax": 19.1
+    "biMax": 24.9
    },
    {
     "psa": "SW-02",
     "id": 20115,
     "name": "Moss Basin",
     "hour": "13:00",
-    "erc": 23.8,
-    "bi": 18.3,
-    "ercMax": 24.2,
-    "biMax": 18.5
+    "erc": 25.3,
+    "bi": 20.2,
+    "ercMax": 26.3,
+    "biMax": 22.1
    },
    {
     "psa": "SW-02",
     "id": 20501,
     "name": "Iron Springs",
     "hour": "13:00",
-    "erc": 18.3,
-    "bi": 13.8,
-    "ercMax": 20,
-    "biMax": 16
+    "erc": 21.4,
+    "bi": 21.4,
+    "ercMax": 22.2,
+    "biMax": 24.7
    },
    {
     "psa": "SW-02",
     "id": 20509,
     "name": "Stanton",
     "hour": "13:00",
-    "erc": 25.5,
-    "bi": 21.1,
-    "ercMax": 26.1,
-    "biMax": 22.7
+    "erc": 24.9,
+    "bi": 20.4,
+    "ercMax": 26.7,
+    "biMax": 24.1
    },
    {
     "psa": "SW-03",
     "id": 45801,
     "name": "Senator Wash",
     "hour": "13:00",
-    "erc": 32.3,
-    "bi": 18.1,
-    "ercMax": 35.6,
-    "biMax": 22.2
+    "erc": 33.4,
+    "bi": 19.5,
+    "ercMax": 35.4,
+    "biMax": 27.7
    },
    {
     "psa": "SW-04",
     "id": 20402,
     "name": "Piney Hill",
     "hour": "13:00",
-    "erc": 18.9,
-    "bi": 14,
-    "ercMax": 20.4,
-    "biMax": 14.2
+    "erc": 21.1,
+    "bi": 15.8,
+    "ercMax": 22.4,
+    "biMax": 17
    },
    {
     "psa": "SW-04",
     "id": 290101,
     "name": "Washington Pass",
     "hour": "13:00",
-    "erc": 8.7,
+    "erc": 7.2,
     "bi": 0,
-    "ercMax": 11.3,
+    "ercMax": 7.7,
     "biMax": 0
    },
    {
@@ -4308,417 +4341,417 @@
     "id": 290102,
     "name": "Albino Canyon",
     "hour": "13:00",
-    "erc": 17.8,
-    "bi": 13.8,
-    "ercMax": 18.6,
-    "biMax": 15.2
+    "erc": 20.3,
+    "bi": 14.6,
+    "ercMax": 21.1,
+    "biMax": 15.5
    },
    {
     "psa": "SW-05",
     "id": 20209,
     "name": "Flagstaff",
     "hour": "13:00",
-    "erc": 11.2,
-    "bi": 9.4,
-    "ercMax": 14.3,
-    "biMax": 13.5
+    "erc": 14.1,
+    "bi": 16.2,
+    "ercMax": 15.4,
+    "biMax": 17.5
    },
    {
     "psa": "SW-05",
     "id": 20301,
     "name": "Heber",
     "hour": "13:00",
-    "erc": 16.2,
-    "bi": 13.3,
-    "ercMax": 18.2,
-    "biMax": 14.9
+    "erc": 17.6,
+    "bi": 17.2,
+    "ercMax": 19.5,
+    "biMax": 19.2
    },
    {
     "psa": "SW-05",
     "id": 20303,
     "name": "Lakeside",
     "hour": "13:00",
-    "erc": 16.4,
-    "bi": 12.2,
-    "ercMax": 19,
-    "biMax": 14
+    "erc": 18,
+    "bi": 14,
+    "ercMax": 20.1,
+    "biMax": 15.5
    },
    {
     "psa": "SW-06N",
     "id": 20601,
     "name": "Globe",
     "hour": "13:00",
-    "erc": 18.5,
-    "bi": 16,
-    "ercMax": 20.3,
-    "biMax": 16.7
+    "erc": 19.9,
+    "bi": 18.2,
+    "ercMax": 22.2,
+    "biMax": 18.8
    },
    {
     "psa": "SW-06N",
     "id": 20606,
     "name": "Tonto Basin",
     "hour": "13:00",
-    "erc": 14.3,
-    "bi": 11.1,
-    "ercMax": 17.5,
-    "biMax": 14.6
+    "erc": 14,
+    "bi": 12.2,
+    "ercMax": 18.2,
+    "biMax": 15.6
    },
    {
     "psa": "SW-06S",
     "id": 21005,
     "name": "Columbine",
     "hour": "13:00",
-    "erc": 13.6,
-    "bi": 12.2,
-    "ercMax": 14.2,
-    "biMax": 13.5
+    "erc": 13.1,
+    "bi": 13,
+    "ercMax": 15.4,
+    "biMax": 14.7
    },
    {
     "psa": "SW-06S",
     "id": 21007,
     "name": "Mule Shoe",
     "hour": "13:00",
-    "erc": 21.1,
-    "bi": 16,
-    "ercMax": 23.6,
-    "biMax": 17.5
+    "erc": 23.8,
+    "bi": 17.1,
+    "ercMax": 26.4,
+    "biMax": 19.7
    },
    {
     "psa": "SW-06S",
     "id": 21202,
     "name": "Saguaro",
     "hour": "13:00",
-    "erc": 21.8,
-    "bi": 14.1,
-    "ercMax": 25.5,
-    "biMax": 17.4
+    "erc": 23,
+    "bi": 14.7,
+    "ercMax": 25.9,
+    "biMax": 18
    },
    {
     "psa": "SW-06S",
     "id": 21206,
     "name": "Sasabe",
     "hour": "13:00",
-    "erc": 18.3,
-    "bi": 14.4,
-    "ercMax": 22,
-    "biMax": 17.4
+    "erc": 19.8,
+    "bi": 19.3,
+    "ercMax": 22.9,
+    "biMax": 21.4
    },
    {
     "psa": "SW-07",
     "id": 290702,
     "name": "Jemez",
     "hour": "13:00",
-    "erc": 10.6,
-    "bi": 1.2,
-    "ercMax": 16.4,
-    "biMax": 11.3
+    "erc": 16.4,
+    "bi": 11.1,
+    "ercMax": 17.2,
+    "biMax": 11.6
    },
    {
     "psa": "SW-07",
     "id": 290801,
     "name": "Tower",
     "hour": "13:00",
-    "erc": 20.2,
-    "bi": 16.2,
-    "ercMax": 21.8,
-    "biMax": 16.7
+    "erc": 21,
+    "bi": 15.7,
+    "ercMax": 22.4,
+    "biMax": 17.9
    },
    {
     "psa": "SW-07",
     "id": 291302,
     "name": "Grants",
     "hour": "13:00",
-    "erc": 13,
-    "bi": 0,
-    "ercMax": 19,
-    "biMax": 12.3
+    "erc": 20.7,
+    "bi": 13.9,
+    "ercMax": 21.9,
+    "biMax": 14.8
    },
    {
     "psa": "SW-08",
     "id": 20401,
     "name": "Alpine",
     "hour": "13:00",
-    "erc": 20.9,
-    "bi": 16.1,
-    "ercMax": 22.2,
-    "biMax": 16.4
+    "erc": 21.1,
+    "bi": 17,
+    "ercMax": 22.1,
+    "biMax": 17
    },
    {
     "psa": "SW-08",
     "id": 292001,
     "name": "Beaverhead",
     "hour": "13:00",
-    "erc": 18.2,
-    "bi": 14.8,
-    "ercMax": 20.9,
-    "biMax": 15.5
+    "erc": 20,
+    "bi": 16.3,
+    "ercMax": 22.3,
+    "biMax": 19.3
    },
    {
     "psa": "SW-08",
     "id": 292008,
     "name": "Slaughter Mesa",
     "hour": "13:00",
-    "erc": 17.3,
-    "bi": 13.5,
-    "ercMax": 19.7,
-    "biMax": 16.2
+    "erc": 18.8,
+    "bi": 17.2,
+    "ercMax": 20.5,
+    "biMax": 18.7
    },
    {
     "psa": "SW-08",
     "id": 292009,
     "name": "Pelona Mtn",
     "hour": "13:00",
-    "erc": 16,
-    "bi": 13.3,
-    "ercMax": 20,
-    "biMax": 16.6
+    "erc": 20.5,
+    "bi": 20.9,
+    "ercMax": 22.1,
+    "biMax": 20.9
    },
    {
     "psa": "SW-09",
     "id": 292103,
     "name": "Bosque",
     "hour": "13:00",
-    "erc": 17.6,
-    "bi": 12.1,
-    "ercMax": 19.5,
-    "biMax": 13.6
+    "erc": 18.1,
+    "bi": 17.1,
+    "ercMax": 19.7,
+    "biMax": 18.1
    },
    {
     "psa": "SW-09",
     "id": 292702,
     "name": "Hatchett",
     "hour": "13:00",
-    "erc": 18.2,
-    "bi": 13.4,
-    "ercMax": 20.5,
-    "biMax": 16.7
+    "erc": 18.7,
+    "bi": 17.5,
+    "ercMax": 21.3,
+    "biMax": 18.7
    },
    {
     "psa": "SW-09",
     "id": 292903,
     "name": "Dripping Springs",
     "hour": "13:00",
-    "erc": 24.6,
-    "bi": 17.1,
-    "ercMax": 26,
-    "biMax": 20.8
+    "erc": 26.9,
+    "bi": 19.1,
+    "ercMax": 28.2,
+    "biMax": 21
    },
    {
     "psa": "SW-10",
     "id": 290210,
     "name": "Truchas",
     "hour": "13:00",
-    "erc": 14.4,
-    "bi": 8.6,
-    "ercMax": 18.4,
-    "biMax": 13.1
+    "erc": 19.1,
+    "bi": 13.9,
+    "ercMax": 20.1,
+    "biMax": 15
    },
    {
     "psa": "SW-10",
     "id": 291202,
     "name": "Pecos",
     "hour": "13:00",
-    "erc": 21,
-    "bi": 16.6,
-    "ercMax": 22.4,
-    "biMax": 18.4
+    "erc": 23.8,
+    "bi": 19.5,
+    "ercMax": 24.1,
+    "biMax": 21.1
    },
    {
     "psa": "SW-11",
     "id": 292102,
     "name": "Chupadera",
     "hour": "13:00",
-    "erc": 15.4,
-    "bi": 15.1,
-    "ercMax": 17.3,
-    "biMax": 17.8
+    "erc": 17.7,
+    "bi": 18.5,
+    "ercMax": 18.6,
+    "biMax": 20.8
    },
    {
     "psa": "SW-11",
     "id": 291501,
     "name": "Mountainair",
     "hour": "13:00",
-    "erc": 18.8,
-    "bi": 17.8,
-    "ercMax": 20.6,
-    "biMax": 17.8
+    "erc": 19.6,
+    "bi": 20.1,
+    "ercMax": 21.3,
+    "biMax": 20.1
    },
    {
     "psa": "SW-12",
     "id": 292203,
     "name": "Smokey Bear",
     "hour": "13:00",
-    "erc": 18.6,
-    "bi": 18.5,
-    "ercMax": 20,
-    "biMax": 19.1
+    "erc": 19.6,
+    "bi": 19.7,
+    "ercMax": 21.3,
+    "biMax": 21.1
    },
    {
     "psa": "SW-12",
     "id": 293002,
     "name": "Mayhill",
     "hour": "13:00",
-    "erc": 22.3,
-    "bi": 16.2,
-    "ercMax": 22.8,
-    "biMax": 17
+    "erc": 22.8,
+    "bi": 20.2,
+    "ercMax": 24.9,
+    "biMax": 20.2
    },
    {
     "psa": "SW-12",
     "id": 293003,
     "name": "Mescal",
     "hour": "13:00",
-    "erc": 19.9,
-    "bi": 16.9,
-    "ercMax": 21.1,
-    "biMax": 16.9
+    "erc": 21.3,
+    "bi": 19.8,
+    "ercMax": 22.7,
+    "biMax": 20.3
    },
    {
     "psa": "SW-13",
     "id": 292301,
     "name": "Eight Mile Draw",
     "hour": "13:00",
-    "erc": 8.4,
-    "bi": 6.5,
-    "ercMax": 10.9,
-    "biMax": 11.5
+    "erc": 8.7,
+    "bi": 5.2,
+    "ercMax": 11.1,
+    "biMax": 10.4
    },
    {
     "psa": "SW-13",
     "id": 418701,
     "name": "Cedar",
     "hour": "13:00",
-    "erc": 12.9,
-    "bi": 15.6,
-    "ercMax": 15.7,
-    "biMax": 16.6
+    "erc": 10.8,
+    "bi": 13.6,
+    "ercMax": 13.6,
+    "biMax": 16.7
    },
    {
     "psa": "SW-14N",
     "id": 292301,
     "name": "Eight Mile Draw",
     "hour": "13:00",
-    "erc": 8.4,
-    "bi": 6.5,
-    "ercMax": 10.9,
-    "biMax": 11.5
+    "erc": 8.7,
+    "bi": 5.2,
+    "ercMax": 11.1,
+    "biMax": 10.4
    },
    {
     "psa": "SW-14N",
     "id": 293101,
     "name": "Batdraw",
     "hour": "13:00",
-    "erc": 10.9,
-    "bi": 8.2,
-    "ercMax": 12.2,
-    "biMax": 9.5
+    "erc": 7.2,
+    "bi": 0,
+    "ercMax": 9.2,
+    "biMax": 9.9
    },
    {
     "psa": "SW-14N",
     "id": 293104,
     "name": "Caprock",
     "hour": "13:00",
-    "erc": 7.5,
-    "bi": 4.6,
-    "ercMax": 11.1,
-    "biMax": 10.4
+    "erc": 10.4,
+    "bi": 14.6,
+    "ercMax": 12.9,
+    "biMax": 16.1
    },
    {
     "psa": "Other",
     "id": 20211,
     "name": "Bright Angel",
     "hour": "13:00",
-    "erc": 20.5,
-    "bi": 14.6,
-    "ercMax": 20.8,
-    "biMax": 15.5
+    "erc": 22.6,
+    "bi": 20,
+    "ercMax": 22.6,
+    "biMax": 20.6
    },
    {
     "psa": "Other",
     "id": 20603,
     "name": "Pleasant Valley",
     "hour": "13:00",
-    "erc": 17.1,
-    "bi": 13,
-    "ercMax": 19.8,
-    "biMax": 14.6
+    "erc": 18.6,
+    "bi": 14.5,
+    "ercMax": 21.2,
+    "biMax": 19.1
    },
    {
     "psa": "Other",
     "id": 20116,
     "name": "Union Pass",
     "hour": "13:00",
-    "erc": 28.9,
-    "bi": 20.1,
-    "ercMax": 28.9,
-    "biMax": 20.1
+    "erc": 29.5,
+    "bi": 21.6,
+    "ercMax": 30.4,
+    "biMax": 28.1
    },
    {
     "psa": "Other",
     "id": 21207,
     "name": "Rincon",
     "hour": "13:00",
-    "erc": 13.9,
-    "bi": 10.7,
-    "ercMax": 15.4,
-    "biMax": 11.7
+    "erc": 16,
+    "bi": 12.9,
+    "ercMax": 17.6,
+    "biMax": 13.4
    }
   ],
   "source": "FEMS NFDRS observations (auto)",
-  "fetchedAt": "2026-11-19T21:57"
+  "fetchedAt": "2026-11-20T08:57"
  },
  "health": {
-  "run": "2026-11-19T21:56",
+  "run": "2026-11-20T08:56",
   "trigger": "schedule",
   "steps": {
    "7-Day outlook": {
     "ok": true,
-    "at": "2026-11-19T21:56",
+    "at": "2026-11-20T08:56",
     "secs": 0
    },
    "Crews (SharePoint)": {
     "ok": true,
-    "at": "2026-11-19T21:56",
+    "at": "2026-11-20T08:56",
     "secs": 1
    },
    "IMTs (SharePoint)": {
     "ok": true,
-    "at": "2026-11-19T21:56",
+    "at": "2026-11-20T08:56",
     "secs": 0
    },
    "Fire Activity (WFIGS active incidents)": {
     "ok": true,
-    "at": "2026-11-19T21:56",
+    "at": "2026-11-20T08:56",
     "secs": 0
    },
    "Fire starts (WFIGS)": {
     "ok": true,
-    "at": "2026-11-19T21:56",
+    "at": "2026-11-20T08:56",
     "secs": 0
    },
    "RAWS + ASOS/AWOS weather obs": {
     "ok": true,
-    "at": "2026-11-19T21:57",
-    "secs": 34
+    "at": "2026-11-20T08:57",
+    "secs": 21
    },
    "FEMS ERC/BI (fuel model Y)": {
     "ok": true,
-    "at": "2026-11-19T21:57",
-    "secs": 1
+    "at": "2026-11-20T08:57",
+    "secs": 0
    },
    "PSA ERCy/BI (FEMS daily summary, 40 stations)": {
     "ok": true,
-    "at": "2026-11-19T21:57",
+    "at": "2026-11-20T08:57",
     "secs": 0
    },
    "FEMS forecast ERC/BI (next 6 days)": {
     "ok": true,
-    "at": "2026-11-19T21:57",
+    "at": "2026-11-20T08:57",
     "secs": 0
    },
    "Actual SW PL (NICC / SWCC)": {
     "ok": true,
-    "at": "2026-11-19T21:57",
+    "at": "2026-11-20T08:57",
     "secs": 0
    },
    "Filling in ERC/BI since 2026-01-01": {
@@ -4728,15 +4761,15 @@
    },
    "Filling in weather since 2026-01-01": {
     "ok": true,
-    "at": "2026-11-19T22:02",
-    "secs": 284
+    "at": "2026-11-20T09:02",
+    "secs": 321
    }
   },
   "backfill": {
    "ercy": 0,
-   "weather": 168,
+   "weather": 138,
    "from": "2026-01-01",
-   "checked": "2026-11-19T22:02"
+   "checked": "2026-11-20T09:02"
   },
   "backfillGaveUp": {
    "ercy": [],
@@ -4915,152 +4948,11 @@
   }
  ],
  "forecastDanger": {
-  "2026-11-20": {
-   "rows": {
-    "SW-01": {
-     "ercVal": 14.7,
-     "biVal": 10,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    },
-    "SW-02": {
-     "ercVal": 22,
-     "biVal": 17.6,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    },
-    "SW-03": {
-     "ercVal": 36,
-     "biVal": 24.5,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 1,
-     "stationsListed": 1,
-     "missing": []
-    },
-    "SW-04": {
-     "ercVal": 20.7,
-     "biVal": 23.2,
-     "ercPct": 45,
-     "biPct": 50,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    },
-    "SW-05": {
-     "ercVal": 18,
-     "biVal": 21.8,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    },
-    "SW-06N": {
-     "ercVal": 21,
-     "biVal": 17.3,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 2,
-     "stationsListed": 2,
-     "missing": []
-    },
-    "SW-06S": {
-     "ercVal": 25,
-     "biVal": 19.3,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 4,
-     "stationsListed": 4,
-     "missing": []
-    },
-    "SW-07": {
-     "ercVal": 21.3,
-     "biVal": 20.2,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    },
-    "SW-08": {
-     "ercVal": 22.5,
-     "biVal": 24,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 4,
-     "stationsListed": 4,
-     "missing": []
-    },
-    "SW-09": {
-     "ercVal": 24.3,
-     "biVal": 24.2,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    },
-    "SW-10": {
-     "ercVal": 22,
-     "biVal": 23.4,
-     "ercPct": 45,
-     "biPct": 50,
-     "stations": 2,
-     "stationsListed": 2,
-     "missing": []
-    },
-    "SW-11": {
-     "ercVal": 19.5,
-     "biVal": 23.5,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 2,
-     "stationsListed": 2,
-     "missing": []
-    },
-    "SW-12": {
-     "ercVal": 22.3,
-     "biVal": 24.2,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    },
-    "SW-13": {
-     "ercVal": 13,
-     "biVal": 18.6,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 2,
-     "stationsListed": 2,
-     "missing": []
-    },
-    "SW-14N": {
-     "ercVal": 13.7,
-     "biVal": 16.4,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    }
-   },
-   "source": "FEMS forecast ERC/BI",
-   "stations": 40
-  },
   "2026-11-21": {
    "rows": {
     "SW-01": {
-     "ercVal": 16,
-     "biVal": 9,
+     "ercVal": 18,
+     "biVal": 12.8,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5068,8 +4960,8 @@
      "missing": []
     },
     "SW-02": {
-     "ercVal": 24,
-     "biVal": 16.5,
+     "ercVal": 24.3,
+     "biVal": 17.4,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5077,8 +4969,8 @@
      "missing": []
     },
     "SW-03": {
-     "ercVal": 38,
-     "biVal": 23.5,
+     "ercVal": 37,
+     "biVal": 25.6,
      "ercPct": 45,
      "biPct": 45,
      "stations": 1,
@@ -5086,8 +4978,8 @@
      "missing": []
     },
     "SW-04": {
-     "ercVal": 21.3,
-     "biVal": 17.2,
+     "ercVal": 20.7,
+     "biVal": 17.7,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5095,8 +4987,8 @@
      "missing": []
     },
     "SW-05": {
-     "ercVal": 19,
-     "biVal": 13.8,
+     "ercVal": 19.3,
+     "biVal": 14.6,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5104,8 +4996,8 @@
      "missing": []
     },
     "SW-06N": {
-     "ercVal": 22,
-     "biVal": 14.5,
+     "ercVal": 22.5,
+     "biVal": 15.4,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5113,8 +5005,8 @@
      "missing": []
     },
     "SW-06S": {
-     "ercVal": 25,
-     "biVal": 17.1,
+     "ercVal": 24.3,
+     "biVal": 16.6,
      "ercPct": 45,
      "biPct": 45,
      "stations": 4,
@@ -5122,8 +5014,8 @@
      "missing": []
     },
     "SW-07": {
-     "ercVal": 20.7,
-     "biVal": 18.3,
+     "ercVal": 21.7,
+     "biVal": 19.3,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5132,7 +5024,7 @@
     },
     "SW-08": {
      "ercVal": 22.8,
-     "biVal": 17.3,
+     "biVal": 17.6,
      "ercPct": 45,
      "biPct": 45,
      "stations": 4,
@@ -5140,8 +5032,8 @@
      "missing": []
     },
     "SW-09": {
-     "ercVal": 25.7,
-     "biVal": 22.4,
+     "ercVal": 26.7,
+     "biVal": 23.4,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5150,7 +5042,7 @@
     },
     "SW-10": {
      "ercVal": 22,
-     "biVal": 17.5,
+     "biVal": 20.9,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5158,8 +5050,8 @@
      "missing": []
     },
     "SW-11": {
-     "ercVal": 21,
-     "biVal": 20.4,
+     "ercVal": 22,
+     "biVal": 24.3,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5168,7 +5060,7 @@
     },
     "SW-12": {
      "ercVal": 23.7,
-     "biVal": 25.4,
+     "biVal": 26.1,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5177,7 +5069,7 @@
     },
     "SW-13": {
      "ercVal": 15,
-     "biVal": 20,
+     "biVal": 22.4,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5186,7 +5078,7 @@
     },
     "SW-14N": {
      "ercVal": 16,
-     "biVal": 21.4,
+     "biVal": 23.1,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5201,7 +5093,7 @@
    "rows": {
     "SW-01": {
      "ercVal": 17,
-     "biVal": 10.7,
+     "biVal": 11.7,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5209,8 +5101,8 @@
      "missing": []
     },
     "SW-02": {
-     "ercVal": 25.3,
-     "biVal": 18.3,
+     "ercVal": 26,
+     "biVal": 20.1,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5218,8 +5110,8 @@
      "missing": []
     },
     "SW-03": {
-     "ercVal": 40,
-     "biVal": 20.7,
+     "ercVal": 39,
+     "biVal": 21.6,
      "ercPct": 45,
      "biPct": 45,
      "stations": 1,
@@ -5227,8 +5119,8 @@
      "missing": []
     },
     "SW-04": {
-     "ercVal": 22.7,
-     "biVal": 15.8,
+     "ercVal": 22.3,
+     "biVal": 16.5,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5236,8 +5128,8 @@
      "missing": []
     },
     "SW-05": {
-     "ercVal": 20.3,
-     "biVal": 17.3,
+     "ercVal": 21,
+     "biVal": 19.3,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5245,8 +5137,8 @@
      "missing": []
     },
     "SW-06N": {
-     "ercVal": 24,
-     "biVal": 15.9,
+     "ercVal": 24.5,
+     "biVal": 16.8,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5254,8 +5146,8 @@
      "missing": []
     },
     "SW-06S": {
-     "ercVal": 26.8,
-     "biVal": 19.6,
+     "ercVal": 25.8,
+     "biVal": 18.6,
      "ercPct": 45,
      "biPct": 45,
      "stations": 4,
@@ -5263,8 +5155,8 @@
      "missing": []
     },
     "SW-07": {
-     "ercVal": 20,
-     "biVal": 13.7,
+     "ercVal": 22,
+     "biVal": 16.4,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5272,8 +5164,8 @@
      "missing": []
     },
     "SW-08": {
-     "ercVal": 23.8,
-     "biVal": 17.9,
+     "ercVal": 24,
+     "biVal": 19.5,
      "ercPct": 45,
      "biPct": 45,
      "stations": 4,
@@ -5281,8 +5173,8 @@
      "missing": []
     },
     "SW-09": {
-     "ercVal": 27,
-     "biVal": 17.9,
+     "ercVal": 28.3,
+     "biVal": 19.7,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5291,7 +5183,7 @@
     },
     "SW-10": {
      "ercVal": 18.5,
-     "biVal": 9.3,
+     "biVal": 9,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5299,8 +5191,8 @@
      "missing": []
     },
     "SW-11": {
-     "ercVal": 21.5,
-     "biVal": 15.9,
+     "ercVal": 22.5,
+     "biVal": 18.3,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5308,8 +5200,8 @@
      "missing": []
     },
     "SW-12": {
-     "ercVal": 23.7,
-     "biVal": 16.4,
+     "ercVal": 24.7,
+     "biVal": 18.2,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5317,8 +5209,8 @@
      "missing": []
     },
     "SW-13": {
-     "ercVal": 15,
-     "biVal": 12.9,
+     "ercVal": 15.5,
+     "biVal": 13.2,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5327,7 +5219,7 @@
     },
     "SW-14N": {
      "ercVal": 17,
-     "biVal": 14.3,
+     "biVal": 15,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5341,8 +5233,8 @@
   "2026-11-23": {
    "rows": {
     "SW-01": {
-     "ercVal": 16,
-     "biVal": 9.9,
+     "ercVal": 16.3,
+     "biVal": 9.7,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5350,8 +5242,8 @@
      "missing": []
     },
     "SW-02": {
-     "ercVal": 25.3,
-     "biVal": 17.6,
+     "ercVal": 26.3,
+     "biVal": 18.3,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5359,8 +5251,8 @@
      "missing": []
     },
     "SW-03": {
-     "ercVal": 40,
-     "biVal": 24.5,
+     "ercVal": 41,
+     "biVal": 25.8,
      "ercPct": 45,
      "biPct": 45,
      "stations": 1,
@@ -5368,8 +5260,8 @@
      "missing": []
     },
     "SW-04": {
-     "ercVal": 22.3,
-     "biVal": 15.6,
+     "ercVal": 21.7,
+     "biVal": 15.9,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5377,8 +5269,8 @@
      "missing": []
     },
     "SW-05": {
-     "ercVal": 20,
-     "biVal": 16.9,
+     "ercVal": 21,
+     "biVal": 15.7,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5386,8 +5278,8 @@
      "missing": []
     },
     "SW-06N": {
-     "ercVal": 24.5,
-     "biVal": 16.5,
+     "ercVal": 25.5,
+     "biVal": 16.8,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5395,8 +5287,8 @@
      "missing": []
     },
     "SW-06S": {
-     "ercVal": 27.5,
-     "biVal": 20.5,
+     "ercVal": 27.3,
+     "biVal": 20.1,
      "ercPct": 45,
      "biPct": 45,
      "stations": 4,
@@ -5404,8 +5296,8 @@
      "missing": []
     },
     "SW-07": {
-     "ercVal": 21.3,
-     "biVal": 14.9,
+     "ercVal": 19.3,
+     "biVal": 10.9,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5413,8 +5305,8 @@
      "missing": []
     },
     "SW-08": {
-     "ercVal": 23.3,
-     "biVal": 18.4,
+     "ercVal": 24,
+     "biVal": 17.7,
      "ercPct": 45,
      "biPct": 45,
      "stations": 4,
@@ -5422,8 +5314,8 @@
      "missing": []
     },
     "SW-09": {
-     "ercVal": 27,
-     "biVal": 19,
+     "ercVal": 28.7,
+     "biVal": 18.4,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5431,8 +5323,8 @@
      "missing": []
     },
     "SW-10": {
-     "ercVal": 21.5,
-     "biVal": 16.3,
+     "ercVal": 17.5,
+     "biVal": 10.2,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5440,8 +5332,8 @@
      "missing": []
     },
     "SW-11": {
-     "ercVal": 21,
-     "biVal": 16,
+     "ercVal": 22,
+     "biVal": 17,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5449,8 +5341,8 @@
      "missing": []
     },
     "SW-12": {
-     "ercVal": 23,
-     "biVal": 16.1,
+     "ercVal": 23.7,
+     "biVal": 17.1,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5458,8 +5350,8 @@
      "missing": []
     },
     "SW-13": {
-     "ercVal": 15,
-     "biVal": 16,
+     "ercVal": 15.5,
+     "biVal": 16.2,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5467,8 +5359,8 @@
      "missing": []
     },
     "SW-14N": {
-     "ercVal": 16.3,
-     "biVal": 15.2,
+     "ercVal": 16.7,
+     "biVal": 15.7,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5482,70 +5374,7 @@
   "2026-11-24": {
    "rows": {
     "SW-01": {
-     "ercVal": 17,
-     "biVal": 10,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    },
-    "SW-02": {
-     "ercVal": 26.3,
-     "biVal": 16.7,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    },
-    "SW-03": {
-     "ercVal": 41,
-     "biVal": 22.9,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 1,
-     "stationsListed": 1,
-     "missing": []
-    },
-    "SW-04": {
-     "ercVal": 22.3,
-     "biVal": 13.7,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    },
-    "SW-05": {
-     "ercVal": 21.7,
-     "biVal": 14.4,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 3,
-     "stationsListed": 3,
-     "missing": []
-    },
-    "SW-06N": {
-     "ercVal": 25.5,
-     "biVal": 15.4,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 2,
-     "stationsListed": 2,
-     "missing": []
-    },
-    "SW-06S": {
-     "ercVal": 29,
-     "biVal": 18.7,
-     "ercPct": 45,
-     "biPct": 45,
-     "stations": 4,
-     "stationsListed": 4,
-     "missing": []
-    },
-    "SW-07": {
-     "ercVal": 21.7,
+     "ercVal": 18.7,
      "biVal": 13.8,
      "ercPct": 45,
      "biPct": 45,
@@ -5553,9 +5382,72 @@
      "stationsListed": 3,
      "missing": []
     },
+    "SW-02": {
+     "ercVal": 27.7,
+     "biVal": 18.2,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    },
+    "SW-03": {
+     "ercVal": 42,
+     "biVal": 24.7,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 1,
+     "stationsListed": 1,
+     "missing": []
+    },
+    "SW-04": {
+     "ercVal": 23,
+     "biVal": 14.4,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    },
+    "SW-05": {
+     "ercVal": 22.3,
+     "biVal": 15.1,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    },
+    "SW-06N": {
+     "ercVal": 27.5,
+     "biVal": 18.5,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 2,
+     "stationsListed": 2,
+     "missing": []
+    },
+    "SW-06S": {
+     "ercVal": 29.3,
+     "biVal": 20.1,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 4,
+     "stationsListed": 4,
+     "missing": []
+    },
+    "SW-07": {
+     "ercVal": 19.3,
+     "biVal": 10.3,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    },
     "SW-08": {
-     "ercVal": 24.5,
-     "biVal": 15,
+     "ercVal": 25.8,
+     "biVal": 15.7,
      "ercPct": 45,
      "biPct": 45,
      "stations": 4,
@@ -5563,8 +5455,8 @@
      "missing": []
     },
     "SW-09": {
-     "ercVal": 28,
-     "biVal": 17.7,
+     "ercVal": 29.3,
+     "biVal": 20.1,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5572,8 +5464,8 @@
      "missing": []
     },
     "SW-10": {
-     "ercVal": 18,
-     "biVal": 8.1,
+     "ercVal": 17,
+     "biVal": 8.4,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5581,8 +5473,8 @@
      "missing": []
     },
     "SW-11": {
-     "ercVal": 21.5,
-     "biVal": 14.7,
+     "ercVal": 23,
+     "biVal": 15,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5590,8 +5482,8 @@
      "missing": []
     },
     "SW-12": {
-     "ercVal": 23.7,
-     "biVal": 15.5,
+     "ercVal": 24,
+     "biVal": 15.1,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5608,8 +5500,8 @@
      "missing": []
     },
     "SW-14N": {
-     "ercVal": 17,
-     "biVal": 14.2,
+     "ercVal": 16.7,
+     "biVal": 13.9,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5623,8 +5515,8 @@
   "2026-11-25": {
    "rows": {
     "SW-01": {
-     "ercVal": 16,
-     "biVal": 9.7,
+     "ercVal": 20.7,
+     "biVal": 15.5,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5632,8 +5524,8 @@
      "missing": []
     },
     "SW-02": {
-     "ercVal": 26.7,
-     "biVal": 18.4,
+     "ercVal": 29,
+     "biVal": 20,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5641,8 +5533,8 @@
      "missing": []
     },
     "SW-03": {
-     "ercVal": 42,
-     "biVal": 26.2,
+     "ercVal": 43,
+     "biVal": 26.1,
      "ercPct": 45,
      "biPct": 45,
      "stations": 1,
@@ -5650,8 +5542,8 @@
      "missing": []
     },
     "SW-04": {
-     "ercVal": 22.7,
-     "biVal": 15,
+     "ercVal": 24,
+     "biVal": 15.7,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5659,8 +5551,8 @@
      "missing": []
     },
     "SW-05": {
-     "ercVal": 22,
-     "biVal": 16.3,
+     "ercVal": 23.7,
+     "biVal": 18,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5668,8 +5560,8 @@
      "missing": []
     },
     "SW-06N": {
-     "ercVal": 26.5,
-     "biVal": 16.6,
+     "ercVal": 29,
+     "biVal": 18.9,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5677,8 +5569,149 @@
      "missing": []
     },
     "SW-06S": {
+     "ercVal": 31,
+     "biVal": 22.8,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 4,
+     "stationsListed": 4,
+     "missing": []
+    },
+    "SW-07": {
+     "ercVal": 23,
+     "biVal": 14.7,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    },
+    "SW-08": {
+     "ercVal": 26.5,
+     "biVal": 17.9,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 4,
+     "stationsListed": 4,
+     "missing": []
+    },
+    "SW-09": {
+     "ercVal": 29.3,
+     "biVal": 18.7,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    },
+    "SW-10": {
+     "ercVal": 17.5,
+     "biVal": 9.9,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 2,
+     "stationsListed": 2,
+     "missing": []
+    },
+    "SW-11": {
+     "ercVal": 23,
+     "biVal": 16.3,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 2,
+     "stationsListed": 2,
+     "missing": []
+    },
+    "SW-12": {
+     "ercVal": 24.3,
+     "biVal": 15.2,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    },
+    "SW-13": {
+     "ercVal": 15.5,
+     "biVal": 14.3,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 2,
+     "stationsListed": 2,
+     "missing": []
+    },
+    "SW-14N": {
+     "ercVal": 16.3,
+     "biVal": 14.4,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    }
+   },
+   "source": "FEMS forecast ERC/BI",
+   "stations": 40
+  },
+  "2026-11-26": {
+   "rows": {
+    "SW-01": {
+     "ercVal": 18.3,
+     "biVal": 10.9,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    },
+    "SW-02": {
+     "ercVal": 29.7,
+     "biVal": 21.6,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    },
+    "SW-03": {
+     "ercVal": 44,
+     "biVal": 29,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 1,
+     "stationsListed": 1,
+     "missing": []
+    },
+    "SW-04": {
+     "ercVal": 23.7,
+     "biVal": 17.1,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    },
+    "SW-05": {
+     "ercVal": 23.3,
+     "biVal": 18.1,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 3,
+     "stationsListed": 3,
+     "missing": []
+    },
+    "SW-06N": {
      "ercVal": 30,
-     "biVal": 21.1,
+     "biVal": 19.2,
+     "ercPct": 45,
+     "biPct": 45,
+     "stations": 2,
+     "stationsListed": 2,
+     "missing": []
+    },
+    "SW-06S": {
+     "ercVal": 31.8,
+     "biVal": 22.8,
      "ercPct": 45,
      "biPct": 45,
      "stations": 4,
@@ -5687,7 +5720,7 @@
     },
     "SW-07": {
      "ercVal": 22.3,
-     "biVal": 14.4,
+     "biVal": 14.7,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5695,8 +5728,8 @@
      "missing": []
     },
     "SW-08": {
-     "ercVal": 25.3,
-     "biVal": 17.5,
+     "ercVal": 26.3,
+     "biVal": 20.4,
      "ercPct": 45,
      "biPct": 45,
      "stations": 4,
@@ -5704,8 +5737,8 @@
      "missing": []
     },
     "SW-09": {
-     "ercVal": 28.3,
-     "biVal": 18.1,
+     "ercVal": 30,
+     "biVal": 20.3,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5722,8 +5755,8 @@
      "missing": []
     },
     "SW-11": {
-     "ercVal": 22,
-     "biVal": 16.2,
+     "ercVal": 23,
+     "biVal": 17.6,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5731,8 +5764,8 @@
      "missing": []
     },
     "SW-12": {
-     "ercVal": 24,
-     "biVal": 15.5,
+     "ercVal": 24.3,
+     "biVal": 18,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5740,8 +5773,8 @@
      "missing": []
     },
     "SW-13": {
-     "ercVal": 12.5,
-     "biVal": 11.4,
+     "ercVal": 15,
+     "biVal": 13.3,
      "ercPct": 45,
      "biPct": 45,
      "stations": 2,
@@ -5749,8 +5782,8 @@
      "missing": []
     },
     "SW-14N": {
-     "ercVal": 14,
-     "biVal": 12.2,
+     "ercVal": 16,
+     "biVal": 14.5,
      "ercPct": 45,
      "biPct": 45,
      "stations": 3,
@@ -5764,10 +5797,10 @@
  },
  "actualPl": {
   "pl": 1,
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "asOf": "",
   "source": "SWCC published PL list, carried forward",
-  "checkedAt": "2026-11-19T21:57",
+  "checkedAt": "2026-11-20T08:57",
   "carried": true,
   "carriedFrom": "2026-11-16",
   "note": "NICC: the GACC Preparedness Levels table is empty today; SWCC: no number under the Preparedness Level header"
@@ -5778,7 +5811,7 @@
   "breakpoints": "data/erc_bi_breakpoints.csv"
  },
  "forecast": {
-  "issued": "2026-11-19T22:02",
+  "issued": "2026-11-20T09:02",
   "criteria": {
    "label": "2026-11-19-orig",
    "fingerprint": "9157af5b"
@@ -5786,9 +5819,9 @@
   "days": [
    {
     "lead": 0,
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "outlookDay": 1,
-    "outlookIssued": "2026-11-19",
+    "outlookIssued": "2026-11-20",
     "pl": 1,
     "score": 0,
     "held": false,
@@ -5800,14 +5833,14 @@
      "danger": "Minimum"
     },
     "outlookAvg": 15,
-    "dangerSource": "observed 2026-11-18",
+    "dangerSource": "observed 2026-11-19",
     "dayLevel": "Minimum"
    },
    {
     "lead": 1,
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "outlookDay": 2,
-    "outlookIssued": "2026-11-19",
+    "outlookIssued": "2026-11-20",
     "pl": 1,
     "score": 0,
     "held": false,
@@ -5824,9 +5857,9 @@
    },
    {
     "lead": 2,
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "outlookDay": 3,
-    "outlookIssued": "2026-11-19",
+    "outlookIssued": "2026-11-20",
     "pl": 1,
     "score": 0,
     "held": false,
@@ -5843,9 +5876,9 @@
    },
    {
     "lead": 3,
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "outlookDay": 4,
-    "outlookIssued": "2026-11-19",
+    "outlookIssued": "2026-11-20",
     "pl": 1,
     "score": 0,
     "held": false,
@@ -5862,9 +5895,9 @@
    },
    {
     "lead": 4,
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "outlookDay": 5,
-    "outlookIssued": "2026-11-19",
+    "outlookIssued": "2026-11-20",
     "pl": 1,
     "score": 0,
     "held": false,
@@ -5881,9 +5914,9 @@
    },
    {
     "lead": 5,
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "outlookDay": 6,
-    "outlookIssued": "2026-11-19",
+    "outlookIssued": "2026-11-20",
     "pl": 1,
     "score": 0,
     "held": false,
@@ -5900,9 +5933,9 @@
    },
    {
     "lead": 6,
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "outlookDay": 7,
-    "outlookIssued": "2026-11-19",
+    "outlookIssued": "2026-11-20",
     "pl": 1,
     "score": 0,
     "held": false,
@@ -5924,6 +5957,6 @@
   "since": "2026-11-19T10:43",
   "pending": null,
   "calculated": 1,
-  "checked": "2026-11-19T22:02"
+  "checked": "2026-11-20T09:02"
  }
 }
