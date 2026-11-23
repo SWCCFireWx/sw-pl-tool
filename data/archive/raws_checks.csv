@@ -1847,6 +1847,193 @@ date,psa,network,station_id,station,field,hour,value,reason,action
 2026-10-26,SW-11,RAWS,291408,SANDIA LAB,gust,05:53,0,lower than the sustained wind (4 mph),dropped
 2026-10-27,SW-11,RAWS,291408,SANDIA LAB,gust,06:53,0,lower than the sustained wind (3 mph),dropped
 2026-10-27,SW-12,RAWS,293105,QUEEN,min RH,,78,33 away from the other stations' median (45),dropped
+2026-10-30,SW-06N,RAWS,20612,PINE,min RH,,85,33 away from the other stations' median (52),dropped
+2026-10-30,SW-06N,RAWS,20503,VERDE,min RH,,83,32 away from the other stations' median (52),dropped
+2026-10-30,SW-06N,ASOS/AWOS,ASOS:CHD,CHANDLER MUNICIPAL AIRPORT (CHD),wind,02:00,81,outside 0–80,dropped
+2026-10-30,SW-06S,RAWS,21302,HOPKINS,gust,20:19,55,"far above the sustained wind (3 mph), but backed up: RH jumped 21 points (outflow)",kept – wind event
+2026-10-30,SW-09,RAWS,292702,HACHITA VALLEY,min RH,,86,35 away from the other stations' median (52),dropped
+2026-10-31,SW-05,RAWS,20221,PROMONTORY,RH,,100,stuck at the same value for 24 hours,dropped
+2026-10-31,SW-06S,RAWS,21005,COLUMBINE,RH,,100,stuck at the same value for 24 hours,dropped
+2026-10-31,SW-06S,RAWS,21302,HOPKINS,RH,,100,stuck at the same value for 24 hours,dropped
+2026-10-31,SW-06S,RAWS,21207,RINCON,RH,,100,stuck at the same value for 24 hours,dropped
+2026-10-31,SW-06S,RAWS,21208,SCOUT CAMP,RH,,100,stuck at the same value for 24 hours,dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,22:53,191,outside 0–130,dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,08:53,0,lower than the sustained wind (8 mph),dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,09:53,0,lower than the sustained wind (6 mph),dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,10:53,0,lower than the sustained wind (4 mph),dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,11:53,0,lower than the sustained wind (5 mph),dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,12:53,0,lower than the sustained wind (5 mph),dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,13:53,1,lower than the sustained wind (4 mph),dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,14:53,64,far above the sustained wind (2 mph); no station nearby gusted 40+ mph,dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,23:53,49,"far above the sustained wind (1 mph), but backed up: RH jumped 17 points (outflow)",kept – wind event
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,01:53,0,lower than the sustained wind (3 mph),dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,02:53,0,lower than the sustained wind (4 mph),dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,03:53,0,lower than the sustained wind (4 mph),dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,04:53,0,lower than the sustained wind (4 mph),dropped
+2026-10-31,SW-11,RAWS,291408,SANDIA LAB,gust,05:53,0,lower than the sustained wind (3 mph),dropped
+2026-10-31,SW-14N,RAWS,293101,BATDRAW,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-01,SW-04,RAWS,290101,WASHINGTON PASS,RH,,100,stuck at the same value for 25 hours,dropped
+2026-11-01,SW-05,RAWS,20309,LIMESTONE CANYON,RH,,100,stuck at the same value for 25 hours,dropped
+2026-11-01,SW-05,RAWS,20221,PROMONTORY,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-01,SW-05,ASOS/AWOS,ASOS:SEZ,Sedona (SEZ),gust,04:00,17,lower than the sustained wind (22 mph),dropped
+2026-11-01,SW-06S,RAWS,21008,BLACK HILLS,gust,19:53,83,over 75 mph; no station nearby gusted 50+ mph,dropped
+2026-11-01,SW-06S,RAWS,21005,COLUMBINE,RH,,100,stuck at the same value for 25 hours,dropped
+2026-11-01,SW-06S,RAWS,21009,DRY LAKE,RH,,100,stuck at the same value for 25 hours,dropped
+2026-11-01,SW-06S,RAWS,21302,HOPKINS,min RH,,99,31 away from the other stations' median (68),dropped
+2026-11-01,SW-06S,RAWS,21207,RINCON,RH,,100,stuck at the same value for 25 hours,dropped
+2026-11-01,SW-06S,RAWS,21208,SCOUT CAMP,RH,,100,stuck at the same value for 25 hours,dropped
+2026-11-01,SW-06S,ASOS/AWOS,ASOS:FHU,FORT HUACHUCA/LIBBY (FHU),gust,05:00,37,"far above the sustained wind (0 mph), but backed up: also gusty nearby: 43 mph at CANELO",kept – wind event
+2026-11-01,SW-06S,ASOS/AWOS,ASOS:FHU,FORT HUACHUCA/LIBBY (FHU),gust,06:00,33,far above the sustained wind (0 mph); no station nearby gusted 40+ mph,dropped
+2026-11-01,SW-12,RAWS,417103,THE BOWL,gust,05:38,175,outside 0–130,dropped
+2026-11-02,SW-04,RAWS,290101,WASHINGTON PASS,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-02,SW-06S,RAWS,21207,RINCON,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-02,SW-11,RAWS,291408,SANDIA LAB,hourly rain,13:53,28.41,outside 0–2,dropped
+2026-11-02,SW-12,RAWS,293003,MESCAL,gust,13:41,41,"far above the sustained wind (0 mph), but backed up: 47 mph gust the hour before",kept – wind event
+2026-11-02,SW-12,RAWS,417103,THE BOWL,gust,19:38,40,"far above the sustained wind (1 mph), but backed up: also gusty nearby: 70 mph at PINERY",kept – wind event
+2026-11-02,SW-12,RAWS,417103,THE BOWL,gust,22:38,66,"far above the sustained wind (6 mph), but backed up: RH jumped 19 points (outflow)",kept – wind event
+2026-11-02,SW-12,RAWS,417103,THE BOWL,gust,02:38,102,over 75 mph; no station nearby gusted 51+ mph,dropped
+2026-11-02,SW-12,RAWS,417103,THE BOWL,gust,06:38,111,over 75 mph; no station nearby gusted 56+ mph,dropped
+2026-11-03,SW-06S,RAWS,21207,RINCON,min RH,,95,66 away from the other stations' median (29),dropped
+2026-11-03,SW-12,RAWS,417103,THE BOWL,gust,07:38,48,far above the sustained wind (1 mph); no station nearby gusted 40+ mph,dropped
+2026-11-03,SW-12,RAWS,417103,THE BOWL,gust,08:38,35,"far above the sustained wind (0 mph), but backed up: 48 mph gust the hour before",kept – wind event
+2026-11-04,SW-06S,RAWS,21207,RINCON,min RH,,76,41 away from the other stations' median (36),dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,12:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,13:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,14:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,15:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,16:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,17:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,18:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,19:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,20:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,21:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,22:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,23:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,00:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,01:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,02:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,03:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,04:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,05:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,RH,06:03,0,outside 1–100,dropped
+2026-11-05,SW-05,RAWS,20215,MORMON LAKE,min RH,,99,64 away from the other stations' median (35),dropped
+2026-11-05,SW-11,RAWS,291408,SANDIA LAB,gust,07:53,0,lower than the sustained wind (4 mph),dropped
+2026-11-05,SW-11,RAWS,291408,SANDIA LAB,gust,08:53,0,lower than the sustained wind (5 mph),dropped
+2026-11-05,SW-11,RAWS,291408,SANDIA LAB,gust,09:53,0,lower than the sustained wind (5 mph),dropped
+2026-11-05,SW-11,RAWS,291408,SANDIA LAB,gust,11:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-05,SW-11,RAWS,291408,SANDIA LAB,gust,12:53,0,lower than the sustained wind (4 mph),dropped
+2026-11-05,SW-11,RAWS,291408,SANDIA LAB,gust,14:53,115,over 75 mph; no station nearby gusted 58+ mph,dropped
+2026-11-05,SW-11,RAWS,291408,SANDIA LAB,rain,,1.66,heavy rain here while the other stations in the PSA were dry,"kept, check"
+2026-11-05,SW-12,RAWS,417103,THE BOWL,gust,13:38,200,outside 0–130,dropped
+2026-11-05,SW-12,RAWS,417103,THE BOWL,gust,11:38,41,far above the sustained wind (2 mph); no station nearby gusted 40+ mph,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,07:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,08:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,09:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,10:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,11:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,12:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,13:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,14:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,15:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,16:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,17:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,18:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,19:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,20:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,21:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,22:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,23:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,00:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,01:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,02:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,03:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,04:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,05:03,0,outside 1–100,dropped
+2026-11-06,SW-05,RAWS,20215,MORMON LAKE,RH,06:03,0,outside 1–100,dropped
+2026-11-06,SW-06S,RAWS,21005,COLUMBINE,min RH,,90,48 away from the other stations' median (42),dropped
+2026-11-06,SW-06S,RAWS,21207,RINCON,min RH,,84,42 away from the other stations' median (42),dropped
+2026-11-06,SW-08,RAWS,292004,LUNA,min RH,,89,33 away from the other stations' median (56),dropped
+2026-11-06,SW-12,RAWS,417103,THE BOWL,RH,22:38,7,"spike: 63 the hour before, 51 the hour after",dropped
+2026-11-06,SW-12,RAWS,417103,THE BOWL,gust,05:38,114,over 75 mph; no station nearby gusted 57+ mph,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,07:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,08:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,09:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,11:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,15:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,16:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,18:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,19:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,20:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,21:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,22:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,23:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,00:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,01:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,02:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,03:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,RH,04:03,0,outside 1–100,dropped
+2026-11-07,SW-05,RAWS,20215,MORMON LAKE,min RH,,1,46 away from the other stations' median (47),dropped
+2026-11-07,SW-06S,RAWS,21207,RINCON,min RH,,88,40 away from the other stations' median (48),dropped
+2026-11-07,SW-07,RAWS,291302,GRANTS,min RH,,71,33 away from the other stations' median (38),dropped
+2026-11-07,SW-12,RAWS,417103,THE BOWL,gust,16:38,153,outside 0–130,dropped
+2026-11-08,SW-05,RAWS,20215,MORMON LAKE,RH,09:03,0,outside 1–100,dropped
+2026-11-08,SW-05,RAWS,20215,MORMON LAKE,RH,11:03,0,outside 1–100,dropped
+2026-11-08,SW-05,RAWS,20215,MORMON LAKE,RH,12:03,0,outside 1–100,dropped
+2026-11-08,SW-05,RAWS,20215,MORMON LAKE,RH,14:03,0,outside 1–100,dropped
+2026-11-08,SW-05,RAWS,20215,MORMON LAKE,RH,18:03,0,outside 1–100,dropped
+2026-11-08,SW-05,RAWS,20215,MORMON LAKE,RH,20:03,0,outside 1–100,dropped
+2026-11-08,SW-05,RAWS,20215,MORMON LAKE,RH,21:03,0,outside 1–100,dropped
+2026-11-08,SW-05,RAWS,20215,MORMON LAKE,RH,22:03,0,outside 1–100,dropped
+2026-11-08,SW-05,RAWS,20215,MORMON LAKE,RH,23:03,0,outside 1–100,dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,wind,09:53,108,outside 0–80,dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,hourly rain,09:53,14.34,outside 0–2,dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,temperature,09:53,0,"spike: 36 the hour before, 40 the hour after",dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,07:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,08:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,10:53,0,lower than the sustained wind (8 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,11:53,0,lower than the sustained wind (13 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,12:53,0,lower than the sustained wind (14 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,13:53,2,lower than the sustained wind (9 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,14:53,99,over 75 mph; no station nearby gusted 50+ mph,dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,23:53,117,over 75 mph; no station nearby gusted 59+ mph,dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,00:53,1,lower than the sustained wind (4 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,01:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,02:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,03:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,04:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,05:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-08,SW-11,RAWS,291408,SANDIA LAB,gust,06:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-09,SW-05,RAWS,20215,MORMON LAKE,RH,13:03,0,outside 1–100,dropped
+2026-11-09,SW-05,RAWS,20215,MORMON LAKE,RH,14:03,0,outside 1–100,dropped
+2026-11-11,SW-05,RAWS,20215,MORMON LAKE,RH,13:03,0,outside 1–100,dropped
+2026-11-11,SW-05,RAWS,20215,MORMON LAKE,RH,14:03,0,outside 1–100,dropped
+2026-11-11,SW-11,RAWS,291408,SANDIA LAB,hourly rain,10:53,4.34,outside 0–2,dropped
+2026-11-12,SW-05,RAWS,20215,MORMON LAKE,RH,16:03,96,"spike: 39 the hour before, 55 the hour after",dropped
+2026-11-13,SW-05,RAWS,20215,MORMON LAKE,RH,08:03,0,outside 1–100,dropped
+2026-11-13,SW-06S,ASOS/AWOS,ASOS:AVQ,Tucson - Marana (AVQ),gust,21:00,36,"far above the sustained wind (0 mph), but backed up: RH jumped 22 points (outflow)",kept – wind event
+2026-11-14,SW-02,RAWS,20502,CROWN KING,min RH,,93,40 away from the other stations' median (54),dropped
+2026-11-14,SW-02,RAWS,20508,HUMBUG CREEK,min RH,,84,31 away from the other stations' median (53),dropped
+2026-11-14,SW-04,RAWS,290101,WASHINGTON PASS,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-05,RAWS,20309,LIMESTONE CANYON,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-05,RAWS,20215,MORMON LAKE,RH,04:03,0,outside 1–100,dropped
+2026-11-14,SW-05,RAWS,20215,MORMON LAKE,min RH,,28,44 away from the other stations' median (72),dropped
+2026-11-14,SW-05,RAWS,20221,PROMONTORY,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-06N,RAWS,20609,HILLTOP,min RH,,88,32 away from the other stations' median (56),dropped
+2026-11-14,SW-06S,RAWS,21005,COLUMBINE,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-06S,RAWS,21009,DRY LAKE,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-06S,RAWS,21302,HOPKINS,min RH,,81,35 away from the other stations' median (46),dropped
+2026-11-14,SW-06S,RAWS,21207,RINCON,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-06S,RAWS,21208,SCOUT CAMP,RH,,100,stuck at the same value for 24 hours,dropped
+2026-11-14,SW-07,RAWS,293304,LAGUNA,min RH,,48,37 away from the other stations' median (85),dropped
+2026-11-14,SW-08,RAWS,20310,MOUNTAIN LION,min RH,,97,35 away from the other stations' median (63),dropped
+2026-11-14,SW-08,RAWS,292013,MOGOLLON,min RH,,95,33 away from the other stations' median (62),dropped
+2026-11-14,SW-12,RAWS,293004,COSMIC,min RH,,99,46 away from the other stations' median (53),dropped
+2026-11-14,SW-12,RAWS,417103,THE BOWL,gust,07:38,139,outside 0–130,dropped
+2026-11-14,SW-12,RAWS,417103,THE BOWL,gust,18:38,162,outside 0–130,dropped
+2026-11-14,SW-12,RAWS,417103,THE BOWL,gust,21:38,160,outside 0–130,dropped
+2026-11-14,SW-12,RAWS,417103,THE BOWL,gust,09:38,54,far above the sustained wind (1 mph); no station nearby gusted 40+ mph,dropped
+2026-11-14,SW-12,RAWS,417103,THE BOWL,gust,20:38,76,"over 75 mph, but backed up: also gusty nearby: 57 mph at PINERY",kept – wind event
+2026-11-14,SW-12,RAWS,417103,THE BOWL,gust,06:38,100,over 75 mph; no station nearby gusted 50+ mph,dropped
 2026-11-15,SW-04,,290101,WASHINGTON PASS,min RH,,83,37 away from the other stations' median (46),dropped
 2026-11-15,SW-05,,20215,MORMON LAKE,RH,14:03,0,outside 1–100,dropped
 2026-11-15,SW-05,,20215,MORMON LAKE,min RH,,1,39 away from the other stations' median (40),dropped
