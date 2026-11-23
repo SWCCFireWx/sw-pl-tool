@@ -2076,3 +2076,6 @@ date,psa,network,station_id,station,field,hour,value,reason,action
 2026-11-20,SW-02,ASOS/AWOS,ASOS:IFP,BULL HEAD CITY (IFP),wind,03:00,58,"spike: 9 the hour before, 8 the hour after",dropped
 2026-11-21,SW-12,RAWS,417103,THE BOWL,gust,19:38,52,"far above the sustained wind (7 mph), but backed up: also gusty nearby: 49 mph at SMOKEY BEAR",kept – wind event
 2026-11-21,SW-12,RAWS,417103,THE BOWL,gust,23:38,36,"far above the sustained wind (0 mph), but backed up: also gusty nearby: 55 mph at PINERY",kept – wind event
+2026-11-22,SW-11,RAWS,291408,SANDIA LAB,wind,01:53,81,outside 0–80,dropped
+2026-11-22,SW-11,RAWS,291408,SANDIA LAB,hourly rain,01:53,13.86,outside 0–2,dropped
+2026-11-22,SW-11,RAWS,291408,SANDIA LAB,temperature,01:53,0,"spike: 37 the hour before, 37 the hour after",dropped
