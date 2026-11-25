@@ -2080,3 +2080,9 @@ date,psa,network,station_id,station,field,hour,value,reason,action
 2026-11-22,SW-11,RAWS,291408,SANDIA LAB,hourly rain,01:53,13.86,outside 0–2,dropped
 2026-11-22,SW-11,RAWS,291408,SANDIA LAB,temperature,01:53,0,"spike: 37 the hour before, 37 the hour after",dropped
 2026-11-23,SW-07,RAWS,290205,DULCE #2,min RH,,84,36 away from the other stations' median (48),dropped
+2026-11-24,SW-11,RAWS,291408,SANDIA LAB,gust,09:53,0,lower than the sustained wind (4 mph),dropped
+2026-11-24,SW-11,RAWS,291408,SANDIA LAB,gust,11:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-24,SW-11,RAWS,291408,SANDIA LAB,gust,13:53,0,lower than the sustained wind (4 mph),dropped
+2026-11-24,SW-11,RAWS,291408,SANDIA LAB,gust,23:53,74,"far above the sustained wind (2 mph), but backed up: temperature fell 10 °F (outflow)",kept – wind event
+2026-11-24,SW-11,RAWS,291408,SANDIA LAB,gust,06:53,0,lower than the sustained wind (3 mph),dropped
+2026-11-24,SW-11,RAWS,291408,SANDIA LAB,max gust,23:53,74,"60 mph above the other stations, but backed up: temperature fell 10 °F (outflow)",kept – wind event
