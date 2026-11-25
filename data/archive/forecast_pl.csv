@@ -97,3 +97,10 @@ issued,issued_date,lead_days,target_date,outlook_issued,outlook_day,criteria_ver
 2026-11-24T08:05,2026-11-24,4,2026-11-28,2026-11-24,5,2026-11-19-orig,9157af5b,1,0,no,Minimum,Low,Minimum,Minimum,Minimum,15,FEMS forecast ERC/BI
 2026-11-24T08:05,2026-11-24,5,2026-11-29,2026-11-24,6,2026-11-19-orig,9157af5b,1,0,no,Minimum,Low,Minimum,Minimum,Minimum,15,FEMS forecast ERC/BI
 2026-11-24T08:05,2026-11-24,6,2026-11-30,2026-11-24,7,2026-11-19-orig,9157af5b,1,0,no,Minimum,Low,Minimum,Minimum,Minimum,15,FEMS forecast ERC/BI
+2026-11-24T22:04,2026-11-24,0,2026-11-24,2026-11-24,1,2026-11-19-orig,9157af5b,1,0,no,Minimum,Low,Minimum,Minimum,Minimum,15,observed 2026-11-23
+2026-11-24T22:04,2026-11-24,1,2026-11-25,2026-11-24,2,2026-11-19-orig,9157af5b,1,0,no,Minimum,Low,Minimum,Minimum,Minimum,15,FEMS forecast ERC/BI
+2026-11-24T22:04,2026-11-24,2,2026-11-26,2026-11-24,3,2026-11-19-orig,9157af5b,1,0,no,Minimum,Low,Minimum,Minimum,Minimum,15,FEMS forecast ERC/BI
+2026-11-24T22:04,2026-11-24,3,2026-11-27,2026-11-24,4,2026-11-19-orig,9157af5b,1,0,no,Minimum,Low,Minimum,Minimum,Minimum,15,FEMS forecast ERC/BI
+2026-11-24T22:04,2026-11-24,4,2026-11-28,2026-11-24,5,2026-11-19-orig,9157af5b,1,0,no,Minimum,Low,Minimum,Minimum,Minimum,15,FEMS forecast ERC/BI
+2026-11-24T22:04,2026-11-24,5,2026-11-29,2026-11-24,6,2026-11-19-orig,9157af5b,1,0,no,Minimum,Low,Minimum,Minimum,Minimum,15,FEMS forecast ERC/BI
+2026-11-24T22:04,2026-11-24,6,2026-11-30,2026-11-24,7,2026-11-19-orig,9157af5b,1,0,no,Minimum,Low,Minimum,Minimum,Minimum,15,FEMS forecast ERC/BI
